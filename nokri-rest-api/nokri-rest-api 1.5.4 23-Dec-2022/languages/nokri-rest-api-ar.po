@@ -1,0 +1,5560 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: Nokri Apps API\n"
+"POT-Creation-Date: 2022-12-23 12:46+0500\n"
+"PO-Revision-Date: 2022-12-23 12:47+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/canidate/dashboard.php:30 classes/dashboard.php:33
+msgid "Dashboard1"
+msgstr "dashboard1"
+
+#: classes/canidate/dashboard.php:31 classes/dashboard.php:34
+#: classes/employer/dashboard.php:31
+msgid "Edit Profile"
+msgstr "تعديل الملف الشخصي"
+
+#: classes/canidate/dashboard.php:32 classes/dashboard.php:35
+#: classes/employer/dashboard.php:32
+msgid "Full Profile"
+msgstr "بروفايل كامل"
+
+#: classes/canidate/dashboard.php:33 classes/dashboard.php:36
+#: classes/employer/dashboard.php:33
+msgid "Dashboard4"
+msgstr "dashboard4"
+
+#: classes/canidate/dashboard.php:34 classes/dashboard.php:37
+#: classes/employer/dashboard.php:34
+msgid "Dashboard5"
+msgstr "dashboard5"
+
+#: classes/canidate/dashboard.php:35 classes/dashboard.php:38
+#: classes/employer/dashboard.php:35
+msgid "Dashboard6"
+msgstr "dashboard6"
+
+#: classes/canidate/dashboard.php:36 classes/dashboard.php:39
+#: classes/employer/dashboard.php:36
+msgid "Dashboard7"
+msgstr "dashboard7"
+
+#: classes/canidate/dashboard.php:38 classes/dashboard.php:41
+#: classes/employer/profile.php:131 classes/employer/profilesssssssss.php:80
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+#: classes/canidate/dashboard.php:40 classes/canidate/dashboard.php:229
+#: classes/canidate/profile.php:192 classes/dashboard.php:43
+#: classes/dashboard.php:229 classes/employer/profile.php:146
+#: classes/employer/profilesssssssss.php:92 classes/pages.php:33
+msgid "Edit"
+msgstr "تعديل"
+
+#: classes/canidate/dashboard.php:118 classes/canidate/dashboard.php:121
+#: classes/dashboard.php:118 classes/dashboard.php:121
+#: inc/options-init.php:1370
+msgid "Feedback"
+msgstr "رأيك يهمنا!"
+
+#: classes/canidate/dashboard.php:120 classes/dashboard.php:120
+#: inc/options-init.php:1378
+msgid "Got any queries? We are here to help you!"
+msgstr "هل لديك اي استفسارات ؟ نحن هنا لمساعدتك!"
+
+#: classes/canidate/dashboard.php:122 classes/dashboard.php:122
+msgid "Enter Your Subject"
+msgstr "اكتب العنوان"
+
+#: classes/canidate/dashboard.php:123 classes/dashboard.php:123
+msgid "Enter Your Email"
+msgstr "ضع ايميلك"
+
+#: classes/canidate/dashboard.php:124 classes/dashboard.php:124
+msgid "Enter Your Feedback"
+msgstr "ادخل ملاحظاتك"
+
+#: classes/canidate/dashboard.php:125 classes/canidate/profile.php:5159
+#: classes/dashboard.php:125 classes/login.php:63 classes/login.php:380
+#: classes/register.php:415 inc/options-init.php:798
+msgid "Submit"
+msgstr "إرسال"
+
+#: classes/canidate/dashboard.php:126 classes/canidate/dashboard.php:223
+#: classes/canidate/dashboard.php:304 classes/canidate/profile.php:5293
+#: classes/dashboard.php:126 classes/dashboard.php:223
+#: classes/dashboard.php:302 classes/employer/profile.php:3754
+#: classes/login.php:381
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: classes/canidate/dashboard.php:132 classes/dashboard.php:132
+msgid "Please Wait"
+msgstr "الرجاء الانتظار"
+
+#: classes/canidate/dashboard.php:133 classes/canidate/dashboard.php:167
+#: classes/canidate/profile.php:3032 classes/dashboard.php:133
+#: classes/dashboard.php:167
+msgid "Dashboard"
+msgstr "العودة إلى لوحة التحكم الرئيسية"
+
+#: classes/canidate/dashboard.php:134 classes/canidate/dashboard.php:168
+#: classes/dashboard.php:134 classes/dashboard.php:168
+msgid "Update Profile"
+msgstr "تحديث الملف الشخصي"
+
+#: classes/canidate/dashboard.php:135 classes/dashboard.php:135
+msgid "My Profile"
+msgstr "ملفي الشخصي"
+
+#: classes/canidate/dashboard.php:136 classes/dashboard.php:136
+msgid "My Resumes"
+msgstr "لا يوجد سيرة ذاتية"
+
+#: classes/canidate/dashboard.php:137 classes/dashboard.php:137
+msgid "Jobs Applied"
+msgstr "الوظائف المطبقة"
+
+#: classes/canidate/dashboard.php:138 classes/canidate/profile.php:1811
+#: classes/dashboard.php:138
+msgid "Saved Jobs"
+msgstr "الوظائف المحفوظة"
+
+#: classes/canidate/dashboard.php:139 classes/dashboard.php:139
+#: classes/job_post.php:1450
+msgid "All Jobs"
+msgstr "جميع الوظائف"
+
+#: classes/canidate/dashboard.php:140 classes/canidate/profile.php:2871
+#: classes/dashboard.php:140
+msgid "Followed Companies"
+msgstr "الشركات التابعة"
+
+#: classes/canidate/dashboard.php:141 classes/dashboard.php:141
+msgid "Advance Job Search"
+msgstr "البحث عن وظيفة مسبقه"
+
+#: classes/canidate/dashboard.php:142 classes/canidate/dashboard.php:175
+#: classes/dashboard.php:142 classes/dashboard.php:175 classes/search.php:457
+msgid "Candidate Search"
+msgstr "البحث عن:"
+
+#: classes/canidate/dashboard.php:143 classes/canidate/dashboard.php:176
+#: classes/canidate/dashboard.php:210 classes/dashboard.php:143
+#: classes/dashboard.php:176 classes/dashboard.php:210 classes/posts.php:103
+msgid "Blog"
+msgstr "المدونة"
+
+#: classes/canidate/dashboard.php:144 classes/canidate/dashboard.php:177
+#: classes/canidate/dashboard.php:206 classes/dashboard.php:144
+#: classes/dashboard.php:177 classes/dashboard.php:206
+msgid "Home"
+msgstr "الرئيسية"
+
+#: classes/canidate/dashboard.php:145 classes/canidate/dashboard.php:178
+#: classes/canidate/dashboard.php:207 classes/dashboard.php:145
+#: classes/dashboard.php:178 classes/dashboard.php:207
+msgid "Faq's"
+msgstr "التعليمات"
+
+#: classes/canidate/dashboard.php:146 classes/canidate/dashboard.php:179
+#: classes/dashboard.php:146 classes/dashboard.php:179
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: classes/canidate/dashboard.php:147 classes/canidate/dashboard.php:180
+#: classes/canidate/dashboard.php:213 classes/dashboard.php:147
+#: classes/dashboard.php:180 classes/dashboard.php:213
+msgid "Exit"
+msgstr "خروج"
+
+#: classes/canidate/dashboard.php:150 classes/canidate/profile.php:3544
+#: classes/dashboard.php:150 classes/employer/profile.php:307
+#: classes/employer/profilesssssssss.php:242
+msgid "Personal Information"
+msgstr "البيانات شخصية"
+
+#: classes/canidate/dashboard.php:151 classes/dashboard.php:151
+msgid "Add Skills"
+msgstr "أضافه مهارات"
+
+#: classes/canidate/dashboard.php:152 classes/canidate/profile.php:1584
+#: classes/dashboard.php:152
+msgid "Add Resumes"
+msgstr "أضافه استئناف"
+
+#: classes/canidate/dashboard.php:153 classes/canidate/profile.php:594
+#: classes/dashboard.php:153
+msgid "Educational Details"
+msgstr "تفاصيل"
+
+#: classes/canidate/dashboard.php:154 classes/canidate/dashboard.php:378
+#: classes/dashboard.php:154 classes/dashboard.php:355 classes/job_post.php:342
+#: classes/job_post.php:1155 classes/job_post.php:1619 classes/search.php:75
+msgid "Job Experience"
+msgstr "الخبرة الوظيفية"
+
+#: classes/canidate/dashboard.php:155 classes/dashboard.php:155
+msgid "Certifications Detail"
+msgstr "تفاصيل الشهادات"
+
+#: classes/canidate/dashboard.php:156 classes/canidate/profile.php:1053
+#: classes/dashboard.php:156 classes/employer/profile.php:3354
+msgid "Add Portfolio"
+msgstr "أضافه محفظه"
+
+#: classes/canidate/dashboard.php:157 classes/canidate/profile.php:3668
+#: classes/dashboard.php:157 classes/employer/profile.php:557
+#: classes/employer/profilesssssssss.php:488
+msgid "Social Links"
+msgstr "روابط وسائل التواصل"
+
+#: classes/canidate/dashboard.php:158 classes/canidate/dashboard.php:209
+#: classes/dashboard.php:158 classes/dashboard.php:209
+msgid "Candidate search"
+msgstr "هو البحث عن المرشحين"
+
+#: classes/canidate/dashboard.php:159 classes/canidate/profile.php:4143
+#: classes/dashboard.php:159
+msgid "Location And Address"
+msgstr "الموقع والعنوان"
+
+#: classes/canidate/dashboard.php:160 classes/dashboard.php:160
+msgid "Jobs For You"
+msgstr "وظائف لك"
+
+#: classes/canidate/dashboard.php:161 classes/dashboard.php:161
+msgid "Candidate notifications"
+msgstr "إخطارات المرشح"
+
+#: classes/canidate/dashboard.php:169 classes/dashboard.php:169
+#: classes/employer/profile.php:815 classes/employer/profile.php:1630
+#: classes/employer/profilesssssssss.php:757
+#: classes/employer/profilesssssssss.php:1549
+msgid "Email Templates"
+msgstr "قالب البريد"
+
+#: classes/canidate/dashboard.php:170 classes/dashboard.php:170
+msgid "My Jobs"
+msgstr "أعمالي"
+
+#: classes/canidate/dashboard.php:171 classes/dashboard.php:171
+msgid "Followers"
+msgstr "متابعون"
+
+#: classes/canidate/dashboard.php:172 classes/dashboard.php:172
+#: classes/job_post.php:437 classes/job_post.php:462
+msgid "Post Job"
+msgstr "اضف وظيفة"
+
+#: classes/canidate/dashboard.php:173 classes/dashboard.php:173
+msgid "Package Details"
+msgstr "تفاصيل الباقة"
+
+#: classes/canidate/dashboard.php:174 classes/dashboard.php:174
+msgid "Buy Package"
+msgstr "شراء الحزمة"
+
+#: classes/canidate/dashboard.php:183 classes/dashboard.php:183
+#: tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "نشط"
+
+#: classes/canidate/dashboard.php:184 classes/dashboard.php:184
+#: classes/employer/profile.php:1839 classes/employer/profile.php:2448
+#: classes/employer/profilesssssssss.php:1775
+#: classes/employer/profilesssssssss.php:2259
+msgid "Inactive"
+msgstr "إعلانات غير نشطة"
+
+#: classes/canidate/dashboard.php:188 classes/dashboard.php:188
+msgid "Latest jobs"
+msgstr "أحدث قسم الإعلانات"
+
+#: classes/canidate/dashboard.php:190 classes/dashboard.php:190
+msgid "Open Positions"
+msgstr "وظائف المتاحة"
+
+#: classes/canidate/dashboard.php:191 classes/dashboard.php:191
+#: classes/employer/profile.php:2787 classes/employer/profilesssssssss.php:2590
+msgid "Company Details"
+msgstr "تفاصيل"
+
+#: classes/canidate/dashboard.php:194 classes/dashboard.php:194
+msgid "Uploading"
+msgstr "فشل"
+
+#: classes/canidate/dashboard.php:195 classes/dashboard.php:195
+msgid "Uploaded"
+msgstr "تم الرفع بنجاح "
+
+#: classes/canidate/dashboard.php:196 classes/dashboard.php:196
+msgid "Failed"
+msgstr "فشل"
+
+#: classes/canidate/dashboard.php:197 classes/dashboard.php:197
+msgid "File uploaded"
+msgstr "ملف تم تحميله"
+
+#: classes/canidate/dashboard.php:198 classes/dashboard.php:198
+msgid "File upload failed"
+msgstr "فشل تحميل الملف"
+
+#: classes/canidate/dashboard.php:199 classes/dashboard.php:199
+msgid "Ok"
+msgstr "موافق"
+
+#: classes/canidate/dashboard.php:203 classes/canidate/dashboard.php:205
+#: classes/dashboard.php:203 classes/dashboard.php:205
+msgid "Welcome Guest"
+msgstr "مرحبا بالضيف"
+
+#: classes/canidate/dashboard.php:208 classes/dashboard.php:208
+msgid "Explore"
+msgstr "استكشاف"
+
+#: classes/canidate/dashboard.php:211 classes/dashboard.php:211
+msgid "Sign In"
+msgstr "تسجيل الدخول"
+
+#: classes/canidate/dashboard.php:212 classes/dashboard.php:212
+msgid "Sign Up"
+msgstr "التسجيل"
+
+#: classes/canidate/dashboard.php:216 classes/dashboard.php:216
+msgid "Basic Information"
+msgstr "معلومات اساسية"
+
+#: classes/canidate/dashboard.php:217 classes/dashboard.php:217
+#: classes/employer/profile.php:1305 classes/employer/profilesssssssss.php:1241
+msgid "Company Specialization"
+msgstr "تخصص الشركة"
+
+#: classes/canidate/dashboard.php:218 classes/dashboard.php:218
+msgid "Company Social Links"
+msgstr "روابط المواقع الاجتماعية"
+
+#: classes/canidate/dashboard.php:219 classes/dashboard.php:219
+#: classes/job_post.php:392
+msgid "Set Your Location"
+msgstr "كلمة المرور"
+
+#: classes/canidate/dashboard.php:222 classes/dashboard.php:222
+msgid "Are you sure?"
+msgstr "هل أنت متأكد؟"
+
+#: classes/canidate/dashboard.php:224 classes/canidate/dashboard.php:305
+#: classes/dashboard.php:224 classes/dashboard.php:303
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: classes/canidate/dashboard.php:225 classes/dashboard.php:225
+msgid "Success"
+msgstr "نجاح"
+
+#: classes/canidate/dashboard.php:228 classes/dashboard.php:228
+msgid "Resume received"
+msgstr "تم الاستلام"
+
+#: classes/canidate/dashboard.php:230 classes/canidate/profile.php:1594
+#: classes/canidate/profile.php:4604 classes/dashboard.php:230
+#: classes/employer/profile.php:807 classes/employer/profile.php:1047
+#: classes/employer/profile.php:1050 classes/employer/profilesssssssss.php:749
+#: classes/employer/profilesssssssss.php:958
+#: classes/employer/profilesssssssss.php:961
+msgid "Delete"
+msgstr "حذف"
+
+#: classes/canidate/dashboard.php:231 classes/canidate/dashboard.php:295
+#: classes/dashboard.php:231 classes/dashboard.php:295
+msgid "View"
+msgstr "عرض"
+
+#: classes/canidate/dashboard.php:234 classes/canidate/dashboard.php:243
+#: classes/dashboard.php:234 classes/dashboard.php:243
+msgid "View job"
+msgstr "معاينة"
+
+#: classes/canidate/dashboard.php:235 classes/dashboard.php:235
+msgid "View company"
+msgstr "عرض الشركة"
+
+#: classes/canidate/dashboard.php:238 classes/dashboard.php:238
+msgid "Take action"
+msgstr "اتخاذ إجراءات"
+
+#: classes/canidate/dashboard.php:239 classes/canidate/profile.php:1592
+#: classes/dashboard.php:239 classes/employer/profile.php:3281
+msgid "Download"
+msgstr "تحميل"
+
+#: classes/canidate/dashboard.php:240 classes/dashboard.php:240
+#: classes/employer/profile.php:2168 classes/employer/profilesssssssss.php:2045
+msgid "Linkedin profile"
+msgstr "ينكدين الشخصي"
+
+#: classes/canidate/dashboard.php:241 classes/dashboard.php:241
+msgid "View profile"
+msgstr "عرض الملف الشخصي"
+
+#: classes/canidate/dashboard.php:244 classes/dashboard.php:244
+msgid "Delete job"
+msgstr "حذف العمل"
+
+#: classes/canidate/dashboard.php:271 classes/dashboard.php:271
+msgid "Next step"
+msgstr "الخطوة التالية"
+
+#: classes/canidate/dashboard.php:272 classes/dashboard.php:272
+#: classes/job_post.php:1203 classes/posts.php:208
+msgid "Please login first"
+msgstr "الرجاء تسجيل الدخول أولا"
+
+#: classes/canidate/dashboard.php:273 classes/dashboard.php:273
+msgid "Please login as employer"
+msgstr "يرجى تسجيل الدخول كصاحب عمل"
+
+#: classes/canidate/dashboard.php:274 classes/dashboard.php:274
+msgid "All fields are mandatory"
+msgstr "جميع الحقول إلزاميه"
+
+#: classes/canidate/dashboard.php:275 classes/dashboard.php:275
+msgid "No url found"
+msgstr "لم يتم العثور علي url"
+
+#: classes/canidate/dashboard.php:276 classes/dashboard.php:276
+msgid "Please write a comment first"
+msgstr "الرجاء كتابه تعليق أولا"
+
+#: classes/canidate/dashboard.php:277 classes/dashboard.php:277
+msgid "Please write a reply first"
+msgstr "الرجاء كتابه الرد أولا"
+
+#: classes/canidate/dashboard.php:278 classes/dashboard.php:278
+msgid "No app found to open this file"
+msgstr "لم يتم العثور علي اي تطبيق لفتح هذا الملف"
+
+#: classes/canidate/dashboard.php:279 classes/dashboard.php:279
+msgid "Exit?"
+msgstr "انهاء؟"
+
+#: classes/canidate/dashboard.php:280 classes/dashboard.php:280
+msgid "Email format not valid"
+msgstr "تنسيق البريد الكتروني غير صالح"
+
+#: classes/canidate/dashboard.php:281 classes/dashboard.php:281
+msgid "You must agree with our term and services"
+msgstr "يجب ان توافق علي المدة والخدمات التي نقدمها"
+
+#: classes/canidate/dashboard.php:282 classes/dashboard.php:282
+msgid "Please click back again to exit"
+msgstr "الرجاء النقر مره أخرى للخروج"
+
+#: classes/canidate/dashboard.php:283 classes/dashboard.php:283
+msgid "Please select a valid skill from the droprown"
+msgstr "الرجاء اختيار مهارة صالحه من droprown"
+
+#: classes/canidate/dashboard.php:284 classes/dashboard.php:284
+msgid "Plase select at least one skill"
+msgstr "plase تحديد مهارة واحده علي الأقل"
+
+#: classes/canidate/dashboard.php:285 classes/dashboard.php:285
+msgid "This app is not installed"
+msgstr "لم يتم تثبيت هذا التطبيق"
+
+#: classes/canidate/dashboard.php:286 classes/dashboard.php:286
+msgid "invalid url"
+msgstr "url غير صالح"
+
+#: classes/canidate/dashboard.php:287 classes/dashboard.php:287
+msgid "Select"
+msgstr "تحديد"
+
+#: classes/canidate/dashboard.php:288 classes/dashboard.php:288
+msgid "Camera"
+msgstr "كاميرا"
+
+#: classes/canidate/dashboard.php:289 classes/dashboard.php:289
+msgid "Gallery"
+msgstr "المعرض"
+
+#: classes/canidate/dashboard.php:290 classes/dashboard.php:290
+msgid "Camera not available"
+msgstr "الإصدار المتوفر:"
+
+#: classes/canidate/dashboard.php:291 classes/dashboard.php:291
+msgid "Gallery not available"
+msgstr "مسح المعرض"
+
+#: classes/canidate/dashboard.php:292 classes/dashboard.php:292
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: classes/canidate/dashboard.php:293 classes/dashboard.php:293
+msgid "Search job here"
+msgstr "البحث عن وظيفة هنا"
+
+#: classes/canidate/dashboard.php:294 classes/dashboard.php:294
+msgid "Saved resumes"
+msgstr "السيّر الذاتية المحفوظة"
+
+#: classes/canidate/dashboard.php:296 classes/dashboard.php:296
+#: classes/employer/profile.php:1157 classes/employer/profile.php:3065
+#: classes/employer/profilesssssssss.php:1083 classes/job_post.php:441
+msgid "Remove"
+msgstr "حذف"
+
+#: classes/canidate/dashboard.php:297 classes/dashboard.php:297
+msgid "Matched Resume"
+msgstr "استئناف مطابق"
+
+#: classes/canidate/dashboard.php:298 classes/dashboard.php:298
+msgid "Go to login"
+msgstr "اذهب إلى تسجيل الدخول"
+
+#: classes/canidate/dashboard.php:299 classes/canidate/profile.php:2732
+#: classes/dashboard.php:299
+msgid "Jobs for you"
+msgstr "وظائف لك"
+
+#: classes/canidate/dashboard.php:300 classes/canidate/profile.php:2607
+#: classes/dashboard.php:300
+msgid "Job notification"
+msgstr "إعلام الوظيفة"
+
+#: classes/canidate/dashboard.php:301 classes/canidate/profile.php:5156
+msgid "Candidate Availability"
+msgstr "توفر المرشح"
+
+#: classes/canidate/dashboard.php:302 classes/posts.php:105
+#: classes/posts.php:106 classes/posts.php:196 classes/posts.php:197
+msgid "Load More"
+msgstr "تحميل المزيد"
+
+#: classes/canidate/dashboard.php:306 classes/dashboard.php:304
+msgid "Confirmation"
+msgstr "تأكيد"
+
+#: classes/canidate/dashboard.php:307 classes/dashboard.php:305
+msgid "You are redirecting to external apply"
+msgstr "كنت أعاده توجيه لتطبيق الخارجية"
+
+#: classes/canidate/dashboard.php:308 classes/canidate/profile.php:155
+#: classes/canidate/profile.php:3995 classes/dashboard.php:306
+#: classes/employer/profile.php:132 classes/employer/profilesssssssss.php:81
+#: classes/search.php:432
+msgid "Skills"
+msgstr "مهارات"
+
+#: classes/canidate/dashboard.php:309 classes/dashboard.php:307
+msgid "Select option"
+msgstr "‫الرجاء الاختيار"
+
+#: classes/canidate/dashboard.php:310 classes/dashboard.php:308
+#: classes/search.php:826
+msgid "Employer Search"
+msgstr "البحث عن صاحب العمل"
+
+#: classes/canidate/dashboard.php:312 classes/canidate/profile.php:96
+#: classes/canidate/profile.php:3829 classes/canidate/profile.php:3832
+#: classes/dashboard.php:310 classes/employer/profile.php:97
+#: classes/employer/profile.php:411 classes/employer/profilesssssssss.php:64
+#: classes/employer/profilesssssssss.php:341 classes/job_post.php:1184
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: classes/canidate/dashboard.php:313 classes/canidate/profile.php:4601
+#: classes/dashboard.php:311
+msgid "Alert Name"
+msgstr "اسم التنبيه"
+
+#: classes/canidate/dashboard.php:314 classes/dashboard.php:312
+msgid "Next"
+msgstr "التالي"
+
+#: classes/canidate/dashboard.php:315 classes/dashboard.php:313
+#: classes/register.php:416
+msgid "Back"
+msgstr "رجوع"
+
+#: classes/canidate/dashboard.php:316 classes/dashboard.php:314
+msgid "Job Alert"
+msgstr "التنبيه الوظيفي"
+
+#: classes/canidate/dashboard.php:317 classes/dashboard.php:315
+msgid "Enter your LinkedIn public profile url here"
+msgstr "أدخل عنوان URL الخاص بك في ملف التعريف العام على LinkedIn هنا"
+
+#: classes/canidate/dashboard.php:319 classes/dashboard.php:317
+msgid "Please enter a valid linked in url"
+msgstr "الرجاء إدخال عنوان URL صالح للموقع"
+
+#: classes/canidate/dashboard.php:320 classes/dashboard.php:318
+msgid "Applied"
+msgstr "تم تطبيقه"
+
+#: classes/canidate/dashboard.php:321 classes/dashboard.php:319
+msgid "Password does not match"
+msgstr "كلمة المرور غير متطابقة"
+
+#: classes/canidate/dashboard.php:322 classes/dashboard.php:320
+msgid "Confirm password"
+msgstr "تأكيد كلمة المرور"
+
+#: classes/canidate/dashboard.php:323
+msgid "Enter your whatsapp number"
+msgstr "أدخل رقم واتساب"
+
+#: classes/canidate/dashboard.php:326
+msgid "Choose your"
+msgstr "اختر"
+
+#: classes/canidate/dashboard.php:327
+msgid "Language"
+msgstr "اللغة"
+
+#: classes/canidate/dashboard.php:329
+msgid "Select your language"
+msgstr "تحديد لغتك"
+
+#: classes/canidate/dashboard.php:330
+msgid "Skip"
+msgstr "تخطي"
+
+#: classes/canidate/dashboard.php:332
+msgid "Latitiude"
+msgstr "لاتيتيود"
+
+#: classes/canidate/dashboard.php:333 classes/canidate/profile.php:143
+#: classes/canidate/profile.php:4102 classes/employer/profile.php:105
+#: classes/employer/profilesssssssss.php:72 classes/job_post.php:398
+#: inc/options-init.php:948
+msgid "Longitude"
+msgstr "خط الطول"
+
+#: classes/canidate/dashboard.php:334 classes/search.php:160
+msgid "Geo Location"
+msgstr "تحديد المكان"
+
+#: classes/canidate/dashboard.php:335
+msgid "Radius"
+msgstr "نصف القطر"
+
+#: classes/canidate/dashboard.php:357 classes/dashboard.php:341
+#: inc/options-init.php:179 inc/options-init.php:204 inc/options-init.php:215
+#: inc/options-init.php:236 inc/options-init.php:261 inc/options-init.php:272
+#: inc/options-init.php:293 inc/options-init.php:304 inc/options-init.php:353
+#: inc/options-init.php:376 inc/options-init.php:406 inc/options-init.php:417
+msgid "Alert"
+msgstr "تنبيه"
+
+#: classes/canidate/dashboard.php:358 classes/dashboard.php:342
+#: classes/job_post.php:1214 classes/job_post.php:1219
+msgid "Your Email"
+msgstr "ضع ايميلك"
+
+#: classes/canidate/dashboard.php:359 classes/dashboard.php:343
+msgid "Select email frequency"
+msgstr "تحديد تكرار البريد الإلكتروني"
+
+#: classes/canidate/dashboard.php:360 classes/dashboard.php:344
+msgid "Enter Valid Email"
+msgstr "ادخل بريد الكتروني صالح"
+
+#: classes/canidate/dashboard.php:361 classes/dashboard.php:345
+msgid "Put Link Here"
+msgstr "ضع الرابط هنا"
+
+#: classes/canidate/dashboard.php:362 classes/dashboard.php:346
+msgid "Please add description"
+msgstr "أضف طريقة التحضير "
+
+#: classes/canidate/dashboard.php:365
+msgid "Portfolio Video"
+msgstr "فيديو المحفظة"
+
+#: classes/canidate/dashboard.php:366
+msgid "Resumes Video"
+msgstr "استئناف الفيديو"
+
+#: classes/canidate/dashboard.php:367
+msgid "Please Upload Your resume"
+msgstr "يرجى تحميل سيرتك الذاتية"
+
+#: classes/canidate/dashboard.php:368
+msgid "Unable to get Apple id"
+msgstr "غير قادر على الحصول على معرف أبل"
+
+#: classes/canidate/dashboard.php:375 classes/canidate/profile.php:1779
+#: classes/canidate/profile.php:2415 classes/canidate/profile.php:2698
+#: classes/dashboard.php:352 classes/employer/profile.php:1833
+#: classes/employer/profile.php:2446 classes/employer/profilesssssssss.php:1769
+#: classes/employer/profilesssssssss.php:2257 classes/home-back.php:170
+#: classes/home.php:195 classes/job_post.php:329 classes/job_post.php:1154
+#: classes/job_post.php:1427 classes/job_post.php:1607 classes/search.php:58
+#: classes/search.php:310
+msgid "Job Type"
+msgstr "النوع"
+
+#: classes/canidate/dashboard.php:381 classes/canidate/profile.php:1782
+#: classes/canidate/profile.php:2422 classes/canidate/profile.php:2705
+#: classes/dashboard.php:358 classes/employer/profile.php:1838
+#: classes/employer/profile.php:2447 classes/employer/profilesssssssss.php:1774
+#: classes/employer/profilesssssssss.php:2258 classes/home-back.php:176
+#: classes/home.php:201 classes/job_post.php:1433 classes/search.php:320
+msgid "Job Location"
+msgstr "المكان"
+
+#: classes/canidate/dashboard.php:384 classes/dashboard.php:361
+#: classes/employer/profile.php:1831 classes/employer/profilesssssssss.php:1765
+#: classes/home-back.php:302 classes/home.php:322 classes/job_post.php:1142
+#: classes/job_post.php:2720 classes/search.php:55
+msgid "Job Category"
+msgstr "الفئه:"
+
+#: classes/canidate/dashboard.php:469 classes/dashboard.php:444
+msgid "Admin email not setup."
+msgstr "البريد الكتروني المسؤول ليس الاعداد."
+
+#: classes/canidate/dashboard.php:472 classes/dashboard.php:447
+msgid "Please enter your subject."
+msgstr "الرجاء إدخال رسالتك."
+
+#: classes/canidate/dashboard.php:475 classes/dashboard.php:450
+msgid "Please enter your email."
+msgstr "فضلاً ادخل البريد الإلكتروني الخاص بك."
+
+#: classes/canidate/dashboard.php:478 classes/dashboard.php:453
+msgid "Please enter your message."
+msgstr "الرجاء إدخال رسالتك."
+
+#: classes/canidate/dashboard.php:483 classes/dashboard.php:458
+msgid "IOS"
+msgstr "دائره الرقابه الداخليه"
+
+#: classes/canidate/dashboard.php:485 classes/dashboard.php:460
+msgid "Android"
+msgstr "أندرويد"
+
+#: classes/canidate/dashboard.php:507 classes/dashboard.php:482
+msgid "Feedback submitted successfully."
+msgstr "التعليقات المقدمة بنجاح."
+
+#: classes/canidate/dashboard.php:509 classes/canidate/profile.php:1392
+#: classes/canidate/profile.php:1421 classes/canidate/profile.php:1461
+#: classes/canidate/profile.php:4764 classes/dashboard.php:484
+#: classes/login.php:456
+msgid "Something went wrong."
+msgstr "حدث خطأ ما!"
+
+#: classes/canidate/profile.php:91 classes/employer/profile.php:75
+#: classes/employer/profilesssssssss.php:62
+msgid "Your DashBoard"
+msgstr "العودة إلى لوحة التحكم الرئيسية"
+
+#: classes/canidate/profile.php:92 classes/canidate/profile.php:4371
+#: classes/employer/profile.php:2841
+msgid "Your full name"
+msgstr "الاسم بالكامل"
+
+#: classes/canidate/profile.php:93 classes/canidate/profile.php:1591
+#: classes/canidate/profile.php:3486 classes/employer/profile.php:410
+#: classes/employer/profile.php:1035 classes/employer/profile.php:1045
+#: classes/employer/profilesssssssss.php:340
+#: classes/employer/profilesssssssss.php:946
+#: classes/employer/profilesssssssss.php:956 classes/job_post.php:1183
+msgid "Name"
+msgstr "الاسم"
+
+#: classes/canidate/profile.php:97
+msgid "Contact number"
+msgstr "رقم الاتصال"
+
+#: classes/canidate/profile.php:98 classes/canidate/profile.php:3489
+#: classes/employer/profile.php:98 classes/employer/profile.php:412
+#: classes/employer/profilesssssssss.php:65
+#: classes/employer/profilesssssssss.php:342 classes/job_post.php:1185
+msgid "Phone"
+msgstr "الهاتف"
+
+#: classes/canidate/profile.php:101 classes/employer/profile.php:99
+#: classes/employer/profilesssssssss.php:66
+msgid "Member Since"
+msgstr "عضو منذ"
+
+#: classes/canidate/profile.php:102
+msgid "Select date of birth"
+msgstr "تاريخ الانتهاء"
+
+#: classes/canidate/profile.php:103
+msgid "Date of birth:"
+msgstr "تاريخ الميلاد:"
+
+#: classes/canidate/profile.php:105 classes/canidate/profile.php:115
+#: classes/search.php:420
+msgid "Gender"
+msgstr "الجنس"
+
+#: classes/canidate/profile.php:109 classes/canidate/profile.php:3730
+#: classes/employer/profile.php:1937
+msgid "Male"
+msgstr "ذكر"
+
+#: classes/canidate/profile.php:111 classes/canidate/profile.php:3737
+#: classes/employer/profile.php:1938
+msgid "Female"
+msgstr "أنثى"
+
+#: classes/canidate/profile.php:113 classes/canidate/profile.php:3744
+#: classes/employer/profile.php:1939
+msgid "Other"
+msgstr "أخرى"
+
+#: classes/canidate/profile.php:117 classes/canidate/profile.php:3516
+#: classes/search.php:416 tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr "النوع"
+
+#: classes/canidate/profile.php:118
+msgid "Type "
+msgstr "النوع "
+
+#: classes/canidate/profile.php:120 classes/canidate/profile.php:3513
+#: classes/search.php:429
+msgid "Level"
+msgstr "المستوى"
+
+#: classes/canidate/profile.php:121
+msgid "Level "
+msgstr "مستوى "
+
+#: classes/canidate/profile.php:123 classes/canidate/profile.php:3519
+#: classes/search.php:424
+msgid "Experience"
+msgstr "الخبرات"
+
+#: classes/canidate/profile.php:124
+msgid "Experience "
+msgstr "Your comments, suggestions or experience at this place."
+
+#: classes/canidate/profile.php:126 classes/canidate/profile.php:127
+#: classes/canidate/profile.php:3525
+msgid "Salary"
+msgstr "الراتب"
+
+#: classes/canidate/profile.php:131
+msgid "e.g Web developer"
+msgstr "ادراج حقل ويب/عنوان Url"
+
+#: classes/canidate/profile.php:132 classes/canidate/profile.php:3495
+msgid "Profession"
+msgstr "المهنة"
+
+#: classes/canidate/profile.php:136 classes/canidate/profile.php:137
+#: classes/canidate/profile.php:3531
+msgid "Set your profile"
+msgstr "تعيين ملف التعريف الخاص بك"
+
+#: classes/canidate/profile.php:140 classes/employer/profile.php:102
+#: classes/employer/profilesssssssss.php:69 classes/job_post.php:1160
+msgid "Address"
+msgstr "العنوان"
+
+#: classes/canidate/profile.php:141 classes/canidate/profile.php:154
+msgid "About Me"
+msgstr "حول"
+
+#: classes/canidate/profile.php:142 classes/employer/profile.php:104
+#: classes/employer/profilesssssssss.php:71
+msgid "Location & Map"
+msgstr "خريطة الموقع"
+
+#: classes/canidate/profile.php:144 classes/canidate/profile.php:4099
+#: classes/employer/profile.php:106 classes/employer/profilesssssssss.php:73
+#: classes/job_post.php:395 inc/options-init.php:940
+msgid "Latitude"
+msgstr "خط العرض"
+
+#: classes/canidate/profile.php:145 classes/canidate/profile.php:1587
+msgid "Save Resume"
+msgstr "حفظ السيرة الذاتية"
+
+#: classes/canidate/profile.php:154 classes/employer/profile.php:133
+#: classes/employer/profilesssssssss.php:82
+msgid "You have not written about yourself"
+msgstr "أنت لم تكتب عن نفسك"
+
+#: classes/canidate/profile.php:155
+msgid "You have not selected any skills"
+msgstr "لم تقم باختيار اي مهارات"
+
+#: classes/canidate/profile.php:156 classes/canidate/profile.php:4224
+msgid "Profile Percent"
+msgstr "النسبة المئوية للتشكيل"
+
+#: classes/canidate/profile.php:161 classes/employer/profile.php:143
+#: classes/employer/profilesssssssss.php:89
+msgid "Delete account"
+msgstr "حذف الحساب"
+
+#: classes/canidate/profile.php:186
+msgid "Resume Video"
+msgstr "استئناف الفيديو"
+
+#: classes/canidate/profile.php:235
+msgid "Certifications Name Here"
+msgstr "اسم الشهادات هنا"
+
+#: classes/canidate/profile.php:250 classes/canidate/profile.php:333
+msgid "Certification Title"
+msgstr "عنوان الشهادة"
+
+#: classes/canidate/profile.php:256 classes/canidate/profile.php:339
+msgid "Certification Duration"
+msgstr "مده الشهادة"
+
+#: classes/canidate/profile.php:263
+msgid "Certification Start"
+msgstr "بدء الشهادات"
+
+#: classes/canidate/profile.php:269
+msgid "Certification End"
+msgstr "نهاية الشهادة"
+
+#: classes/canidate/profile.php:274 classes/canidate/profile.php:359
+msgid "Certification Institute"
+msgstr "معهد الشهادات"
+
+#: classes/canidate/profile.php:279
+msgid "Certification Description"
+msgstr "وصف الشهادة"
+
+#: classes/canidate/profile.php:347
+msgid "Certification Start Date"
+msgstr "بدء الشهادات"
+
+#: classes/canidate/profile.php:353
+msgid "Certification End Date"
+msgstr "نهاية الشهادة"
+
+#: classes/canidate/profile.php:365 classes/canidate/profile.php:583
+#: classes/canidate/profile.php:771 classes/canidate/profile.php:869
+#: classes/canidate/profile.php:4692
+msgid "Description"
+msgstr "الوصف"
+
+#: classes/canidate/profile.php:376
+msgid "Certification Details"
+msgstr "تفاصيل الشهادة"
+
+#: classes/canidate/profile.php:377
+msgid "Save Certifications"
+msgstr "حفظ الشهادات"
+
+#: classes/canidate/profile.php:378
+msgid "You Have Not Added Any Certifications Details Yet"
+msgstr "لم تقم باضافه اي تفاصيل الشهادات حتى الآن"
+
+#: classes/canidate/profile.php:426
+msgid "Degreee Name Here"
+msgstr "اسم الشحوم هنا"
+
+#: classes/canidate/profile.php:441 classes/canidate/profile.php:536
+msgid "Qualification Title"
+msgstr "عنوان المؤهل"
+
+#: classes/canidate/profile.php:442
+msgid "Enter title"
+msgstr "ادخل عنوان اسئله وأجوبه التطبيق."
+
+#: classes/canidate/profile.php:448 classes/canidate/profile.php:544
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#: classes/canidate/profile.php:449 classes/canidate/profile.php:545
+msgid "Select start date"
+msgstr "تحديد تاريخ البدء"
+
+#: classes/canidate/profile.php:456 classes/canidate/profile.php:553
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#: classes/canidate/profile.php:457 classes/canidate/profile.php:554
+msgid "Select end date"
+msgstr "تحديد تاريخ الانتهاء"
+
+#: classes/canidate/profile.php:463 classes/canidate/profile.php:561
+#: classes/canidate/profile.php:562
+msgid "Institute Name"
+msgstr "اسم المعهد"
+
+#: classes/canidate/profile.php:464
+msgid "Enter institute"
+msgstr "ادخل المعهد"
+
+#: classes/canidate/profile.php:469
+msgid "Percent"
+msgstr "النسبة المئوية"
+
+#: classes/canidate/profile.php:470 classes/canidate/profile.php:569
+msgid "e.g 80.0 with out %"
+msgstr "علي سبيل المثال 80.0 مع خارج النسبة المئوية"
+
+#: classes/canidate/profile.php:475 classes/canidate/profile.php:575
+msgid "Grades"
+msgstr "درجات"
+
+#: classes/canidate/profile.php:476
+msgid "only letters e.g A,B+ etc"
+msgstr "رسائل فقط مثل ا ، ب + الخ"
+
+#: classes/canidate/profile.php:482 classes/employer/profile.php:869
+#: classes/employer/profilesssssssss.php:811
+msgid "Details"
+msgstr "تفاصيل"
+
+#: classes/canidate/profile.php:483 classes/canidate/profile.php:584
+msgid "Enter details"
+msgstr "ادخل التفاصيل"
+
+#: classes/canidate/profile.php:537
+msgid "Degree Title"
+msgstr "لقب الدرجة"
+
+#: classes/canidate/profile.php:568
+msgid "Percentage"
+msgstr "النسبة المئوية"
+
+#: classes/canidate/profile.php:576
+msgid "Only Grade Letter e.g A+,B,C"
+msgstr "فقط حرف الصف علي سبيل المثال + ، B ، C"
+
+#: classes/canidate/profile.php:595
+msgid "Save Education"
+msgstr "حفظ التعليم"
+
+#: classes/canidate/profile.php:596
+msgid "You have not added any education yet"
+msgstr "لم تقم باضافه اي تعليم حتى الآن"
+
+#: classes/canidate/profile.php:677
+msgid "Education updated"
+msgstr "تحديث التعليم"
+
+#: classes/canidate/profile.php:718
+msgid "Organization Name Here"
+msgstr "الاسم"
+
+#: classes/canidate/profile.php:734 classes/canidate/profile.php:735
+#: classes/canidate/profile.php:829 classes/canidate/profile.php:830
+msgid "Organization Name"
+msgstr "اسم القائمة"
+
+#: classes/canidate/profile.php:741 classes/canidate/profile.php:835
+msgid "Your Role"
+msgstr "النقر الخاص بك"
+
+#: classes/canidate/profile.php:742 classes/canidate/profile.php:836
+msgid "Software Engineer Etc"
+msgstr "خلفيه الذيل مع الصورة ، واللون ، الخ."
+
+#: classes/canidate/profile.php:749 classes/canidate/profile.php:849
+msgid "Job start Date"
+msgstr "تاريخ بدء المهمة"
+
+#: classes/canidate/profile.php:750 classes/canidate/profile.php:763
+#: classes/canidate/profile.php:850
+msgid "Select job start date"
+msgstr "تاريخ بدء الحدث"
+
+#: classes/canidate/profile.php:756 classes/canidate/profile.php:843
+msgid "Are You Currently Working There?"
+msgstr "هل تعمل حاليا هناك ؟"
+
+#: classes/canidate/profile.php:762 classes/canidate/profile.php:856
+msgid "Job End Date"
+msgstr "تاريخ انتهاء المهمة"
+
+#: classes/canidate/profile.php:772 classes/canidate/profile.php:857
+msgid "Select job end date"
+msgstr "تاريخ انتهاء الحدث"
+
+#: classes/canidate/profile.php:863
+msgid "Currently working"
+msgstr "ساعات"
+
+#: classes/canidate/profile.php:878
+msgid "Work Experience"
+msgstr "خبرة"
+
+#: classes/canidate/profile.php:879
+msgid "Save experience"
+msgstr "خبرة"
+
+#: classes/canidate/profile.php:880
+msgid "You have not added any experience details yet"
+msgstr "لم تقم بإضافة أي تفاصيل تجربة حتى الآن"
+
+#: classes/canidate/profile.php:954 classes/canidate/profile.php:1498
+#: classes/employer/profile.php:3595
+msgid "You can not upload more than "
+msgstr "لا يمكنك تحميل المزيد من الصور"
+
+#: classes/canidate/profile.php:954 classes/employer/profile.php:3595
+msgid "images "
+msgstr "اختيار الصور"
+
+#: classes/canidate/profile.php:963 classes/employer/profile.php:3606
+#: classes/job_post.php:2250
+msgid "Max allowed image size is"
+msgstr "يجب ان يكون حجم الصورة القصوى"
+
+#: classes/canidate/profile.php:983
+msgid "Some thing went wrong"
+msgstr "حدث خطأ ما!"
+
+#: classes/canidate/profile.php:988 classes/employer/profile.php:3620
+msgid "Portfolio uploaded successfully"
+msgstr "تم الرفع بنجاح "
+
+#: classes/canidate/profile.php:1052 classes/employer/profile.php:136
+#: classes/employer/profile.php:3353
+msgid "My Portfolio"
+msgstr "تصميماتي"
+
+#: classes/canidate/profile.php:1054 classes/employer/profile.php:3355
+msgid ""
+"Photos for your projects only allowed jpg, png and jpeg and max file will "
+"not more than 800kb"
+msgstr ""
+"الصور لمشاريعك يسمح فقط jpg ، وبابوا نيو غينيا والحياة الjpeg والملف ماكس لن "
+"أكثر من 800kb"
+
+#: classes/canidate/profile.php:1055
+msgid "Click To upload Your Portfolio "
+msgstr "انقر لتحميل محفظتك"
+
+#: classes/canidate/profile.php:1056 classes/employer/profile.php:3357
+msgid "Save Portfolio"
+msgstr "حفظ المحفظة"
+
+#: classes/canidate/profile.php:1057 classes/employer/profile.php:3358
+msgid "Delete Picture"
+msgstr "حذف صوره"
+
+#: classes/canidate/profile.php:1058 classes/employer/profile.php:3359
+msgid "You have not uploaded any portfolio"
+msgstr "لم تقم بتحميل اي محفظه"
+
+#: classes/canidate/profile.php:1060 classes/canidate/profile.php:1597
+#: classes/employer/profile.php:3361
+msgid "Video url (only youtube)"
+msgstr "رابط الفيديو (يوتيوب فقط)"
+
+#: classes/canidate/profile.php:1062 classes/canidate/profile.php:1598
+#: classes/employer/profile.php:3363
+msgid "No video url"
+msgstr "لا يوجد رابط فيديو"
+
+#: classes/canidate/profile.php:1064 classes/canidate/profile.php:1606
+#: classes/employer/profile.php:3365
+msgid "Save video"
+msgstr "فيديو"
+
+#: classes/canidate/profile.php:1121 classes/employer/profile.php:3421
+msgid "Video url (only youtube) "
+msgstr "رابط الفيديو (يوتيوب فقط)"
+
+#: classes/canidate/profile.php:1123 classes/employer/profile.php:3423
+msgid "Save Video"
+msgstr "حفظ الفيديو"
+
+#: classes/canidate/profile.php:1162 classes/employer/profile.php:3461
+msgid "Successfully added"
+msgstr "تمت الاضافة"
+
+#: classes/canidate/profile.php:1167 classes/employer/profile.php:3465
+msgid "Video url not valid"
+msgstr "رابط الفيديو غير صالح"
+
+#: classes/canidate/profile.php:1227 classes/canidate/profile.php:1662
+#: classes/canidate/profile.php:1861 classes/canidate/profile.php:2931
+#: classes/employer/profilesssssssss.php:1145
+#: classes/employer/profilesssssssss.php:1598
+msgid "Delete Successfully"
+msgstr "حذف بنجاح"
+
+#: classes/canidate/profile.php:1332 classes/employer/profile.php:704
+#: classes/employer/profilesssssssss.php:568
+#: classes/employer/profilesssssssss.php:638
+msgid "Cover image updated successfully"
+msgstr "تم تحديث صوره الغلاف بنجاح"
+
+#: classes/canidate/profile.php:1417
+msgid "Profile image updated successfully"
+msgstr "تم تحديث صوره ملف التعريف بنجاح"
+
+#: classes/canidate/profile.php:1480 classes/canidate/profile.php:4783
+msgid "Sorry, only Doc, Docx and Pdf are allowed."
+msgstr "عذرا ، ويسمح فقط Doc ، دوكاكس وقوات الدفاع الشعبي."
+
+#: classes/canidate/profile.php:1489 classes/canidate/profile.php:4792
+msgid "Max allowed resume size is"
+msgstr "اقصي حجم يسمح استئناف هو"
+
+#: classes/canidate/profile.php:1498
+msgid "resumes "
+msgstr "استئناف"
+
+#: classes/canidate/profile.php:1514 classes/canidate/profile.php:4802
+msgid "Uploaded successfully"
+msgstr "تم التحميل بنجاح"
+
+#: classes/canidate/profile.php:1563
+msgid "Resume ID"
+msgstr "معرف السيرة الذاتية"
+
+#: classes/canidate/profile.php:1564 classes/employer/profile.php:2172
+#: classes/employer/profilesssssssss.php:2049
+msgid "Resume Name"
+msgstr "اسم السيرة الذاتية"
+
+#: classes/canidate/profile.php:1565
+msgid "Resume URL"
+msgstr "استئناف URL"
+
+#: classes/canidate/profile.php:1585
+msgid "Only allowed txt, doc , docx , and pdf"
+msgstr "يسمح فقط txt ، doc ، docx ، وقوات الدفاع الشعبي"
+
+#: classes/canidate/profile.php:1586
+msgid "Click To upload Your Resume"
+msgstr "انقر لتحميل سيرتك الذاتية"
+
+#: classes/canidate/profile.php:1588
+msgid "Your Resume"
+msgstr "سيرتك الذاتية"
+
+#: classes/canidate/profile.php:1589
+msgid "Add More Resume"
+msgstr "تحرير أضافه"
+
+#: classes/canidate/profile.php:1590 classes/employer/profile.php:1044
+#: classes/employer/profilesssssssss.php:955
+msgid "Sr #"
+msgstr "ريال سعودي"
+
+#: classes/canidate/profile.php:1593
+msgid "Download "
+msgstr "تحميل"
+
+#: classes/canidate/profile.php:1595
+msgid "You have not uploaded any resume"
+msgstr "لم تقم بتحميل اي سيره ذاتية"
+
+#: classes/canidate/profile.php:1603
+msgid "Upload Video"
+msgstr "تحميل فيديو"
+
+#: classes/canidate/profile.php:1604
+msgid "File size should be less than 30 Mb"
+msgstr "يجب أن يكون حجم الملف أقل من 30 ميغابايت"
+
+#: classes/canidate/profile.php:1678
+msgid "ago"
+msgstr "منذ"
+
+#: classes/canidate/profile.php:1770 classes/canidate/profile.php:2405
+#: classes/canidate/profile.php:2688 classes/employer/profile.php:1828
+#: classes/employer/profile.php:2443 classes/employer/profile.php:3171
+#: classes/employer/profilesssssssss.php:1761
+#: classes/employer/profilesssssssss.php:2254 classes/home-back.php:165
+#: classes/home.php:190 classes/job_post.php:1416 classes/search.php:305
+msgid "Job Id"
+msgstr "رقم الإعلان"
+
+#: classes/canidate/profile.php:1771 classes/employer/profile.php:1830
+#: classes/employer/profile.php:2444 classes/employer/profile.php:3172
+#: classes/employer/profilesssssssss.php:1763
+#: classes/employer/profilesssssssss.php:2255 classes/job_post.php:292
+#: classes/job_post.php:1140 classes/search.php:52
+msgid "Job Title"
+msgstr "المسمى الوظيفي"
+
+#: classes/canidate/profile.php:1772 classes/canidate/profile.php:2407
+#: classes/canidate/profile.php:2690 classes/canidate/profile.php:2858
+#: classes/home-back.php:166 classes/home.php:191 classes/job_post.php:1418
+#: classes/search.php:306
+msgid "Company Id"
+msgstr "معرف الشركة"
+
+#: classes/canidate/profile.php:1773 classes/canidate/profile.php:2408
+#: classes/canidate/profile.php:2691 classes/canidate/profile.php:2861
+#: classes/employer/profile.php:1829 classes/employer/profilesssssssss.php:1762
+#: classes/home-back.php:168 classes/home.php:193 classes/job_post.php:1420
+#: classes/search.php:308
+msgid "Company Name"
+msgstr "اسم الشركة"
+
+#: classes/canidate/profile.php:1774 classes/canidate/profile.php:2412
+#: classes/canidate/profile.php:2695 classes/employer/profile.php:1834
+#: classes/employer/profilesssssssss.php:1770 classes/home-back.php:169
+#: classes/home.php:194 classes/job_post.php:1149 classes/job_post.php:1425
+#: classes/job_post.php:1615 classes/search.php:309
+msgid "Job Salary"
+msgstr "الراتب الوظيفي"
+
+#: classes/canidate/profile.php:1776 classes/employer/profile.php:1836
+#: classes/employer/profilesssssssss.php:1772 classes/job_post.php:1621
+msgid "Job Currency"
+msgstr "العملة"
+
+#: classes/canidate/profile.php:1780 classes/canidate/profile.php:2421
+#: classes/canidate/profile.php:2704 classes/canidate/profile.php:2860
+#: classes/home-back.php:175 classes/home.php:200 classes/job_post.php:1432
+#: classes/search.php:319
+msgid "Company Logo"
+msgstr "الشعار"
+
+#: classes/canidate/profile.php:1781 classes/canidate/profile.php:2416
+#: classes/canidate/profile.php:2699 classes/home-back.php:171
+#: classes/home.php:196 classes/job_post.php:1429
+msgid "Job Posted"
+msgstr "تاريخ النشر "
+
+#: classes/canidate/profile.php:1812
+msgid "Delete Job"
+msgstr "حذف خدمة"
+
+#: classes/canidate/profile.php:1814
+msgid "You have not saved any job yet"
+msgstr "لم تقم بحفظ اي عمل حتى الآن"
+
+#: classes/canidate/profile.php:1911
+msgid "Saved Successfully"
+msgstr "تم الحفظ بنجاح"
+
+#: classes/canidate/profile.php:1913
+msgid "Already  Saved"
+msgstr "تم الحفظ بالفعل"
+
+#: classes/canidate/profile.php:1967
+msgid "Select Resume"
+msgstr "اختر السيرة الذاتية"
+
+#: classes/canidate/profile.php:1974
+msgid "Want to apply for job"
+msgstr "يمكن للمرشحين فقط تقديم طلب للحصول علي وظيفة"
+
+#: classes/canidate/profile.php:1975
+msgid "Select your resume "
+msgstr "اختر سيرتك الذاتية"
+
+#: classes/canidate/profile.php:1976
+msgid "Write cover letter"
+msgstr "كتابه خطاب التغطية"
+
+#: classes/canidate/profile.php:1977
+msgid "Apply now"
+msgstr "تقدم الآن"
+
+#: classes/canidate/profile.php:2026 classes/canidate/profile.php:2115
+msgid "Sorry email already exists"
+msgstr "رسالة بريد إلكتروني آسفة موجودة بالفعل"
+
+#: classes/canidate/profile.php:2033
+msgid "Please Purchase Package"
+msgstr "يرجى شراء الباقة"
+
+#: classes/canidate/profile.php:2067 classes/canidate/profile.php:2127
+msgid "Applied successfully"
+msgstr "تم التطبيق بنجاح"
+
+#: classes/canidate/profile.php:2263
+msgid "Already applied"
+msgstr "تم التنفيذ سابقا"
+
+#: classes/canidate/profile.php:2283
+msgid "Apllied Successfully"
+msgstr "التطبيقات بنجاح"
+
+#: classes/canidate/profile.php:2406 classes/canidate/profile.php:2689
+#: classes/home-back.php:167 classes/home.php:192 classes/job_post.php:1422
+#: classes/search.php:307
+msgid "Job Name"
+msgstr "اسم الوظيفة"
+
+#: classes/canidate/profile.php:2424 tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr "الحالة"
+
+#: classes/canidate/profile.php:2450
+msgid "Applied Jobs"
+msgstr "الوظائف التي تمّ التقديم عليها"
+
+#: classes/canidate/profile.php:2452
+msgid "You have not applied for any job yet"
+msgstr "لم تقم بالتقدم لأي وظيفة بعد"
+
+#: classes/canidate/profile.php:2528 classes/canidate/profile.php:2534
+msgid "Follow companies for job notifications"
+msgstr "تعيين المهارات الخاصة بك لإخطارات العمل"
+
+#: classes/canidate/profile.php:2531 classes/canidate/profile.php:2712
+msgid "Set your skills for job notifications"
+msgstr "تعيين المهارات الخاصة بك لإخطارات العمل"
+
+#: classes/canidate/profile.php:2589
+msgid "These jobs match your skills"
+msgstr "اختر مهاراتك:"
+
+#: classes/canidate/profile.php:2590
+msgid "Company id"
+msgstr "معرف الشركة"
+
+#: classes/canidate/profile.php:2591 classes/employer/profile.php:96
+#: classes/employer/profilesssssssss.php:63
+msgid "Company name"
+msgstr "الاسم"
+
+#: classes/canidate/profile.php:2592
+msgid "Company Image"
+msgstr "صورة الشركة"
+
+#: classes/canidate/profile.php:2593
+msgid "Company post"
+msgstr "وظيفة الشركة"
+
+#: classes/canidate/profile.php:2593
+msgid "posted a new job"
+msgstr "نشر وظيفة جديدة"
+
+#: classes/canidate/profile.php:2594
+msgid "Posting time"
+msgstr "وقت الترحيل"
+
+#: classes/canidate/profile.php:2595 classes/canidate/profile.php:2596
+msgid "Job title"
+msgstr "عنوان الوظيفة"
+
+#: classes/canidate/profile.php:2664
+msgid "Job matches your skills"
+msgstr "العمل يطابق مهاراتك"
+
+#: classes/canidate/profile.php:2859
+msgid "Open Position"
+msgstr "المركز المفتوح"
+
+#: classes/canidate/profile.php:2862
+msgid "Company Adress"
+msgstr "عنوان الشركة"
+
+#: classes/canidate/profile.php:2868
+msgid "You have not followed any company yet"
+msgstr "أنت لم تتبع اي شركه حتى الآن"
+
+#: classes/canidate/profile.php:2872
+msgid "Unfollow"
+msgstr "الغاء المتابعة"
+
+#: classes/canidate/profile.php:2933 classes/canidate/profile.php:2980
+#: classes/canidate/profile.php:4643 classes/employer/profile.php:1212
+#: classes/employer/profile.php:1681 classes/employer/profile.php:2242
+#: classes/employer/profile.php:2293 classes/employer/profile.php:2503
+#: classes/employer/profilesssssssss.php:1149
+#: classes/employer/profilesssssssss.php:1602
+#: classes/employer/profilesssssssss.php:2130
+#: classes/employer/profilesssssssss.php:2183
+#: classes/employer/profilesssssssss.php:2315 classes/job_post.php:2203
+msgid "Something Went Wrong"
+msgstr "حدث خطا ما"
+
+#: classes/canidate/profile.php:2974
+msgid "Already Followed"
+msgstr "يتبع بالفعل"
+
+#: classes/canidate/profile.php:2978
+msgid "Followed Successfully"
+msgstr "يتبع بنجاح"
+
+#: classes/canidate/profile.php:3033 classes/employer/profile.php:225
+#: classes/employer/profile.php:1612 classes/employer/profilesssssssss.php:172
+#: classes/employer/profilesssssssss.php:1531
+msgid "Name:"
+msgstr "الاسم"
+
+#: classes/canidate/profile.php:3036 classes/canidate/profile.php:3052
+#: classes/canidate/profile.php:3492 classes/employer/profile.php:231
+#: classes/employer/profilesssssssss.php:178 classes/payment.php:489
+msgid "Email:"
+msgstr "البريد الإلكتروني:"
+
+#: classes/canidate/profile.php:3039 classes/canidate/profile.php:3056
+msgid "Profession:"
+msgstr "المهنه:"
+
+#: classes/canidate/profile.php:3042 classes/canidate/profile.php:3045
+#: classes/canidate/profile.php:3048 classes/canidate/profile.php:3055
+msgid "Last Education:"
+msgstr "آخر التعليم:"
+
+#: classes/canidate/profile.php:3053 classes/employer/profile.php:228
+#: classes/employer/profilesssssssss.php:175
+msgid "Phone:"
+msgstr "الهاتف:"
+
+#: classes/canidate/profile.php:3054
+msgid "Date Of Birth:"
+msgstr "تاريخ الميلاد:"
+
+#: classes/canidate/profile.php:3057
+msgid "Description:"
+msgstr "الوصف:"
+
+#: classes/canidate/profile.php:3167
+msgid "Profession Updated"
+msgstr "تحديث المهنة"
+
+#: classes/canidate/profile.php:3245
+msgid "Certifications Updated"
+msgstr "تحديث الشهادات"
+
+#: classes/canidate/profile.php:3370 classes/employer/profile.php:203
+#: classes/employer/profilesssssssss.php:149
+msgid "Public"
+msgstr "عام"
+
+#: classes/canidate/profile.php:3370 classes/employer/profile.php:203
+#: classes/employer/profilesssssssss.php:149
+msgid "Private"
+msgstr "عام"
+
+#: classes/canidate/profile.php:3498
+msgid "Date Of Birth"
+msgstr "تاريخ الميلاد"
+
+#: classes/canidate/profile.php:3502
+msgid "Select Gender"
+msgstr "حدد نوع الجنس"
+
+#: classes/canidate/profile.php:3510
+msgid "Last Education"
+msgstr "آخر التعليم:"
+
+#: classes/canidate/profile.php:3522
+msgid "Salary type"
+msgstr "المؤهلات الوظيفية"
+
+#: classes/canidate/profile.php:3528
+msgid "Currency"
+msgstr "العملة"
+
+#: classes/canidate/profile.php:3534 classes/employer/profile.php:597
+#: classes/employer/profilesssssssss.php:528
+msgid "Profile Image"
+msgstr "صورة الملف الشخصي"
+
+#: classes/canidate/profile.php:3537
+msgid "Cover Image:"
+msgstr "صوره الغلاف:"
+
+#: classes/canidate/profile.php:3540
+msgid "About yourSelf"
+msgstr "عن نفسك"
+
+#: classes/canidate/profile.php:3545 classes/employer/profile.php:308
+#: classes/employer/profilesssssssss.php:243
+msgid "Save Information"
+msgstr "حفظ المعلومات"
+
+#: classes/canidate/profile.php:3547 classes/employer/profile.php:310
+#: classes/employer/profilesssssssss.php:245
+msgid "Update password"
+msgstr "تحديث كلمه المرور"
+
+#: classes/canidate/profile.php:3559 classes/employer/profile.php:312
+#: classes/employer/profilesssssssss.php:247
+msgid "Delete account?"
+msgstr "ادخل كلمه السر الجديدة"
+
+#: classes/canidate/profile.php:3583
+msgid "Personal information updated."
+msgstr "تحديث المعلومات الشخصية."
+
+#: classes/canidate/profile.php:3639 classes/login.php:66
+#: classes/register.php:38
+msgid "Facebook"
+msgstr "فيسبوك "
+
+#: classes/canidate/profile.php:3642
+msgid "Twitter"
+msgstr "تويتر"
+
+#: classes/canidate/profile.php:3646
+msgid "LinkedIn"
+msgstr "لينكدن"
+
+#: classes/canidate/profile.php:3649
+msgid "Instagram"
+msgstr "انستجرام"
+
+#: classes/canidate/profile.php:3664 classes/employer/profile.php:541
+#: classes/employer/profilesssssssss.php:472
+msgid "https://www.facebook.com"
+msgstr "https://codecanyon.net/user/scriptsbundle"
+
+#: classes/canidate/profile.php:3665 classes/employer/profile.php:542
+#: classes/employer/profilesssssssss.php:473
+msgid "https://www.twitter.com"
+msgstr "https://codecanyon.net/user/scriptsbundle"
+
+#: classes/canidate/profile.php:3666 classes/employer/profile.php:543
+#: classes/employer/profilesssssssss.php:474
+msgid "https://www.linkedin.com"
+msgstr "‫https://www.linkedin.com"
+
+#: classes/canidate/profile.php:3667 classes/employer/profile.php:544
+#: classes/employer/profilesssssssss.php:475
+msgid "https://www.instagram.com/"
+msgstr "https://www.instagram.com/"
+
+#: classes/canidate/profile.php:3669
+msgid "Save Profiles Links"
+msgstr "حفظ ارتباطات ملفات التعريف"
+
+#: classes/canidate/profile.php:3672 classes/employer/profile.php:562
+#: classes/employer/profilesssssssss.php:493
+msgid "Social links updated."
+msgstr "روابط المواقع الاجتماعية"
+
+#: classes/canidate/profile.php:3800 classes/canidate/profile.php:3803
+#: classes/job_post.php:1560 classes/job_post.php:1878
+#: classes/job_post.php:2048 classes/woo-commerce.php:186
+#: classes/woo-commerce.php:392
+msgid "Select Option"
+msgstr "‫الرجاء الاختيار"
+
+#: classes/canidate/profile.php:3809 classes/canidate/profile.php:3812
+msgid "Internal link"
+msgstr "رابط داخلي"
+
+#: classes/canidate/profile.php:3819 classes/canidate/profile.php:3822
+msgid "External link"
+msgstr "رابط خارجي"
+
+#: classes/canidate/profile.php:3840 classes/canidate/profile.php:3843
+msgid "Whatsapp"
+msgstr "واتساب"
+
+#: classes/canidate/profile.php:3977
+msgid "Select Your Skill"
+msgstr "اختر مهارتك"
+
+#: classes/canidate/profile.php:3980
+msgid "Select Your Skill Value"
+msgstr "حدد قيمة المهارة"
+
+#: classes/canidate/profile.php:3996
+msgid "Save Skills"
+msgstr "حفظ المهارات"
+
+#: classes/canidate/profile.php:3999
+msgid "Skills updated"
+msgstr "تحديث المهارات"
+
+#: classes/canidate/profile.php:4106 classes/employer/profile.php:1419
+#: classes/employer/profilesssssssss.php:1325
+msgid "Set Your Location:"
+msgstr "تعيين الموقع الخاص بك:"
+
+#: classes/canidate/profile.php:4144 classes/employer/profile.php:1450
+#: classes/employer/profilesssssssss.php:1363
+msgid "Save Location"
+msgstr "حفظ الموقع"
+
+#: classes/canidate/profile.php:4154 classes/employer/profilesssssssss.php:1371
+msgid "Location Updated."
+msgstr "اختر المدينة"
+
+#: classes/canidate/profile.php:4217 classes/employer/profile.php:2771
+#: classes/employer/profilesssssssss.php:2574
+msgid "Contact"
+msgstr "اتصال"
+
+#: classes/canidate/profile.php:4219 classes/employer/profile.php:2773
+#: classes/employer/profilesssssssss.php:2576
+msgid "Please enter name"
+msgstr "يرجى إدخال اسم"
+
+#: classes/canidate/profile.php:4220 classes/employer/profile.php:2774
+#: classes/employer/profilesssssssss.php:2577
+msgid "Please enter email"
+msgstr "يرجى إدخال بريدك الإلكتروني"
+
+#: classes/canidate/profile.php:4221 classes/employer/profile.php:2775
+#: classes/employer/profilesssssssss.php:2578
+msgid "Please enter subject"
+msgstr "يُرجى إدخال الموضوع"
+
+#: classes/canidate/profile.php:4222 classes/employer/profile.php:2776
+#: classes/employer/profilesssssssss.php:2579
+msgid "Please enter message"
+msgstr "يرجى إدخال الرسالة"
+
+#: classes/canidate/profile.php:4223 classes/employer/profile.php:2777
+#: classes/employer/profile.php:2785 classes/employer/profilesssssssss.php:2580
+#: classes/employer/profilesssssssss.php:2588
+msgid "Message"
+msgstr "إظهار عدد الرسائل"
+
+#: classes/canidate/profile.php:4228
+msgid "Candidate Details"
+msgstr "تفاصيل المرشح"
+
+#: classes/canidate/profile.php:4334
+msgid "Sent successfully"
+msgstr "تم الإرسال بنجاح"
+
+#: classes/canidate/profile.php:4484
+msgid "Saved Succesfully"
+msgstr "حفظ بنجاح"
+
+#: classes/canidate/profile.php:4514 classes/canidate/profile.php:5455
+msgid "Only employer can do this"
+msgstr "يمكن لصاحب العمل فقط القيام بذلك"
+
+#: classes/canidate/profile.php:4521
+msgid "Profile Already Saved"
+msgstr "ملف التعريف المحفوظ بالفعل"
+
+#: classes/canidate/profile.php:4530
+msgid "Profile Saved Succesfully"
+msgstr "تم حفظ الملف الشخصي بنجاح"
+
+#: classes/canidate/profile.php:4563
+msgid "Removed Succesfully"
+msgstr "تم الحذف من عربة التسوق"
+
+#: classes/canidate/profile.php:4602
+msgid "Alert Frequency"
+msgstr "تكرار التنبيه"
+
+#: classes/canidate/profile.php:4603
+msgid "Alert Category"
+msgstr "فئة التنبيه"
+
+#: classes/canidate/profile.php:4609
+msgid "You have not subscribe yet"
+msgstr "لم تقم بالاشتراك بعد"
+
+#: classes/canidate/profile.php:4641 classes/employer/profile.php:1210
+#: classes/employer/profile.php:1679 classes/employer/profile.php:3525
+msgid "Deleted Successfully"
+msgstr "تم الحذف بنجاح"
+
+#: classes/canidate/profile.php:4680
+msgid "Your number of jobs has been expired"
+msgstr "لقد انتهت مده صلاحيه عدد الوظائف"
+
+#: classes/canidate/profile.php:4682
+msgid "Your package has been expired. Please renew package"
+msgstr "انتهت مدة صلاحية الحزمة الخاصة بك. يرجى تجديد الباقة"
+
+#: classes/canidate/profile.php:4684
+msgid "No packages purchased yet"
+msgstr "لا توجد باقات تم شراؤها بعد"
+
+#: classes/canidate/profile.php:4691 classes/employer/profile.php:868
+#: classes/employer/profilesssssssss.php:810 classes/search.php:410
+#: classes/search.php:807 inc/options-init.php:1308 inc/options-init.php:1339
+#: inc/options-init.php:1369
+msgid "Title"
+msgstr "العنوان"
+
+#: classes/canidate/profile.php:4693 classes/employer/profile.php:870
+#: classes/employer/profilesssssssss.php:812
+msgid "Package expiry"
+msgstr "انتهاء صلاحية الباقة"
+
+#: classes/canidate/profile.php:4694
+msgid "Featured Profile Expiry"
+msgstr "انتهاء صلاحية الملف الشخصي المميز"
+
+#: classes/canidate/profile.php:4695
+msgid "Jobs To Apply"
+msgstr "وظائف لتقديم طلب"
+
+#: classes/canidate/profile.php:4701 classes/canidate/profile.php:4709
+#: classes/canidate/profile.php:4712
+msgid " Unlimited"
+msgstr "عدد غير محدود"
+
+#: classes/canidate/profile.php:4724 classes/employer/profile.php:966
+#: classes/employer/profilesssssssss.php:863 classes/woo-commerce.php:202
+#: classes/woo-commerce.php:241 classes/woo-commerce.php:408
+#: classes/woo-commerce.php:447
+msgid "Packages"
+msgstr "الباقات"
+
+#: classes/canidate/profile.php:4968
+msgid "Product"
+msgstr "المنتج"
+
+#: classes/canidate/profile.php:4970
+msgid "Price"
+msgstr "السعر"
+
+#: classes/canidate/profile.php:4972
+msgid "Buy"
+msgstr "شراء"
+
+#: classes/canidate/profile.php:4973
+msgid "Alert Subscription"
+msgstr "الاشتراك في التنبيه"
+
+#: classes/canidate/profile.php:4999
+msgid "Please login First"
+msgstr "الرجاء تسجيل الدخول أولا"
+
+#: classes/canidate/profile.php:5005
+msgid "Only Candidate Can do this"
+msgstr "المرشح فقط يمكنه القيام بذلك."
+
+#: classes/canidate/profile.php:5023
+msgid "Format not supported , allowed format are"
+msgstr "التنسيق غير معتمد ، التنسيق المسموح به"
+
+#: classes/canidate/profile.php:5033
+msgid "Max allowd video size in MB is"
+msgstr "الحد الأقصى المسموح به حجم الفيديو في MB هو"
+
+#: classes/canidate/profile.php:5058
+msgid "Something went wrong please try later"
+msgstr "حدث خطا ما يرجى التحقق مره أخرى في وقت لاحق."
+
+#: classes/canidate/profile.php:5145 classes/canidate/profile.php:5165
+msgid "Closed"
+msgstr "مغلق"
+
+#: classes/canidate/profile.php:5147 classes/canidate/profile.php:5164
+msgid "Open Now"
+msgstr "فتح"
+
+#: classes/canidate/profile.php:5157
+msgid "Selected Hours"
+msgstr "الساعات المحددة"
+
+#: classes/canidate/profile.php:5158
+msgid "Time Zone"
+msgstr "المنطقة الزمنية"
+
+#: classes/canidate/profile.php:5160
+msgid "To"
+msgstr "إلى"
+
+#: classes/canidate/profile.php:5161
+msgid "Open 24/7"
+msgstr "ال24/7 المفتوحة"
+
+#: classes/canidate/profile.php:5162
+msgid "Selective Hours"
+msgstr "ساعات مختاره"
+
+#: classes/canidate/profile.php:5163
+msgid "Not Available"
+msgstr "غير متاح"
+
+#: classes/canidate/profile.php:5166
+msgid "Scheduled Hours"
+msgstr "الساعات المجدولة"
+
+#: classes/canidate/profile.php:5263
+msgid "Hours saveed succesfully"
+msgstr "الساعات التي تم توفيرها بنجاح"
+
+#: classes/canidate/profile.php:5284 classes/employer/profile.php:3745
+msgid "Review Title"
+msgstr "مراجعة العنوان"
+
+#: classes/canidate/profile.php:5285 classes/employer/profile.php:3746
+msgid "Your Review"
+msgstr "تقييمك"
+
+#: classes/canidate/profile.php:5287 classes/employer/profile.php:3748
+msgid "Please Login First"
+msgstr "الرجاء تسجيل الدخول أولا"
+
+#: classes/canidate/profile.php:5288 classes/employer/profile.php:3749
+msgid "Please Enter Title"
+msgstr "الرجاء إدخال العنوان"
+
+#: classes/canidate/profile.php:5289 classes/employer/profile.php:3750
+msgid "Please Enter Messsage"
+msgstr "الرجاء إدخال Messsage"
+
+#: classes/canidate/profile.php:5290 classes/employer/profile.php:3751
+msgid "submit"
+msgstr "إرسال"
+
+#: classes/canidate/profile.php:5292 classes/employer/profile.php:3753
+#: classes/posts.php:278 classes/posts.php:333
+msgid "Reply"
+msgstr "الرد"
+
+#: classes/canidate/profile.php:5294 classes/employer/profile.php:3755
+msgid "Add Review"
+msgstr "اضف تقييمك للمنتج"
+
+#: classes/canidate/profile.php:5295 classes/employer/profile.php:3756
+msgid "View All reviews"
+msgstr "عرض جميع المراجعات"
+
+#: classes/canidate/profile.php:5368 classes/employer/profile.php:3829
+msgid "Candidate reply"
+msgstr "رد المرشح:"
+
+#: classes/canidate/profile.php:5449 classes/employer/profile.php:3906
+msgid "You can not rate yourself"
+msgstr "لا يمكنك تقييم نفسك"
+
+#: classes/canidate/profile.php:5460 classes/employer/profile.php:3917
+msgid "You have already rated this user"
+msgstr "لقد قمت بالفعل بتصنيف هذا المستخدم."
+
+#: classes/canidate/profile.php:5490 classes/employer/profile.php:3947
+msgid "You have succesfully rated this user"
+msgstr "لقد قمت بنجاح بتقييم هذا المستخدم"
+
+#: classes/canidate/profile.php:5518
+msgid "You are not logged in."
+msgstr "لا يمكنك تعديله في وقت لاحق."
+
+#: classes/canidate/profile.php:5529
+msgid "Your reply posted."
+msgstr "الرد الخاص بك نشر"
+
+#: classes/canidate/profile.php:5532
+msgid "Already Replied"
+msgstr "تم الرد عليها بالفعل"
+
+#: classes/canidate/profile.php:5536
+msgid "comment id or reply is missing"
+msgstr "معرف التعليق أو الرد مفقود"
+
+#: classes/employer/profile.php:100 classes/employer/profilesssssssss.php:67
+#: classes/search.php:413 classes/search.php:739 classes/search.php:972
+#: inc/options-init.php:674
+msgid "Headline"
+msgstr "العنوان الرئيسي"
+
+#: classes/employer/profile.php:101 classes/employer/profilesssssssss.php:68
+msgid "No. of Employees "
+msgstr "لا. الموظفين"
+
+#: classes/employer/profile.php:103 classes/employer/profilesssssssss.php:70
+msgid "About Company"
+msgstr "عن الشركة:"
+
+#: classes/employer/profile.php:107
+msgid "Website"
+msgstr "الموقع الالكتروني"
+
+#: classes/employer/profile.php:133 classes/employer/profilesssssssss.php:82
+msgid "Not Added"
+msgstr "لم تتم الاضافه"
+
+#: classes/employer/profile.php:134 classes/employer/profilesssssssss.php:83
+msgid "Not added"
+msgstr "لم تتم الاضافه"
+
+#: classes/employer/profile.php:134 classes/employer/profilesssssssss.php:83
+msgid "You have not selected any category"
+msgstr "لم تقم بتحديد اي فئة"
+
+#: classes/employer/profile.php:135
+msgid "Employer Video"
+msgstr "فيديو صاحب العمل"
+
+#: classes/employer/profile.php:135
+msgid "You have added no video"
+msgstr "لم تضف أي فيديو"
+
+#: classes/employer/profile.php:136
+msgid "You have not added any portfolio images"
+msgstr "لم تقم بإضافة أي صور محفظة"
+
+#: classes/employer/profile.php:143 classes/employer/profilesssssssss.php:89
+msgid "Delete acount"
+msgstr "حذف acount"
+
+#: classes/employer/profile.php:234 classes/employer/profilesssssssss.php:181
+msgid "Headline:"
+msgstr "العنوان:"
+
+#: classes/employer/profile.php:238 classes/employer/profilesssssssss.php:185
+msgid "Web:"
+msgstr "الموقع الإلكتروني:"
+
+#: classes/employer/profile.php:241 classes/employer/profilesssssssss.php:188
+msgid "Set your profile:"
+msgstr "تعيين ملف التعريف الخاص بك"
+
+#: classes/employer/profile.php:244 classes/employer/profilesssssssss.php:191
+msgid "Profile Image:"
+msgstr "صوره الملف الشخصي:"
+
+#: classes/employer/profile.php:248 classes/employer/profilesssssssss.php:195
+msgid "About company:"
+msgstr "عن الشركة:"
+
+#: classes/employer/profile.php:339 classes/employer/profilesssssssss.php:251
+msgid "Personal Information Updated."
+msgstr "تحديث المعلومات الشخصية."
+
+#: classes/employer/profile.php:413 classes/employer/profilesssssssss.php:343
+msgid "Establish"
+msgstr "انشاء"
+
+#: classes/employer/profile.php:414 classes/employer/profilesssssssss.php:344
+msgid "Employees"
+msgstr "موظفين"
+
+#: classes/employer/profile.php:415 classes/employer/profilesssssssss.php:345
+msgid "headline"
+msgstr "العنوان"
+
+#: classes/employer/profile.php:416 classes/employer/profilesssssssss.php:346
+msgid "adress"
+msgstr "العنوان"
+
+#: classes/employer/profile.php:417 classes/employer/profilesssssssss.php:347
+msgid "dp"
+msgstr "Dp"
+
+#: classes/employer/profile.php:418 classes/employer/profilesssssssss.php:348
+msgid "cover"
+msgstr "غلاف"
+
+#: classes/employer/profile.php:419 classes/employer/profilesssssssss.php:349
+msgid "description"
+msgstr "الوصف"
+
+#: classes/employer/profile.php:508 classes/employer/profilesssssssss.php:435
+msgid "Facebook:"
+msgstr "فيسبوك:"
+
+#: classes/employer/profile.php:511 classes/employer/profilesssssssss.php:438
+msgid "Twitter:"
+msgstr "تويتر:"
+
+#: classes/employer/profile.php:515 classes/employer/profilesssssssss.php:442
+msgid "LinkedIn:"
+msgstr "لينكدن"
+
+#: classes/employer/profile.php:518 classes/employer/profilesssssssss.php:445
+msgid "Instagram:"
+msgstr "انستجرام"
+
+#: classes/employer/profile.php:558 classes/employer/profilesssssssss.php:489
+msgid "Save Links"
+msgstr "حفظ الاعلان"
+
+#: classes/employer/profile.php:598 classes/employer/profilesssssssss.php:529
+msgid "Upload Profile Image"
+msgstr "رفع صورة للملف الشخصي"
+
+#: classes/employer/profile.php:599 classes/employer/profilesssssssss.php:530
+msgid "Cover Image"
+msgstr "صوره الغلاف الافتراضية"
+
+#: classes/employer/profile.php:600 classes/employer/profilesssssssss.php:531
+msgid "Upload Cover Image"
+msgstr "صوره الغلاف الافتراضية"
+
+#: classes/employer/profile.php:601 classes/employer/profilesssssssss.php:532
+msgid "Save Profile"
+msgstr "حفظ الاعلان"
+
+#: classes/employer/profile.php:637
+msgid "Profile picture updated successfully"
+msgstr "تم تحديث صوره ملف التعريف بنجاح"
+
+#: classes/employer/profile.php:755 classes/employer/profilesssssssss.php:693
+msgid "Company image updated successfully"
+msgstr "تم تحديث صوره ملف التعريف بنجاح"
+
+#: classes/employer/profile.php:806 classes/employer/profilesssssssss.php:748
+msgid "View/Update"
+msgstr "تحديث"
+
+#: classes/employer/profile.php:820 classes/employer/profilesssssssss.php:762
+msgid "Ad New"
+msgstr "إعلان جديد"
+
+#: classes/employer/profile.php:823 classes/employer/profilesssssssss.php:766
+msgid "no email template found"
+msgstr "لم يتم العثور علي قالب البريد الكتروني"
+
+#: classes/employer/profile.php:867 classes/employer/profilesssssssss.php:809
+msgid "SR #"
+msgstr "ريال سعودي"
+
+#: classes/employer/profile.php:879 classes/employer/profilesssssssss.php:822
+msgid "Resume Views Remaining"
+msgstr "استئناف طرق العرض"
+
+#: classes/employer/profile.php:882 classes/employer/profilesssssssss.php:825
+#: classes/home-back.php:47 classes/home.php:46 classes/woo-commerce.php:334
+msgid "Jobs"
+msgstr "الخدمات"
+
+#: classes/employer/profile.php:883 classes/employer/profilesssssssss.php:826
+#: classes/woo-commerce.php:54 classes/woo-commerce.php:319
+#: classes/woo-commerce.php:352
+msgid "Days"
+msgstr "أيام"
+
+#: classes/employer/profile.php:890 classes/job_post.php:423
+#: classes/woo-commerce.php:125 classes/woo-commerce.php:149
+msgid "Unlimited"
+msgstr "غير محدود"
+
+#: classes/employer/profile.php:908 classes/woo-commerce.php:77
+msgid "bump up jobs"
+msgstr "ارتطمت وظائف"
+
+#: classes/employer/profile.php:913 classes/employer/profile.php:928
+#: classes/woo-commerce.php:50 classes/woo-commerce.php:83
+#: classes/woo-commerce.php:107 classes/woo-commerce.php:315
+msgid "Lifetime"
+msgstr "الفترة الزمنية"
+
+#: classes/employer/profile.php:936 classes/woo-commerce.php:115
+msgid "Featured profile"
+msgstr "ملف التعريف المميز"
+
+#: classes/employer/profile.php:953 classes/employer/profilesssssssss.php:847
+msgid "N/A"
+msgstr "غير مطابق"
+
+#: classes/employer/profile.php:963 classes/employer/profilesssssssss.php:861
+msgid "No package found"
+msgstr "لم يتم العثور على أي باقة "
+
+#: classes/employer/profile.php:1034 classes/employer/profilesssssssss.php:945
+msgid "ID"
+msgstr "المعرف"
+
+#: classes/employer/profile.php:1042 classes/employer/profilesssssssss.php:953
+msgid "Your email templates"
+msgstr "قالب البريد"
+
+#: classes/employer/profile.php:1043 classes/employer/profilesssssssss.php:954
+#: inc/cpt.php:15
+msgid "Add New"
+msgstr "اضف جديد"
+
+#: classes/employer/profile.php:1046 classes/employer/profile.php:1049
+#: classes/employer/profilesssssssss.php:957
+#: classes/employer/profilesssssssss.php:960
+#: tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "تحديث"
+
+#: classes/employer/profile.php:1048 classes/employer/profilesssssssss.php:959
+msgid "You have not created any template yet"
+msgstr "لم تقم بإنشاء اي تيمبالتي بعد"
+
+#: classes/employer/profile.php:1144 classes/employer/profilesssssssss.php:1068
+msgid "Follower Dp"
+msgstr "المتابع موانئ دبي"
+
+#: classes/employer/profile.php:1145 classes/employer/profilesssssssss.php:1069
+msgid "Follower ID"
+msgstr "معرف المتابع"
+
+#: classes/employer/profile.php:1146 classes/employer/profilesssssssss.php:1070
+msgid "Follower Name"
+msgstr "اسم المتابع"
+
+#: classes/employer/profile.php:1147 classes/employer/profilesssssssss.php:1071
+msgid "Follower Link"
+msgstr "ارتباط المتابع"
+
+#: classes/employer/profile.php:1148 classes/employer/profilesssssssss.php:1072
+msgid "Follower Profession"
+msgstr "اتباع المهنة"
+
+#: classes/employer/profile.php:1152 classes/employer/profilesssssssss.php:1078
+msgid "Company has no follower yet"
+msgstr "الشركة ليس لديها تابع حتى الآن"
+
+#: classes/employer/profile.php:1156 classes/employer/profilesssssssss.php:1082
+msgid "Company Followers"
+msgstr "تابعو الشركة"
+
+#: classes/employer/profile.php:1277 classes/employer/profilesssssssss.php:1210
+msgid "Company specialization:"
+msgstr "تخصص الشركة:"
+
+#: classes/employer/profile.php:1279 classes/employer/profilesssssssss.php:1212
+msgid "Number  of employees:"
+msgstr "عدد الموظفين:"
+
+#: classes/employer/profile.php:1281 classes/employer/profilesssssssss.php:1214
+msgid "Company established in:"
+msgstr "تاسست الشركة في:"
+
+#: classes/employer/profile.php:1305 classes/employer/profilesssssssss.php:1241
+msgid "Type and select skills"
+msgstr "اكتب واختر المهارات"
+
+#: classes/employer/profile.php:1306 classes/employer/profilesssssssss.php:1242
+msgid "Select established date"
+msgstr "حدد التاريخ المحدد"
+
+#: classes/employer/profile.php:1306 classes/employer/profilesssssssss.php:1242
+msgid "Company Established In"
+msgstr "تاسست الشركة في"
+
+#: classes/employer/profile.php:1307 classes/employer/profilesssssssss.php:1243
+msgid "Enter number of employees"
+msgstr "إدخال عدد الموظفين"
+
+#: classes/employer/profile.php:1307 classes/employer/profilesssssssss.php:1243
+msgid "No Of Employees:"
+msgstr "عدد العاملين"
+
+#: classes/employer/profile.php:1308 classes/employer/profilesssssssss.php:1244
+msgid "Save Section"
+msgstr "حفظ المقطع"
+
+#: classes/employer/profile.php:1311 classes/employer/profilesssssssss.php:1247
+msgid "Skills Updated"
+msgstr "تحديث المهارات"
+
+#: classes/employer/profile.php:1412 classes/employer/profilesssssssss.php:1318
+msgid "Latitude:"
+msgstr "خط العرض:"
+
+#: classes/employer/profile.php:1415 classes/employer/profilesssssssss.php:1321
+msgid "Longitude:"
+msgstr "خط الطول:"
+
+#: classes/employer/profile.php:1449 classes/employer/profilesssssssss.php:1362
+msgid "Location and address"
+msgstr "الموقع والعنوان"
+
+#: classes/employer/profile.php:1466
+msgid "Location updated"
+msgstr "اختر المدينة"
+
+#: classes/employer/profile.php:1615 classes/employer/profilesssssssss.php:1534
+msgid "Subject:"
+msgstr "الموضوع:"
+
+#: classes/employer/profile.php:1619 classes/employer/profilesssssssss.php:1538
+msgid "Details:"
+msgstr "تفاصيل"
+
+#: classes/employer/profile.php:1622 classes/employer/profilesssssssss.php:1541
+msgid "For:"
+msgstr "الي:"
+
+#: classes/employer/profile.php:1626 classes/employer/profilesssssssss.php:1545
+msgid "Add your email templates"
+msgstr "أضافه قوالب البريد الكتروني"
+
+#: classes/employer/profile.php:1627 classes/employer/profilesssssssss.php:1546
+msgid "Save Template"
+msgstr "حفظ الاعلان"
+
+#: classes/employer/profile.php:1628 classes/employer/profilesssssssss.php:1547
+msgid "View Templates"
+msgstr "قالب البريد"
+
+#: classes/employer/profile.php:1634 classes/employer/profilesssssssss.php:1553
+msgid "Saved Successfully."
+msgstr "تم الحفظ بنجاح"
+
+#: classes/employer/profile.php:1832 classes/employer/profile.php:2445
+#: classes/employer/profile.php:3174 classes/employer/profilesssssssss.php:1768
+#: classes/employer/profilesssssssss.php:2256
+msgid "Job Expiry"
+msgstr "انتهاء المهمة"
+
+#: classes/employer/profile.php:1837 classes/employer/profile.php:3176
+msgid "View Resumes"
+msgstr "عرض السير الذاتية"
+
+#: classes/employer/profile.php:1840 classes/employer/profile.php:3173
+msgid "Posted Date"
+msgstr "تاريخ النشر"
+
+#: classes/employer/profile.php:1845 classes/employer/profile.php:3180
+#: classes/employer/profilesssssssss.php:1781
+msgid "Active Jobs"
+msgstr "وظيفة مفعلة"
+
+#: classes/employer/profile.php:1846 classes/employer/profile.php:3181
+#: classes/employer/profilesssssssss.php:1782
+msgid "Select job class"
+msgstr "تحديد فئة الوظيفة"
+
+#: classes/employer/profile.php:1851
+msgid "Bump up"
+msgstr "نتوء الإعلانات"
+
+#: classes/employer/profile.php:1854 classes/employer/profilesssssssss.php:1784
+msgid "You have no active jobs yet"
+msgstr "ليس لديك وظائف نشطه حتى الآن"
+
+#: classes/employer/profile.php:1887 classes/employer/profile.php:1908
+#: classes/employer/profile.php:1956 classes/employer/profilesssssssss.php:1822
+#: classes/employer/profilesssssssss.php:1850
+msgid "Received"
+msgstr "تم الاستلام"
+
+#: classes/employer/profile.php:1888 classes/employer/profile.php:1909
+#: classes/employer/profile.php:1957 classes/employer/profilesssssssss.php:1823
+#: classes/employer/profilesssssssss.php:1851
+msgid "In Review"
+msgstr "الرؤیات"
+
+#: classes/employer/profile.php:1889 classes/employer/profilesssssssss.php:1824
+msgid "Rejection"
+msgstr "رفض"
+
+#: classes/employer/profile.php:1890 classes/employer/profile.php:1911
+#: classes/employer/profile.php:1959 classes/employer/profilesssssssss.php:1825
+#: classes/employer/profilesssssssss.php:1853
+msgid "Short Listed"
+msgstr "قائمه قصيرة"
+
+#: classes/employer/profile.php:1891 classes/employer/profile.php:1912
+#: classes/employer/profile.php:1960 classes/employer/profilesssssssss.php:1826
+#: classes/employer/profilesssssssss.php:1854
+msgid "Interview"
+msgstr "مقابلة"
+
+#: classes/employer/profile.php:1892 classes/employer/profilesssssssss.php:1827
+msgid "Selection"
+msgstr "الاختيار"
+
+#: classes/employer/profile.php:1910 classes/employer/profile.php:1958
+#: classes/employer/profilesssssssss.php:1852
+msgid "Rejected"
+msgstr ""
+"<span class=\"tc-lead tc-required\">مطلوب</span>: يجب مسح<strong> %s </"
+"strong>, أو ان الثيم سيتم رفضه بسبب  Redux."
+
+#: classes/employer/profile.php:1913 classes/employer/profile.php:1961
+#: classes/employer/profilesssssssss.php:1855
+msgid "Selected"
+msgstr "الباقة"
+
+#: classes/employer/profile.php:2068 classes/employer/profile.php:2191
+#: classes/employer/profilesssssssss.php:1946
+#: classes/employer/profilesssssssss.php:2067
+msgid "You have no resume against this job."
+msgstr "ليس لديك استئناف ضد هذه الوظيفة."
+
+#: classes/employer/profile.php:2069 classes/employer/profilesssssssss.php:1947
+#: classes/employer/profilesssssssss.php:2063
+msgid "Resume Recieved"
+msgstr "استئناف الاستلام"
+
+#: classes/employer/profile.php:2070 classes/employer/profile.php:2187
+#: classes/employer/profilesssssssss.php:1948
+#: classes/employer/profilesssssssss.php:2064
+msgid "Select Status"
+msgstr "-حدد الحالة"
+
+#: classes/employer/profile.php:2157 classes/employer/profile.php:3054
+#: classes/employer/profile.php:3276 classes/employer/profilesssssssss.php:2034
+#: classes/search.php:731
+msgid "Candidate Id"
+msgstr "معرف المرشح"
+
+#: classes/employer/profile.php:2158 classes/employer/profile.php:3277
+#: classes/employer/profilesssssssss.php:2035
+msgid "Candidate Dp"
+msgstr "المرشح موانئ دبي"
+
+#: classes/employer/profile.php:2159 classes/employer/profile.php:3056
+#: classes/employer/profile.php:3278 classes/employer/profilesssssssss.php:2036
+#: classes/search.php:735
+msgid "Candidate Name"
+msgstr "الاسم"
+
+#: classes/employer/profile.php:2160 classes/employer/profilesssssssss.php:2037
+msgid "Candidate Status"
+msgstr "حاله المرشح"
+
+#: classes/employer/profile.php:2161
+msgid "Candidate Gender"
+msgstr "المرشح الجنساني"
+
+#: classes/employer/profile.php:2166 classes/employer/profilesssssssss.php:2041
+msgid "Resume Download"
+msgstr "استئناف تحميل"
+
+#: classes/employer/profile.php:2173 classes/employer/profilesssssssss.php:2050
+msgid "Candidate Adress"
+msgstr "عنوان المرشح"
+
+#: classes/employer/profile.php:2174 classes/employer/profilesssssssss.php:2051
+msgid "Applied Date"
+msgstr "التاريخ:"
+
+#: classes/employer/profile.php:2175 classes/employer/profilesssssssss.php:2052
+msgid "Cover Letter"
+msgstr "كتابه غلاف الرسالة"
+
+#: classes/employer/profile.php:2177 classes/employer/profilesssssssss.php:2054
+msgid "Video Resume"
+msgstr "السيرة الذاتية للفيديو"
+
+#: classes/employer/profile.php:2179 classes/employer/profilesssssssss.php:2056
+msgid "Take Action"
+msgstr "تاريخ التطبيق"
+
+#: classes/employer/profile.php:2180
+msgid "Detail"
+msgstr "تفاصيل الاعلان"
+
+#: classes/employer/profile.php:2186
+msgid "Resume Received"
+msgstr "تم الاستلام"
+
+#: classes/employer/profile.php:2240 classes/employer/profilesssssssss.php:2126
+msgid "inactive successfully"
+msgstr "اتخاذ الإجراءات"
+
+#: classes/employer/profile.php:2291 classes/employer/profilesssssssss.php:2178
+msgid "active successfully"
+msgstr "غير نشط بنجاح"
+
+#: classes/employer/profile.php:2297
+msgid "please purchase package"
+msgstr "يرجى شراء الباقة"
+
+#: classes/employer/profile.php:2372
+msgid "Bump Up successfully"
+msgstr "عثرة بنجاح"
+
+#: classes/employer/profile.php:2376
+msgid "Please purchase package"
+msgstr "يرجى شراء الباقة"
+
+#: classes/employer/profile.php:2453 classes/employer/profilesssssssss.php:2265
+msgid "InActive Jobs"
+msgstr "نشط بنجاح"
+
+#: classes/employer/profile.php:2455 classes/employer/profilesssssssss.php:2267
+msgid "You Have No InActive Jobs Yet"
+msgstr "وظائف غير نشطه"
+
+#: classes/employer/profile.php:2589 classes/employer/profilesssssssss.php:2402
+msgid "Do you want to send email as well"
+msgstr "ليس لديك وظائف غير نشطه حتى الآن"
+
+#: classes/employer/profile.php:2590 classes/employer/profilesssssssss.php:2403
+msgid "Select status"
+msgstr "-حدد الحالة"
+
+#: classes/employer/profile.php:2591 classes/employer/profilesssssssss.php:2404
+#: classes/job_post.php:451
+msgid "Yes"
+msgstr "نعم"
+
+#: classes/employer/profile.php:2592 classes/employer/profilesssssssss.php:2405
+#: classes/job_post.php:452
+msgid "No"
+msgstr "لا"
+
+#: classes/employer/profile.php:2593 classes/employer/profilesssssssss.php:2406
+msgid "Select Email Template"
+msgstr "قالب بريد الكتروني مستخدم جديد"
+
+#: classes/employer/profile.php:2594 classes/employer/profilesssssssss.php:2407
+msgid "Email Subject"
+msgstr "موضوع البريد الإلكتروني"
+
+#: classes/employer/profile.php:2595 classes/employer/profilesssssssss.php:2408
+msgid "Email Body"
+msgstr "البريد الكتروني الجسم"
+
+#: classes/employer/profile.php:2596 classes/employer/profilesssssssss.php:2409
+msgid "Send"
+msgstr "إرسال"
+
+#: classes/employer/profile.php:2700 classes/employer/profilesssssssss.php:2510
+msgid "Email Sent Successfully"
+msgstr "شكرا، تم إرسال البريد الإلكتروني بنجاح"
+
+#: classes/employer/profile.php:2702 classes/employer/profilesssssssss.php:2514
+msgid "Status update successfully"
+msgstr "تحديث الحالة بنجاح"
+
+#: classes/employer/profile.php:2779 classes/employer/profilesssssssss.php:2582
+msgid "Company Long"
+msgstr "شركه لونغ"
+
+#: classes/employer/profile.php:2781 classes/employer/profilesssssssss.php:2584
+msgid "Company Lat"
+msgstr "شركه اللات"
+
+#: classes/employer/profile.php:2783 classes/employer/profilesssssssss.php:2586
+msgid "Company Profile"
+msgstr "نبذة عن الشركة"
+
+#: classes/employer/profile.php:2784 classes/employer/profilesssssssss.php:2587
+msgid "Follow Us"
+msgstr "تابعوانا:"
+
+#: classes/employer/profile.php:2786 classes/employer/profilesssssssss.php:2589
+msgid "Profile Detail"
+msgstr "الرسالة"
+
+#: classes/employer/profile.php:2789 classes/employer/profilesssssssss.php:2592
+#: classes/job_post.php:1202
+msgid "Please login as candidate"
+msgstr "تفاصيل الملف الشخصي"
+
+#: classes/employer/profile.php:3055
+msgid "Candidate Logo"
+msgstr "شعار المرشح"
+
+#: classes/employer/profile.php:3057
+msgid "View Profile"
+msgstr "عرض الصفحة الشخصية"
+
+#: classes/employer/profile.php:3061
+msgid "You have not saved any resume yet"
+msgstr "لم تقم بحفظ أي سيرة ذاتية حتى الآن"
+
+#: classes/employer/profile.php:3064
+msgid "Saved Companies"
+msgstr "الشركات المحفوظة"
+
+#: classes/employer/profile.php:3183
+msgid "you have no matched resumes"
+msgstr "لم يكن لديك سير ذاتية مطابقة"
+
+#: classes/employer/profile.php:3279
+msgid "Candidate Headiing"
+msgstr "هل المرشح"
+
+#: classes/employer/profile.php:3284
+msgid "Not Uploaded"
+msgstr "لم يتم تحميلها"
+
+#: classes/employer/profile.php:3290
+msgid "Matched Candidate"
+msgstr "لا يوجد مرشح مطابق"
+
+#: classes/employer/profile.php:3292
+msgid "No matched resume found."
+msgstr "لم يتم العثور على سيرة ذاتية متطابقة"
+
+#: classes/employer/profile.php:3356
+msgid "Click To upload Your portfolio"
+msgstr "انقر لتحميل محفظتك"
+
+#: classes/employer/profile.php:3469
+msgid "No video added"
+msgstr "لم يتم أضافه اي فيديو"
+
+#: classes/employer/profile.php:3679
+msgid "Not Allowed in demo mode"
+msgstr "التحرير غير مسموح به في وضع العرض التوضيحي"
+
+#: classes/employer/profile.php:3685
+msgid "Deleted successfully"
+msgstr "تم حذف الإعلان بنجاح"
+
+#: classes/employer/profile.php:3912
+msgid "Only candidate can do this"
+msgstr "المرشح فقط يمكنه القيام بذلك."
+
+#: classes/home-back.php:184 classes/home.php:209 classes/job_post.php:1438
+msgid "Not posted any job yet"
+msgstr "الرجاء تسجيل الدخول كمرشح"
+
+#: classes/home-back.php:303 classes/home.php:323 classes/job_post.php:1696
+#: classes/job_post.php:2721 classes/search.php:56 classes/search.php:91
+#: classes/search.php:100 classes/search.php:417 classes/search.php:421
+#: classes/search.php:425 classes/search.php:430 classes/search.php:433
+#: classes/search.php:436 classes/search.php:440 classes/search.php:444
+#: classes/search.php:447 classes/search.php:450 classes/search.php:814
+#: classes/search.php:819
+msgid "Select an option"
+msgstr "حدد اختيارا"
+
+#: classes/job_post.php:62 classes/job_post.php:64
+msgid "Purchase package"
+msgstr "لم يتم نشر اي وظيفة حتى الآن"
+
+#: classes/job_post.php:289
+msgid "Basic information"
+msgstr "أساسي"
+
+#: classes/job_post.php:296 classes/job_post.php:1191 classes/job_post.php:1198
+msgid "Job Details"
+msgstr "تفاصيل الوظيفة"
+
+#: classes/job_post.php:311 classes/job_post.php:1195
+msgid "Job Description"
+msgstr "الوصف"
+
+#: classes/job_post.php:314
+msgid "Application Deadline"
+msgstr "آخر موعد لتقديم الطلبات "
+
+#: classes/job_post.php:326 classes/job_post.php:1156 classes/job_post.php:1610
+#: classes/search.php:62
+msgid "Job Qualifications"
+msgstr "آخر موعد لتقديم الطلبات "
+
+#: classes/job_post.php:333 classes/search.php:72 classes/search.php:443
+msgid "Salary Type"
+msgstr "المؤهلات الوظيفية"
+
+#: classes/job_post.php:336 classes/search.php:78 classes/search.php:446
+msgid "Salary Currency"
+msgstr "عمله الراتب"
+
+#: classes/job_post.php:339 classes/search.php:69
+msgid "Salary Offer"
+msgstr "تم النشر بنجاح."
+
+#: classes/job_post.php:345 classes/job_post.php:1150 classes/job_post.php:1623
+#: classes/search.php:81
+msgid "Job Shift"
+msgstr "عرض الراتب"
+
+#: classes/job_post.php:348 classes/job_post.php:1152 classes/job_post.php:1612
+#: classes/search.php:65
+msgid "Job Level"
+msgstr "وظيفة التحول"
+
+#: classes/job_post.php:352
+msgid "Number Of Posts"
+msgstr "عدد المنشورات"
+
+#: classes/job_post.php:355 classes/job_post.php:1157 classes/job_post.php:1625
+#: classes/job_post.php:1627 classes/search.php:84
+msgid "Job Skills"
+msgstr "المهارات الوظيفية"
+
+#: classes/job_post.php:358 classes/job_post.php:1158 classes/job_post.php:1627
+#: classes/search.php:87
+msgid "Job Tags"
+msgstr "المهارات الوظيفية"
+
+#: classes/job_post.php:401
+msgid "Job Post"
+msgstr "وظيفة شاغرة"
+
+#: classes/job_post.php:406
+msgid "Boost your job with adons"
+msgstr "تعزيز عملك مع adons"
+
+#: classes/job_post.php:420
+msgid "Jobs "
+msgstr "وظائف"
+
+#: classes/job_post.php:421
+msgid "Remaining"
+msgstr "المتبقي"
+
+#: classes/job_post.php:439 classes/job_post.php:440
+msgid "Job Question"
+msgstr "سؤال الوظيفة"
+
+#: classes/job_post.php:442
+msgid "Add More"
+msgstr "اضف المزيد"
+
+#: classes/job_post.php:450
+msgid "Add Questionnaire"
+msgstr "إضافة استبيان"
+
+#: classes/job_post.php:457
+msgid "Removed"
+msgstr "تم الحذف"
+
+#: classes/job_post.php:458
+msgid "Question added"
+msgstr "تمت إضافة السؤال"
+
+#: classes/job_post.php:459
+msgid "Questions added"
+msgstr "الأسئلة"
+
+#: classes/job_post.php:461
+msgid "Add Youtube video Url"
+msgstr "إضافة يوتيوب فيديو رابط"
+
+#: classes/job_post.php:779
+msgid "Job Posted Successfully"
+msgstr "تم نشر الوظيفة بنجاح"
+
+#: classes/job_post.php:1135
+msgid "Is candidate"
+msgstr "هل المرشح"
+
+#: classes/job_post.php:1136
+msgid "Job Apply"
+msgstr "تطبيق الوظيفة"
+
+#: classes/job_post.php:1139
+msgid "Job Expire"
+msgstr "انتهاء صلاحيه المهمة"
+
+#: classes/job_post.php:1141
+msgid "Last Date"
+msgstr "آخر تاريخ"
+
+#: classes/job_post.php:1151
+msgid "No. of Openings"
+msgstr "لا. من الفتحات"
+
+#: classes/job_post.php:1159
+msgid "Posted On"
+msgstr "المرسلة "
+
+#: classes/job_post.php:1161
+msgid "Job Video"
+msgstr "فيديو الوظيفة"
+
+#: classes/job_post.php:1163
+msgid "Country"
+msgstr "الدولة"
+
+#: classes/job_post.php:1181
+msgid "Job Content"
+msgstr "المحتوي الوظيفي"
+
+#: classes/job_post.php:1186
+msgid "Web Site"
+msgstr "الموقع الكتروني"
+
+#: classes/job_post.php:1187
+msgid "Adress"
+msgstr "عنوان"
+
+#: classes/job_post.php:1188
+msgid "Profile Pic"
+msgstr "الملف الشخصي"
+
+#: classes/job_post.php:1192
+msgid "Apply Now"
+msgstr "قدم الطلب الآن"
+
+#: classes/job_post.php:1194
+msgid "Short Description"
+msgstr "الوصف القصير"
+
+#: classes/job_post.php:1196
+msgid "Bookmark"
+msgstr "مفضلة"
+
+#: classes/job_post.php:1197
+msgid "Job Expired"
+msgstr "انتهت مدة صلاحية الوظيفة"
+
+#: classes/job_post.php:1199
+msgid "Apply with linkedin"
+msgstr "التقديم عليها عبر linkedin"
+
+#: classes/job_post.php:1200
+msgid "Share"
+msgstr "شارك"
+
+#: classes/job_post.php:1201
+msgid "Only candidates can apply for job"
+msgstr "يمكن للمرشحين فقط تقديم طلب للحصول علي وظيفة"
+
+#: classes/job_post.php:1204
+msgid "Already applied on this job"
+msgstr "موجود مسبقاً في عربة التسوق الخاصة بك."
+
+#: classes/job_post.php:1206
+msgid "Apply with"
+msgstr "تقدم مع"
+
+#: classes/job_post.php:1207
+msgid "Apply URL"
+msgstr "رابط مخصص لنموذج التقديم"
+
+#: classes/job_post.php:1210
+msgid "Linkedin Apply"
+msgstr "تطبيق Linkedin"
+
+#: classes/job_post.php:1213 classes/job_post.php:1218
+msgid "Your Name"
+msgstr "اسمك"
+
+#: classes/job_post.php:1245
+msgid "Resume upload option"
+msgstr "خيار استئناف التحميل"
+
+#: classes/job_post.php:1249
+msgid "NearBy jobs"
+msgstr "وظائف NearBy"
+
+#: classes/job_post.php:1434 classes/search.php:321
+msgid "Feature job"
+msgstr "وظيفة الميزة"
+
+#: classes/job_post.php:1480
+msgid "Please enable category base template"
+msgstr "الرجاء تمكين قالب قاعدة الفئة"
+
+#: classes/job_post.php:1516
+msgid "Job Attachment"
+msgstr "مرفقات مهمة"
+
+#: classes/job_post.php:1520
+msgid "Youtube Video Link"
+msgstr "رابط فيديو يوتيوب"
+
+#: classes/job_post.php:1617
+msgid "Job Salary Type"
+msgstr "نوع الراتب الوظيفي"
+
+#: classes/job_post.php:1849
+msgid "This field is required."
+msgstr "هذا الحقل مطلوب."
+
+#: classes/job_post.php:1920
+msgid "Please enter a valid website URL"
+msgstr "الرجاء إدخال عنوان URL صالح للموقع"
+
+#: classes/job_post.php:2208
+msgid "No File Found"
+msgstr "لم يتم العثور على الملف"
+
+#: classes/job_post.php:2231
+msgid "You can not upload more than"
+msgstr "لا يمكنك تحميل أكثر من"
+
+#: classes/job_post.php:2231
+msgid "attachments "
+msgstr "المرفقات"
+
+#: classes/job_post.php:2246
+msgid "Sorry "
+msgstr "معذرة"
+
+#: classes/job_post.php:2256
+msgid "File is empty"
+msgstr "الملف فارغ"
+
+#: classes/job_post.php:2281
+msgid "Successfully uploaded"
+msgstr "تم تحميلها بنجاح"
+
+#: classes/job_post.php:2371
+msgid "Successfully Deleted"
+msgstr "تم حذفه بنجاح"
+
+#: classes/job_post.php:2445
+msgid "No job found"
+msgstr "لا توجد وظائف حتى الآن"
+
+#: classes/job_post.php:2519 classes/job_post.php:2670
+msgid "No candidate found"
+msgstr "مرشح لم يتم العثور على"
+
+#: classes/job_post.php:2595
+msgid "No candidte found"
+msgstr "طلبك غير متوفر"
+
+#: classes/job_post.php:2762
+msgid "Accepted succesfully"
+msgstr "مقبولة بنجاح"
+
+#: classes/job_post.php:2766
+msgid "Rejected Succesfuly"
+msgstr "مرفوضة من Succesfuly"
+
+#: classes/job_post.php:2836
+msgid "Please enter job id"
+msgstr "الرجاء إدخال معرف الوظيفة"
+
+#: classes/login.php:23
+msgid "Signin"
+msgstr "الايميل مسجل مسبقاً، يرجى استخدام ايميل آخر."
+
+#: classes/login.php:24 classes/login.php:74
+msgid "Signup"
+msgstr "التسجيل"
+
+#: classes/login.php:59
+msgid "sign in using social accounts"
+msgstr "الشبكات الإجتماعية"
+
+#: classes/login.php:60
+msgid "Your Email Address"
+msgstr "عنوان بريدك الإلكتروني"
+
+#: classes/login.php:61
+msgid "Your Password"
+msgstr "كلمة المرور"
+
+#: classes/login.php:62
+msgid "Forgot Password"
+msgstr "نسيت كلمة المرور"
+
+#: classes/login.php:64 classes/register.php:37
+msgid "OR"
+msgstr "أو"
+
+#: classes/login.php:68
+msgid "Continue with Apple"
+msgstr "متابعة مع أبل"
+
+#: classes/login.php:70 classes/register.php:39
+msgid "Google+"
+msgstr "جوجل بلس"
+
+#: classes/login.php:72
+msgid "Linkedin"
+msgstr "لينكدن"
+
+#: classes/login.php:73
+msgid "New here ?"
+msgstr "هنا"
+
+#: classes/login.php:133 classes/login.php:184
+msgid "Login Successful"
+msgstr "تمت عملية تسجيل الدخول بنجاح"
+
+#: classes/login.php:135 classes/login.php:160
+msgid "Something went wrong"
+msgstr "حدث خطأ ما"
+
+#: classes/login.php:157
+msgid "Register and login Successful"
+msgstr "التسجيل وتسجيل الدخول بنجاح"
+
+#: classes/login.php:165
+msgid "Invalid Login Details"
+msgstr "تفاصيل تسجيل الدخول غير صالحه"
+
+#: classes/login.php:186
+msgid "Account not verified"
+msgstr "لم يتم التحقق من الحساب"
+
+#: classes/login.php:230
+msgid "Select your account type"
+msgstr "اختر نوع حسابك"
+
+#: classes/login.php:231 classes/register.php:33
+msgid "Employer"
+msgstr "صاحب العمل"
+
+#: classes/login.php:232 classes/register.php:32
+msgid "Candidate"
+msgstr "المتقدم"
+
+#: classes/login.php:233 classes/payment.php:526
+msgid "Continue"
+msgstr "استمر"
+
+#: classes/login.php:275
+msgid "Successfully created"
+msgstr "تم إنشاء الحدث بنجاح."
+
+#: classes/login.php:327
+msgid "Editing Not Allowed In Demo"
+msgstr "تحرير لا alloded في العرض التوضيحي"
+
+#: classes/login.php:334 inc/email-templates.php:140
+msgid "Email is not resgistered with us."
+msgstr "البريد الإلكتروني غير مسجل معنا برجاء التسجيل."
+
+#: classes/login.php:377
+msgid "Enter current password"
+msgstr "ادخل كلمه المرور الحالية"
+
+#: classes/login.php:378
+msgid "Enter new password"
+msgstr "ادخل كلمه السر الجديدة"
+
+#: classes/login.php:379
+msgid "Enter confirm password"
+msgstr "كلمه السر تاكيد كلمه السر غير متطابقة"
+
+#: classes/login.php:403
+msgid "Password mismatched"
+msgstr "كلمه السر تاكيد كلمه السر غير متطابقة"
+
+#: classes/login.php:410
+msgid "Password updated successfully"
+msgstr "تم تحديث الإعلان بنجاح."
+
+#: classes/login.php:415
+msgid "Invalid old password"
+msgstr "كلمه مرور قديمه غير صالحه"
+
+#: classes/login.php:463
+msgid "Admin can not delete his account from here."
+msgstr "المشرف لا يمكن حذف حسابه من هنا."
+
+#: classes/login.php:472
+msgid "You account has been deleted successfully."
+msgstr "تم حذف حسابك بنجاح."
+
+#: classes/payment.php:52
+msgid "Package Id not found"
+msgstr "لم يتم العثور علي معرف الحزمة"
+
+#: classes/payment.php:59
+msgid "You have already availed free package"
+msgstr "كنت قد استفادت بالفعل حزمه مجانية"
+
+#: classes/payment.php:64
+msgid "Purchased successfully"
+msgstr "تم شراؤها بنجاح"
+
+#: classes/payment.php:76 classes/payment.php:79 classes/payment.php:82
+#: classes/payment.php:85
+msgid "Order Placed Successfully"
+msgstr "وضع النظام بنجاح."
+
+#: classes/payment.php:88 classes/payment.php:187
+msgid "Invalid Payment Token"
+msgstr "رمز دفع غير صالح"
+
+#: classes/payment.php:110
+msgid "Payment Verified Successfully."
+msgstr "تم التحقق من الدفع بنجاح."
+
+#: classes/payment.php:126
+msgid "Payment has not been verified. Status is "
+msgstr "لم يتم التحقق من الدفع. الحالة"
+
+#: classes/payment.php:143
+msgid "Payment amount doesn't matched."
+msgstr "مبلغ الدفع غير مطابق."
+
+#: classes/payment.php:149
+msgid "Payment currency doesn't matched."
+msgstr "عمله الدفع لا تتطابق."
+
+#: classes/payment.php:156
+msgid "Sale not completed"
+msgstr "لم يكتمل البيع"
+
+#: classes/payment.php:163
+msgid "Payment Made successfully."
+msgstr "تم الدفع بنجاح."
+
+#: classes/payment.php:169
+msgid "Payment not found!"
+msgstr "لم يتم العثور علي الدفع!"
+
+#: classes/payment.php:172 classes/payment.php:176
+msgid "Unknown error occurred!"
+msgstr "حدث خطا غير معروف!"
+
+#: classes/payment.php:183
+msgid "Stripe secret key not setup"
+msgstr "شريط المفتاح السري لا الاعداد"
+
+#: classes/payment.php:207
+msgid "You order has been placed."
+msgstr "كنت قد وضعت النظام."
+
+#: classes/payment.php:216 classes/payment.php:219 classes/payment.php:223
+#: classes/payment.php:226
+msgid "Order placed successfully."
+msgstr "وضع النظام بنجاح."
+
+#: classes/payment.php:228
+msgid "Something Went Wrong."
+msgstr "حدث خطأ ما"
+
+#: classes/payment.php:318
+msgid "Checkout Process"
+msgstr "عملية الدفع"
+
+#: classes/payment.php:322
+msgid "Card Number"
+msgstr "رقم البطاقة"
+
+#: classes/payment.php:323
+msgid "Expiry Date"
+msgstr "تاريخ الانتهاء"
+
+#: classes/payment.php:324
+msgid "Month"
+msgstr "شهر"
+
+#: classes/payment.php:325
+msgid "Year"
+msgstr "السنة"
+
+#: classes/payment.php:327
+msgid "CVC Number"
+msgstr "رقم cvc"
+
+#: classes/payment.php:328
+msgid "Checkout"
+msgstr "الدفع"
+
+#: classes/payment.php:330
+msgid "The card number that you entered is invalid"
+msgstr "رقم البطاقة التي قمت بإدخالها غير صالح"
+
+#: classes/payment.php:331
+msgid "The expiration date that you entered is invalid"
+msgstr "تاريخ انتهاء الصلاحية الذي قمت بإدخاله غير صالح"
+
+#: classes/payment.php:332
+msgid "The CVC code that you entered is invalid"
+msgstr "رمز cvc الذي قمت بإدخاله غير صالح"
+
+#: classes/payment.php:333
+msgid "The card details that you entered are invalid"
+msgstr "تفاصيل البطاقة التي قمت بإدخالها غير صالحه"
+
+#: classes/payment.php:468
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"للأسف، لا يمكن معالجة طلبك نظرا لأن المصرف / التاجر الأصلي قد رفض معاملتك. "
+"الرجاء محاولة الشراء مرة أخرى."
+
+#: classes/payment.php:470
+msgid "Pay"
+msgstr "دفع"
+
+#: classes/payment.php:476 classes/payment.php:521 classes/payment.php:530
+msgid "Thank you. Your order has been received."
+msgstr "شكرا. تم استلام طلبك."
+
+#: classes/payment.php:479
+msgid "Order number:"
+msgstr "رقم الطلب:"
+
+#: classes/payment.php:483
+msgid "Date:"
+msgstr "التاريخ:"
+
+#: classes/payment.php:494
+msgid "Total:"
+msgstr "المجموع:"
+
+#: classes/payment.php:499
+msgid "Payment method:"
+msgstr "طريقة الدفع:"
+
+#: classes/payment.php:525 inc/options-init.php:465
+msgid "Thank You For Your Order"
+msgstr "شكرا لطلبك"
+
+#: classes/posts.php:87
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: classes/posts.php:93
+msgid "no posts found"
+msgstr "لم يتم العثور علي وظائف"
+
+#: classes/posts.php:104 classes/posts.php:195
+msgid "Comments"
+msgstr "التعليقات"
+
+#: classes/posts.php:107 classes/posts.php:199
+msgid "Post your comments here"
+msgstr "انشر تعليقاتك هنا"
+
+#: classes/posts.php:108 classes/posts.php:200
+msgid "Your comment here"
+msgstr "اكتب تعليقك هنا"
+
+#: classes/posts.php:109 classes/posts.php:201
+msgid "Post Comment"
+msgstr "أضف تعليقا"
+
+#: classes/posts.php:110 classes/posts.php:202
+msgid "Cancel Comment"
+msgstr "إلغاء التعليق"
+
+#: classes/posts.php:182
+msgid "Comment are closed"
+msgstr "التعليق مغلق"
+
+#: classes/posts.php:186 classes/posts.php:291
+msgid "No Comment Found"
+msgstr "أضف تعليقا"
+
+#: classes/posts.php:194
+msgid "Blog Details"
+msgstr "تفاصيل المدونة"
+
+#: classes/posts.php:204
+msgid "Your name here"
+msgstr "اسمك هنا"
+
+#: classes/posts.php:205
+msgid "Your email here"
+msgstr "بريدك الكتروني هنا"
+
+#: classes/posts.php:206
+msgid "Your comments here"
+msgstr "انشر تعليقاتك هنا"
+
+#: classes/posts.php:207
+msgid "Publish"
+msgstr "Publish Events"
+
+#: classes/posts.php:439
+msgid "Comment Posted Successfully."
+msgstr "تم نشر التعليق بنجاح."
+
+#: classes/posts.php:443
+msgid "Comment sent for approval."
+msgstr "تم إرسال التعليق للموافقة عليه."
+
+#: classes/posts.php:452
+msgid ""
+"Duplicate comment detected; it looks as though you have already said that!"
+msgstr "تم الكشف عن تعليق مكرر؛ يبدو كما لو كنت قد قلت ذلك بالفعل!"
+
+#: classes/posts.php:452
+msgid "Some Error Ocuured While Posting comment"
+msgstr "بعض الخطأ Ocuured أثناء نشر تعليق"
+
+#: classes/posts.php:467
+msgid "second"
+msgstr "ثانية"
+
+#: classes/posts.php:467
+msgid "minute"
+msgstr "دقيقة"
+
+#: classes/posts.php:467
+msgid "hour"
+msgstr "ساعة"
+
+#: classes/posts.php:467
+msgid "day"
+msgstr "يوم"
+
+#: classes/posts.php:467
+msgid "month"
+msgstr "شهر"
+
+#: classes/posts.php:467
+msgid "year"
+msgstr "سنة"
+
+#: classes/posts.php:478
+msgid "(s) ago"
+msgstr "مضت"
+
+#: classes/register.php:27
+msgid "Register With Us!"
+msgstr "سجل معنا!"
+
+#: classes/register.php:28
+msgid "Full Name"
+msgstr "الاسم بالكامل"
+
+#: classes/register.php:29 classes/register.php:414
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: classes/register.php:30
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: classes/register.php:31
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: classes/register.php:34
+msgid "Agree with our Terms and Conditions."
+msgstr "أوافق علي الشروط والاحكام."
+
+#: classes/register.php:36
+msgid "Register"
+msgstr "تسجيل"
+
+#: classes/register.php:40
+msgid "Already have an account? Login Here"
+msgstr "هل لديك حساب بالفعل؟ تسجيل الدخول هنا"
+
+#: classes/register.php:44
+msgid ""
+"Password must contain at least one uppercase letter,one lowercase letter,one "
+"numeric digit, 8 characters long"
+msgstr ""
+"يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل، حرف صغير واحد، رقم "
+"واحد رقمي، 8 أحرف طويلة"
+
+#: classes/register.php:48
+msgid "Subscribe to Newsletter"
+msgstr "الاشتراك في النشرة البريدية"
+
+#: classes/register.php:249
+msgid "Please fill out all fields...."
+msgstr "يرجى ملء جميع الحقول."
+
+#: classes/register.php:270
+msgid "Please enter name."
+msgstr "يرجى إدخال اسم"
+
+#: classes/register.php:275
+msgid "Please enter email."
+msgstr "يرجى إدخال بريدك الإلكتروني"
+
+#: classes/register.php:280
+msgid "Please enter password."
+msgstr "فضلاً ادخل كلمة المرور."
+
+#: classes/register.php:364
+msgid "Please confirm your account."
+msgstr "الرجاء تاكيد الحساب الخاص بك."
+
+#: classes/register.php:377
+msgid "Register Successfully."
+msgstr "سجل بنجاح."
+
+#: classes/register.php:384
+msgid "Email already exist, please try other one."
+msgstr "الايميل مسجل مسبقاً، يرجى استخدام ايميل آخر."
+
+#: classes/register.php:412
+msgid "Forgot Password?"
+msgstr "نسيت كلمة السر؟"
+
+#: classes/register.php:413
+msgid "Please enter your email address below."
+msgstr "الرجاء إدخال عنوان بريدك الكتروني أدناه."
+
+#: classes/search.php:53
+msgid "Search Keyword"
+msgstr "كلمة البحث"
+
+#: classes/search.php:90 classes/search.php:449 classes/search.php:741
+#: classes/search.php:818 classes/search.php:974
+msgid "Location"
+msgstr "الموقع"
+
+#: classes/search.php:93
+msgid "Email Frquency"
+msgstr "بريد إلكتروني Frquency"
+
+#: classes/search.php:95
+msgid "Daily"
+msgstr "يومي"
+
+#: classes/search.php:96
+msgid "Weekly"
+msgstr "أسبوعي"
+
+#: classes/search.php:97
+msgid "Fortnightly"
+msgstr "كل أسبوعين"
+
+#: classes/search.php:98
+msgid "Monthly"
+msgstr "شهري"
+
+#: classes/search.php:99
+msgid "Yearly"
+msgstr "سنوي"
+
+#: classes/search.php:101
+msgid "Search Now"
+msgstr "ابحث الان"
+
+#: classes/search.php:104
+msgid "Select Sub Category"
+msgstr "التصنيف"
+
+#: classes/search.php:117
+msgid "Advanced Job Search"
+msgstr "البحث المتقدم عن وظيفة"
+
+#: classes/search.php:154
+msgid "Jobs alert"
+msgstr "تنبيهات الوظائف"
+
+#: classes/search.php:155
+msgid "Job type"
+msgstr "نوع الوظيفة"
+
+#: classes/search.php:156
+msgid "Jobs category"
+msgstr "فئة الوظائف"
+
+#: classes/search.php:157
+msgid "Jobs Location"
+msgstr "موقع الوظائف"
+
+#: classes/search.php:158
+msgid "Jobs Experience"
+msgstr "الخبرة في الوظائف"
+
+#: classes/search.php:311
+msgid "Posted"
+msgstr "نشر"
+
+#: classes/search.php:325
+msgid "Sorry no job matches to your criteria"
+msgstr "عذرا لا تتطابق الوظائف مع المعايير الخاصة بك"
+
+#: classes/search.php:342
+msgid "Search Jobs"
+msgstr "البحث عن:"
+
+#: classes/search.php:345
+msgid "Jobs found"
+msgstr "تم العثور علي وظيفة"
+
+#: classes/search.php:411 classes/search.php:808
+msgid "Search by name/keyword"
+msgstr "By Keyword"
+
+#: classes/search.php:435
+msgid "Qualification"
+msgstr "المؤهلات"
+
+#: classes/search.php:439
+msgid "Salary Range"
+msgstr "الراتب"
+
+#: classes/search.php:458 classes/search.php:827
+msgid "Search now"
+msgstr "ابحث الان"
+
+#: classes/search.php:460 classes/search.php:829
+msgid "Search by name"
+msgstr "البحث بواسطة الاسم"
+
+#: classes/search.php:732
+msgid "Candidate DP"
+msgstr "المرشح موانئ دبي"
+
+#: classes/search.php:743 classes/search.php:975
+msgid "Feature"
+msgstr "المميز"
+
+#: classes/search.php:748
+msgid "No candidate matched"
+msgstr "لا يوجد مرشح مطابق"
+
+#: classes/search.php:762
+msgid "Candidates search"
+msgstr "البحث عن المرشحين"
+
+#: classes/search.php:813
+msgid "Specialization"
+msgstr "المهام"
+
+#: classes/search.php:969
+msgid "Employer Id"
+msgstr "معرف صاحب العمل"
+
+#: classes/search.php:970
+msgid "Employer DP"
+msgstr "DP صاحب العمل"
+
+#: classes/search.php:971
+msgid "Employer Name"
+msgstr "اسم جهة العمل"
+
+#: classes/search.php:980
+msgid "No employer matched"
+msgstr "لا يوجد صاحب عمل مطابق"
+
+#: classes/search.php:989
+msgid "Employer search"
+msgstr "البحث عن صاحب العمل"
+
+#: classes/woo-commerce.php:45 classes/woo-commerce.php:311
+msgid "Validity"
+msgstr "الصلاحية"
+
+#: classes/woo-commerce.php:61 classes/woo-commerce.php:360
+msgid "Free Ads"
+msgstr "العقارات المجانية"
+
+#: classes/woo-commerce.php:124 classes/woo-commerce.php:131
+msgid "Candidates Search"
+msgstr "البحث عن المرشحين"
+
+#: classes/woo-commerce.php:178 classes/woo-commerce.php:384
+msgid "Select Plan"
+msgstr "اختر خطة"
+
+#: classes/woo-commerce.php:181 classes/woo-commerce.php:387
+msgid "InApp purchase not available for this product"
+msgstr "inapp شراء غير متوفرة لهذا المنتج."
+
+#: classes/woo-commerce.php:203 classes/woo-commerce.php:409
+msgid "something went wrong while billing your account"
+msgstr "حدث خطا في حين الفواتير حسابك."
+
+#: classes/woo-commerce.php:232 classes/woo-commerce.php:238
+#: classes/woo-commerce.php:438 classes/woo-commerce.php:444
+msgid "No Product Found"
+msgstr "لم يتم العثور علي منتج"
+
+#: classes/woo-commerce.php:247 classes/woo-commerce.php:256
+#: classes/woo-commerce.php:453 classes/woo-commerce.php:464
+msgid "InApp Purchases"
+msgstr "المشتريات inapp"
+
+#: classes/woo-commerce.php:250 classes/woo-commerce.php:456
+msgid "Play Market app is not installed."
+msgstr "تشغيل تطبيق السوق غير مثبت."
+
+#: classes/woo-commerce.php:251 classes/woo-commerce.php:457
+msgid "One Time Purchase not Supported on your Device."
+msgstr "شراء مره واحده غير معتمد علي جهازك."
+
+#: classes/woo-commerce.php:260
+msgid "No products were added"
+msgstr "لم يتم إضافة أي منتجات"
+
+#: classes/woo-commerce.php:322
+msgid "Jobs Left"
+msgstr "الوظائف المتبقية"
+
+#: classes/woo-commerce.php:329
+msgid "Unlimited Jobs"
+msgstr "وظائف غير محدودة"
+
+#: classes/woo-commerce.php:340
+msgid "Featured profile for"
+msgstr "الملف الشخصي المميز لـ"
+
+#: classes/woo-commerce.php:347
+msgid "Unlimited Days"
+msgstr "أيام غير محدودة"
+
+#: classes/woo-commerce.php:483
+msgid "Stripe"
+msgstr "شريط"
+
+#: classes/woo-commerce.php:484
+msgid "PayPal"
+msgstr "باي بال"
+
+#: classes/woo-commerce.php:485
+msgid "Bank Transfer"
+msgstr "تحويل بنكي"
+
+#: classes/woo-commerce.php:486
+msgid "Cash On Delivery"
+msgstr "الدفع عن الإستلام"
+
+#: classes/woo-commerce.php:487
+msgid "Payment By Check"
+msgstr "الدفع عن طريق التحقق"
+
+#: classes/woo-commerce.php:488 classes/woo-commerce.php:504
+msgid "InApp Purchase"
+msgstr "inapp شراء"
+
+#: classes/woo-commerce.php:515
+msgid "InApp Purchase Settings For Android and IOS Apps"
+msgstr "inapp إعدادات الشراء لالروبوت ودائره الرقابة الخارجية تطبيقات"
+
+#: classes/woo-commerce.php:524
+msgid "Android Product Code"
+msgstr "الروبوت رمز المنتج"
+
+#: classes/woo-commerce.php:525
+msgid "Enter you android product code here."
+msgstr "ادخل رمز المنتج الروبوت هنا."
+
+#: classes/woo-commerce.php:526
+msgid ""
+"Please enter product code for the andrid product. Leave empty if you dont't "
+"have any. Only enter in case you have bought android app."
+msgstr ""
+"الرجاء إدخال رمز المنتج للمنتج andrid. ترك فارغه إذا كان لديك اي don't't. "
+"فقط ادخل في حال كنت قد اشتريت الروبوت التطبيق."
+
+#: classes/woo-commerce.php:529
+msgid "IOS Product Code"
+msgstr "رمز المنتج IOS"
+
+#: classes/woo-commerce.php:530
+msgid "Enter you ios product code here."
+msgstr "ادخل لك رمز المنتج ios هنا."
+
+#: classes/woo-commerce.php:531
+msgid ""
+"Please enter product code for the andrid product. Leave empty if you dont't "
+"have any. Only enter in case you have bought ios app."
+msgstr ""
+"الرجاء إدخال رمز المنتج للمنتج andrid. ترك فارغه إذا كان لديك اي don't't. "
+"فقط ادخل في حال كنت قد اشتريت دائره الرقابة التطبيقية التطبيق."
+
+#: classes/woo-commerce.php:534
+msgid ""
+"Please make sure you have created the **** product while create packages in "
+"AppStore/PlayStore accounts."
+msgstr ""
+"يرجى التاكد من انك قد إنشات المنتج * * * * اثناء إنشاء الحزم في ابستور/"
+"playstore الحسابات."
+
+#: functions.php:575
+msgid "Editing is not allowed in demo."
+msgstr "لا يسمح بالتحرير في العرض التوضيحي."
+
+#: functions.php:745
+msgid "Resume package  has been expired"
+msgstr "انتهت صلاحيه حزمه السيرة الذاتية"
+
+#: inc/categories-images.php:35 inc/categories-images.php:50
+#: inc/categories-images.php:127
+msgid "Image"
+msgstr "صوره"
+
+#: inc/categories-images.php:38 inc/categories-images.php:50
+#: inc/categories-images.php:114
+msgid "Upload/Add image"
+msgstr "تحميل / إضافة صورة"
+
+#: inc/categories-images.php:50 inc/categories-images.php:115
+msgid "Remove image"
+msgstr "إزالة الصورة"
+
+#: inc/categories-images.php:138
+msgid "Thumbnail"
+msgstr "صورة مصغرة"
+
+#: inc/cpt.php:6
+msgctxt "Post Type General Name"
+msgid "App Pages"
+msgstr "صفحات التطبيق"
+
+#: inc/cpt.php:7
+msgctxt "Post Type Singular Name"
+msgid "App Page"
+msgstr "صفحه التطبيق"
+
+#: inc/cpt.php:8
+msgid "App Pages"
+msgstr "صفحات التطبيق"
+
+#: inc/cpt.php:9 inc/cpt.php:35
+msgid "App Page"
+msgstr "صفحه التطبيق"
+
+#: inc/cpt.php:10
+msgid "Item Archives"
+msgstr "أرشيفات العنصر"
+
+#: inc/cpt.php:11
+msgid "Item Attributes"
+msgstr "سمات العنصر"
+
+#: inc/cpt.php:12
+msgid "Parent Item:"
+msgstr "العنصر الأصل:"
+
+#: inc/cpt.php:13
+msgid "All Items"
+msgstr "جميع العناصر"
+
+#: inc/cpt.php:14
+msgid "Add New Item"
+msgstr "اضافة جديد"
+
+#: inc/cpt.php:16
+msgid "New Item"
+msgstr "عنصر جديد"
+
+#: inc/cpt.php:17
+msgid "Edit Item"
+msgstr "تحرير العنصر"
+
+#: inc/cpt.php:18
+msgid "Update Item"
+msgstr "به روز رسانی مورد"
+
+#: inc/cpt.php:19
+msgid "View Item"
+msgstr "مشاهدة العناصر"
+
+#: inc/cpt.php:20
+msgid "View Items"
+msgstr "الرسائل"
+
+#: inc/cpt.php:21
+msgid "Search Item"
+msgstr "عنصر البحث"
+
+#: inc/cpt.php:22 inc/notifications.php:97
+msgid "Not found"
+msgstr "غير موجود"
+
+#: inc/cpt.php:23 inc/notifications.php:98
+msgid "Not found in Trash"
+msgstr "غير %s متوفر بالسلة"
+
+#: inc/cpt.php:24 inc/notifications.php:99
+msgid "Featured Image"
+msgstr "صورة مميزة"
+
+#: inc/cpt.php:25 inc/notifications.php:100
+msgid "Set featured image"
+msgstr "حدد الصورة البارزة"
+
+#: inc/cpt.php:26 inc/notifications.php:101
+msgid "Remove featured image"
+msgstr "احذف الصورة البارزة"
+
+#: inc/cpt.php:27 inc/notifications.php:102
+msgid "Use as featured image"
+msgstr "استخدم كصورة مميزة"
+
+#: inc/cpt.php:28
+msgid "Insert into item"
+msgstr "إدراج في العنصر"
+
+#: inc/cpt.php:29 inc/notifications.php:104
+msgid "Uploaded to this item"
+msgstr "تم تحميلها على هذا العنصر"
+
+#: inc/cpt.php:30
+msgid "Items list"
+msgstr "قائمة العناصر"
+
+#: inc/cpt.php:31
+msgid "Items list navigation"
+msgstr "قائمة عناصر التنقل"
+
+#: inc/cpt.php:32
+msgid "Filter items list"
+msgstr "تصفية قائمة العناصر"
+
+#: inc/cpt.php:36
+msgid "App Page is design to set the app layouts"
+msgstr "التطبيق الصفحة هو تصميم لتعيين تخطيطات التطبيق"
+
+#: inc/email-templates.php:11
+msgid "New Ad"
+msgstr "إعلان جديد"
+
+#: inc/email-templates.php:12
+msgid "Got new ad"
+msgstr "حصلت إعلان جديد"
+
+#: inc/email-templates.php:92 inc/email-templates.php:213
+msgid "Your new password"
+msgstr "كلمة المرور الجديدة"
+
+#: inc/email-templates.php:94 inc/email-templates.php:215
+msgid "Your new password is: "
+msgstr "كلمه السر الجديدة هي:"
+
+#: inc/email-templates.php:128
+msgid "Email sent"
+msgstr "تمّ إرسال البريد الإلكتروني "
+
+#: inc/email-templates.php:133 inc/email-templates.php:250
+msgid "Email server not responding"
+msgstr "ملقم البريد الكتروني لا يستجيب"
+
+#: inc/email-templates.php:246
+msgid "Sent Successfully"
+msgstr "تم الإرسال بنجاح"
+
+#: inc/email-templates.php:256
+msgid "Email is not resgistered with us"
+msgstr "لا يتم إرسال البريد الكتروني معنا."
+
+#: inc/nokri-api-wpml-functions.php:110 inc/options-init.php:1445
+msgid "Languages"
+msgstr "اللغات"
+
+#: inc/notifications.php:81
+msgctxt "Post Type General Name"
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: inc/notifications.php:82
+msgctxt "Post Type Singular Name"
+msgid "Notification"
+msgstr "إشعارات"
+
+#: inc/notifications.php:83
+msgid "Push Notifications"
+msgstr "الإشعارات الفورية"
+
+#: inc/notifications.php:84
+msgid "Push Notification"
+msgstr "الإشعارات الفورية"
+
+#: inc/notifications.php:85
+msgid "Notifications Archives"
+msgstr "أرشيف الإخطارات"
+
+#: inc/notifications.php:86
+msgid "Notification Attributes"
+msgstr "سمات الاعلام"
+
+#: inc/notifications.php:87
+msgid "Parent Notification:"
+msgstr "اشعار الوالدين:"
+
+#: inc/notifications.php:88
+msgid "All Notifications"
+msgstr "كل الإشعارات"
+
+#: inc/notifications.php:89 inc/notifications.php:90
+msgid "Add New Notification"
+msgstr "إضافة إشعار الجديد"
+
+#: inc/notifications.php:91
+msgid "New Notification"
+msgstr "إضافة إشعار جديد"
+
+#: inc/notifications.php:92
+msgid "Edit Notification"
+msgstr "تعديل الإشْعار"
+
+#: inc/notifications.php:93
+msgid "Update Notification"
+msgstr "تحديث الاعلام"
+
+#: inc/notifications.php:94
+msgid "View Notification"
+msgstr "عرض التنبيه"
+
+#: inc/notifications.php:95
+msgid "View Notifications"
+msgstr "عرض الإشعارات"
+
+#: inc/notifications.php:96
+msgid "Search Notification"
+msgstr "اعلام البحث"
+
+#: inc/notifications.php:103
+msgid "Insert into Notification"
+msgstr "ادراج في الاعلام"
+
+#: inc/notifications.php:105
+msgid "Notifications list"
+msgstr "قائمه الاعلامات"
+
+#: inc/notifications.php:106
+msgid "Notifications list navigation"
+msgstr "الملاحة قائمه الإخطارات"
+
+#: inc/notifications.php:107
+msgid "Filter Notifications list"
+msgstr "قائمه اعلامات التصفية"
+
+#: inc/notifications.php:110
+msgid "Notification"
+msgstr "إشعارات"
+
+#: inc/notifications.php:111
+msgid "Notification Type Description"
+msgstr "وصف نوع الاعلام"
+
+#: inc/notifications.php:289
+msgid "Are you Sure you want to send push notifications"
+msgstr "هل تريد بالتاكيد إرسال اعلامات دفع"
+
+#: inc/options-init.php:11 inc/options-init.php:13
+msgid "Nokri Apps API Options"
+msgstr "خيارات تطبيقات نوكري API"
+
+#: inc/options-init.php:17
+msgid "Apps API Options"
+msgstr "خيارات API لتطبيقات carspot"
+
+#: inc/options-init.php:46
+msgid "Like us on Facebook"
+msgstr "الإعجاب بصفحتنا على الفيسبوك"
+
+#: inc/options-init.php:55
+msgid "App Settings"
+msgstr "إعدادات التطبيق"
+
+#: inc/options-init.php:64
+msgid "Logo"
+msgstr "الشعار"
+
+#: inc/options-init.php:66 inc/options-init.php:1471
+msgid "Site Logo image for the site."
+msgstr "صوره شعار الموقع للموقع."
+
+#: inc/options-init.php:67 inc/options-init.php:1472
+msgid "Dimensions: 230 x 40"
+msgstr "الابعاد: 230 x 40"
+
+#: inc/options-init.php:73 inc/options-init.php:95
+msgid "Demo mode"
+msgstr "الوضع التجريبي"
+
+#: inc/options-init.php:74 inc/options-init.php:96
+msgid "Enable demo mode"
+msgstr "وضع الاتصالات"
+
+#: inc/options-init.php:80
+msgid "RTL"
+msgstr "العربية RTL"
+
+#: inc/options-init.php:81
+msgid "Make app RTL"
+msgstr "جعل التطبيق RTL"
+
+#: inc/options-init.php:88
+msgid "Select App Colour"
+msgstr "اختر لون التطبيق"
+
+#: inc/options-init.php:89
+msgid "Pick a title color for the app (default: #fb236a)."
+msgstr "اختر لون عنوان للتطبيق (الافتراضي: #fb236a)."
+
+#: inc/options-init.php:102
+msgid "App Language"
+msgstr "لغة التطبيق"
+
+#: inc/options-init.php:103
+msgid "List of available languages."
+msgstr "قائمه باللغات المتاحة"
+
+#: inc/options-init.php:103
+msgid "If you have selected RTL put language code here like for arabic ar"
+msgstr "إذا كنت قد حددت ار تي ال وضع رمز اللغة هنا مثل للعربية ar"
+
+#: inc/options-init.php:110
+msgid "Default user picture"
+msgstr "صورة المستخدم الإفتراضية"
+
+#: inc/options-init.php:112
+msgid "Dimensions: 200 x 200"
+msgstr "الأبعاد: 200 × 200"
+
+#: inc/options-init.php:118
+msgid "Facebook Login/Register"
+msgstr "الفيسبوك تسجيل الدخول/تسجيل"
+
+#: inc/options-init.php:119 inc/options-init.php:126
+msgid "Show or hide google button."
+msgstr "إظهار أو إخفاء زر google."
+
+#: inc/options-init.php:125
+msgid "Google Login/Register"
+msgstr "جوجل تسجيل الدخول/تسجيل"
+
+#: inc/options-init.php:132
+msgid "Linkedin Login/Register"
+msgstr "الفيسبوك تسجيل الدخول/تسجيل"
+
+#: inc/options-init.php:133
+msgid "Show or hide Linkedin button."
+msgstr "إظهار أو إخفاء زر google."
+
+#: inc/options-init.php:139
+msgid "Apple  Login/Register"
+msgstr "تسجيل الدخول إلى Apple/ التسجيل"
+
+#: inc/options-init.php:140
+msgid "Show or hide Apple button."
+msgstr "إظهار زر التفاح أو إخفاؤه."
+
+#: inc/options-init.php:147
+msgid "Select Style"
+msgstr "اختر نمط العرض"
+
+#: inc/options-init.php:148
+msgid "Select Your Desired Style"
+msgstr "حدد النمط المطلوب"
+
+#: inc/options-init.php:159
+msgid "App Key Settings"
+msgstr "إعدادات مفتاح التطبيق"
+
+#: inc/options-init.php:168
+msgid "Android Key Settings"
+msgstr "إعدادات مفتاح الروبوت"
+
+#: inc/options-init.php:180 inc/options-init.php:237
+msgid ""
+"Once added be carefull editing next time. Those Key Should Be Same In App "
+"Header"
+msgstr ""
+"وأضاف مره واحده ان متان التحرير في المرة القادمة. يجب ان يكون المفتاح نفسه "
+"في راس التطبيق."
+
+#: inc/options-init.php:187 inc/options-init.php:244 inc/options-init.php:338
+#: inc/options-init.php:1395
+msgid "Info"
+msgstr "معلومات"
+
+#: inc/options-init.php:188
+msgid ""
+"Below section is only for if you have purchased Android App. Then turn it on "
+"and enter the purchase code in below text field that will appears."
+msgstr ""
+"أدناه الباب هو فقط لأنه إذا كنت قد اشتريت الروبوت التطبيق. ثم تشغيله وادخل "
+"رمز الشراء في حقل النص أدناه التي ستظهر."
+
+#: inc/options-init.php:193
+msgid "For Android App"
+msgstr "لتطبيق اندرويد"
+
+#: inc/options-init.php:194 inc/options-init.php:251
+msgid "\tIf you have purchased the android app."
+msgstr "إذا كنت قد اشتريت التطبيق الروبوت."
+
+#: inc/options-init.php:201
+msgid "Enter You Android  Purchase Code Here"
+msgstr "ادخل لك رمز الشراء الروبوت هنا"
+
+#: inc/options-init.php:205 inc/options-init.php:216 inc/options-init.php:262
+#: inc/options-init.php:273 inc/options-init.php:294 inc/options-init.php:305
+#: inc/options-init.php:407 inc/options-init.php:418
+msgid ""
+"Once added be carefull editing next time. This key Should be same in app "
+"header."
+msgstr ""
+"وأضاف مره واحده ان متان التحرير في المرة القادمة. يجب ان يكون المفتاح نفسه "
+"في راس التطبيق."
+
+#: inc/options-init.php:212
+msgid "Enter Your Android  Secret Code Here"
+msgstr "ادخل رمز الروبوت السري الخاص بك هنا"
+
+#: inc/options-init.php:225
+msgid "IOS Key Settings"
+msgstr "إعدادات مفتاح IOS"
+
+#: inc/options-init.php:245
+msgid ""
+"Below section is only for if you have purchased Ios App. Then turn it on and "
+"enter the purchase code in below text field that will appears."
+msgstr ""
+"القسم أدناه هو فقط إذا كنت قد اشتريت IOS App. ثم تشغيله وادخل رمز الشراء في "
+"حقل النص أدناه التي ستظهر."
+
+#: inc/options-init.php:250
+msgid "For Ios App"
+msgstr "لتطبيق Ios"
+
+#: inc/options-init.php:258
+msgid "Enter You Purchase Code Here"
+msgstr "ادخل رمز الشراء هنا"
+
+#: inc/options-init.php:269
+msgid "Enter Your Secret Code Here"
+msgstr "ادخل رمزك السري هنا"
+
+#: inc/options-init.php:280
+msgid "Stripe Settings"
+msgstr "إعدادات Stripe"
+
+#: inc/options-init.php:289
+msgid "Enter Your Stripe Publishable key Here"
+msgstr "ادخل مفتاح الشريط الخاص بك الشريطية هنا"
+
+#: inc/options-init.php:291
+msgid "This will use in app"
+msgstr "هذا وسوف تستخدم في التطبيق"
+
+#: inc/options-init.php:300
+msgid "Enter Your Stripe Secret key Here"
+msgstr "ادخل مفتاح الشريط السري هنا"
+
+#: inc/options-init.php:302
+msgid "This will use at server for varification"
+msgstr "هذا وسوف تستخدم في خادم لvarification التي"
+
+#: inc/options-init.php:315
+msgid "InApp Purchase Settings"
+msgstr "إعدادات الشراء في inapp"
+
+#: inc/options-init.php:324
+msgid "Android InApp Purchase"
+msgstr "الروبوت inapp شراء"
+
+#: inc/options-init.php:326
+msgid "If you have purchased the android app."
+msgstr "إذا كنت قد اشتريت التطبيق الروبوت."
+
+#: inc/options-init.php:339
+msgid ""
+"Go to Application then you will see Development tools option on the left "
+"side of menu. Click this option now navigate to Services &APIs. Now you will "
+"Licensing & in-app billing section copy the key from here."
+msgstr ""
+"انتقل إلى التطبيق ثم ستري خيار أدوات التطوير علي الجانب الأيسر من القائمة. "
+"انقر فوق هذا الخيار الآن انتقل إلى الخدمات وواجات برمجه التطبيقات. الآن سوف "
+"الترخيص & في التطبيق قسم الفوترة نسخ المفتاح من هنا."
+
+#: inc/options-init.php:349
+msgid "Your Android InApp Secret Code Here"
+msgstr "الروبوت الخاص بك inapp السرية القانون هنا"
+
+#: inc/options-init.php:351 inc/options-init.php:374
+msgid ""
+"Enter the secret code you got from store. While copy paste please make sure "
+"there is no white space."
+msgstr ""
+"ادخل الرمز السري الذي حصلت عليه من المتجر. في حين لصق نسخ الرجاء التاكد من "
+"عدم وجود مساحة بيضاء."
+
+#: inc/options-init.php:354 inc/options-init.php:377
+msgid "Once added be carefull editing next time."
+msgstr "وأضاف مره واحده ان متان التحرير في المرة القادمة."
+
+#: inc/options-init.php:360
+msgid "AppStore InApp Purchase"
+msgstr "AppStore inapp شراء"
+
+#: inc/options-init.php:362
+msgid "If you have purchased the AppStore app."
+msgstr "إذا كنت قد اشتريت التطبيق AppStore."
+
+#: inc/options-init.php:372
+msgid "Your AppStore InApp Secret Code Here"
+msgstr "الخاص AppStore السرية inapp القانون هنا"
+
+#: inc/options-init.php:384
+msgid "Paypal Settings"
+msgstr "إعدادات Paypal"
+
+#: inc/options-init.php:393
+msgid "Paypal Mode"
+msgstr "بأي بال الوضع"
+
+#: inc/options-init.php:395
+msgid "Live"
+msgstr "مباشر"
+
+#: inc/options-init.php:396
+msgid "Sandbox"
+msgstr "وضع الحماية"
+
+#: inc/options-init.php:403
+msgid "Enter Your Paypal Key"
+msgstr "ادخل مفتاح Paypal الخاص بك"
+
+#: inc/options-init.php:409
+msgid "Enter you paypal client id here"
+msgstr "ادخل معرف العميل الخاص بك بأي بال هنا"
+
+#: inc/options-init.php:414
+msgid "Enter Your Paypal Secret"
+msgstr "ادخل السرية الخاصة بك بأي بال"
+
+#: inc/options-init.php:420
+msgid "Enter you paypal Secret id here"
+msgstr "ادخل الهوية السرية الخاصة بك بأي بال هنا"
+
+#: inc/options-init.php:425
+msgid "Merchant Name"
+msgstr "اسم التاجر"
+
+#: inc/options-init.php:427
+msgid "Enter the merchant name"
+msgstr "يرجى إدخال اسم"
+
+#: inc/options-init.php:432
+msgid "Account Currency"
+msgstr "عمله الحساب"
+
+#: inc/options-init.php:434
+msgid "Currency name i.e. USD Supported currency list here: "
+msgstr "اسم العملة اي بالدولار الأمريكي قائمه العملات المدعومة هنا:"
+
+#: inc/options-init.php:439
+msgid "Privecy Url"
+msgstr "الشاغل Url"
+
+#: inc/options-init.php:441 inc/options-init.php:448
+msgid "Example link "
+msgstr "مثال علي الرابط"
+
+#: inc/options-init.php:446
+msgid "Agreement Url"
+msgstr "عنوان الاتفاقية"
+
+#: inc/options-init.php:455
+msgid "Thank You Settings"
+msgstr "شكرا لك إعدادات"
+
+#: inc/options-init.php:464
+msgid "Thank You Title"
+msgstr "شكرا لك العنوان"
+
+#: inc/options-init.php:471 inc/options-init.php:480
+msgid "Ads Settings"
+msgstr "الاعلانات"
+
+#: inc/options-init.php:489
+msgid "Ads Setting (AdMob)"
+msgstr "اعداد الإعلانات (admob)"
+
+#: inc/options-init.php:490
+msgid "Here you can set the AdMob settings for the app"
+msgstr "هنا يمكنك تعيين إعدادات admob للتطبيق"
+
+#: inc/options-init.php:495
+msgid "Show Ads"
+msgstr "عرض الإعلانات"
+
+#: inc/options-init.php:496 inc/options-init.php:595
+msgid "Trun ads on or off."
+msgstr "Trun الإعلانات أو إيقاف تشغيلها."
+
+#: inc/options-init.php:502
+msgid "Show Banner Ads"
+msgstr "عرض إعلانات بانر"
+
+#: inc/options-init.php:503
+msgid "Turn on or off for banner ads"
+msgstr "تشغيل الإعلانات الاعلانيه أو إيقاف تشغيلها"
+
+#: inc/options-init.php:510
+msgid "Banner Ad Position"
+msgstr "لافته إعلانيه الموقف"
+
+#: inc/options-init.php:513
+msgid "Top"
+msgstr "أعلى"
+
+#: inc/options-init.php:514
+msgid "Bottom"
+msgstr "اسفل"
+
+#: inc/options-init.php:521
+msgid "Enter Your Ad Key (banner) Android"
+msgstr "ادخل مفتاح الإعلان الخاص بك (راية) الروبوت"
+
+#: inc/options-init.php:524 inc/options-init.php:532
+msgid ""
+"Please make sure you are putting correct ad id your selected above banner"
+msgstr "الرجاء التاكد من وضع معرف الإعلان الصحيح الخاص بك الشعار المحدد أعلاه"
+
+#: inc/options-init.php:529
+msgid "Enter Your Ad Key (banner)  IOS"
+msgstr "ادخل مفتاح الإعلان (بانر) IOS"
+
+#: inc/options-init.php:537
+msgid "Show Initial Ads"
+msgstr "عرض الإعلانات الاوليه"
+
+#: inc/options-init.php:538
+msgid "Turn on or off for initial ads"
+msgstr "تشغيل الإعلانات الاوليه أو إيقاف تشغيلها"
+
+#: inc/options-init.php:545
+msgid "Enter Your Ad Key (initial) Android"
+msgstr "ادخل مفتاح الإعلان (الاولي) اندرويد"
+
+#: inc/options-init.php:548 inc/options-init.php:556
+msgid ""
+"Please make sure you are putting correct ad id your selected above "
+"interstital"
+msgstr "الرجاء التاكد من وضع معرف الإعلان الصحيح المحدد أعلاه إينتيرستيتال"
+
+#: inc/options-init.php:553
+msgid "Enter Your Ad Key (initial) IOS"
+msgstr "ادخل مفتاح الإعلان (الاولي) IOS"
+
+#: inc/options-init.php:561
+msgid "Show 1st Ad After"
+msgstr "عرض الإعلان الأول بعد"
+
+#: inc/options-init.php:564
+msgid "Show 1st ad after specific time. In seconds 1 is for 1 second"
+msgstr "عرض الإعلان الأول بعد وقت محدد. في ثوان 1 هو لمده 1 ثانيه"
+
+#: inc/options-init.php:569
+msgid "Show Ad After"
+msgstr "عرض الإعلان بعد"
+
+#: inc/options-init.php:572
+msgid "Show ads next time after specific time. In seconds 1 is for 1 second"
+msgstr "عرض الإعلانات في المرة القادمة بعد وقت محدد. في ثوان 1 هو لمده 1 ثانيه"
+
+#: inc/options-init.php:579
+msgid "Analytics Settings"
+msgstr "إعدادات التحليلات"
+
+#: inc/options-init.php:588
+msgid "App Analytics"
+msgstr "تحليلات التطبيقات"
+
+#: inc/options-init.php:589
+msgid "Below you can setup analytics for the app."
+msgstr "أدناه يمكنك اعداد التحليلات للتطبيق."
+
+#: inc/options-init.php:594
+msgid "Make Analytics"
+msgstr "جعل التحليلات"
+
+#: inc/options-init.php:601
+msgid "Analytics ID"
+msgstr "معرف التحليلات"
+
+#: inc/options-init.php:604
+msgid "Put analytics id here i.e."
+msgstr "وضع التحليلات معرف هنا اي."
+
+#: inc/options-init.php:611
+msgid "Firebase Settings"
+msgstr "إعدادات قاعده الاحتراق"
+
+#: inc/options-init.php:620
+msgid "Push Nofifications"
+msgstr "دفع نوفيكاتيونس"
+
+#: inc/options-init.php:621
+msgid "Below you can setup Push Nofifications for the app."
+msgstr "أدناه يمكنك اعداد puch nofifications للتطبيق."
+
+#: inc/options-init.php:626
+msgid "Firebase API KEY"
+msgstr "مفتاح API firebase"
+
+#: inc/options-init.php:628
+msgid "Put firebase api key"
+msgstr "وضع مفتاح api firebase"
+
+#: inc/options-init.php:637
+msgid "Home Screen"
+msgstr "الرئيسية"
+
+#: inc/options-init.php:646
+msgid "Select your desired home style"
+msgstr "اختر اللون المطلوب للحصول علي الموضوع"
+
+#: inc/options-init.php:650
+msgid "Home 1"
+msgstr "الصفحة الرئيسية */"
+
+#: inc/options-init.php:651
+msgid "Home 2"
+msgstr "الصفحة الرئيسية-البحث الحديث 2"
+
+#: inc/options-init.php:659
+msgid "Background image"
+msgstr "صورة الخلفية"
+
+#: inc/options-init.php:661
+msgid "Image for Home Screen"
+msgstr "صوره للشاشة الرئيسية"
+
+#: inc/options-init.php:662
+msgid "Dimensions: 800 x 800"
+msgstr "الابعاد: 100 x 100"
+
+#: inc/options-init.php:668
+msgid "Tagline"
+msgstr "(الشعار) الخط"
+
+#: inc/options-init.php:669
+msgid "Find Jobs"
+msgstr "كيف اكتشفتِ ذلك؟"
+
+#: inc/options-init.php:675
+msgid "Search From 1500+ Jobs"
+msgstr "البحث من آلاف الإعلانات"
+
+#: inc/options-init.php:681
+msgid "Keyword heading"
+msgstr "By Keyword"
+
+#: inc/options-init.php:682
+msgid "Search From 1500+ Jobs..."
+msgstr "البحث من آلاف الإعلانات"
+
+#: inc/options-init.php:687
+msgid "Keyword place holder"
+msgstr "الكلمة الرئيسية مكان حامل"
+
+#: inc/options-init.php:688
+msgid "Search Keywords..."
+msgstr "البحث مع الكلمات الرئيسية..."
+
+#: inc/options-init.php:694
+msgid "Category place holder"
+msgstr "فئة حامل مكان"
+
+#: inc/options-init.php:695
+msgid "Select category"
+msgstr "اختر الفئة"
+
+#: inc/options-init.php:701
+msgid "Home Screen Cats Section Text"
+msgstr "الصفحة الرئيسية القطط الشاشة القسم النص"
+
+#: inc/options-init.php:702
+msgid "Select Category."
+msgstr "التصنيف"
+
+#: inc/options-init.php:715
+msgid "Categories Multi Select Option"
+msgstr "فئات متعددة حدد الخيار"
+
+#: inc/options-init.php:716
+msgid "Select categories you want to show on Home page"
+msgstr "حدد الفئات التي تريد عرضها علي الصفحة الرئيسية"
+
+#: inc/options-init.php:722
+msgid "Home Secreen Premium Jobs Heading"
+msgstr "الصفحة الرئيسية سكيلين وظائف بريميوم العنوان"
+
+#: inc/options-init.php:723
+msgid "Featured Jobs"
+msgstr "وظائف مميزة"
+
+#: inc/options-init.php:735
+msgid "Select Job Class "
+msgstr "حدد فئة الوظيفة"
+
+#: inc/options-init.php:736
+msgid "Select job class you want to show"
+msgstr "حدد فئة الوظيفة التي تريد إظهارها"
+
+#: inc/options-init.php:742
+msgid "Premium Jobs"
+msgstr "الصفحة الرئيسية سكيلين وظائف بريميوم العنوان"
+
+#: inc/options-init.php:743
+msgid "Select number of premium jobs"
+msgstr "حدد عدد الوظائف المميزة"
+
+#: inc/options-init.php:753
+msgid "Hide/Show Recent Jobs"
+msgstr "إخفاء/إظهار الوظائف الاخيره"
+
+#: inc/options-init.php:760
+msgid "Recent jobs"
+msgstr "احدث الوظائف"
+
+#: inc/options-init.php:761
+msgid "Select number of recent jobs"
+msgstr "حدد عدد الوظائف الحديثة"
+
+#: inc/options-init.php:771
+msgid "Hide/Show blog"
+msgstr "إخفاء/إظهار بلوق"
+
+#: inc/options-init.php:779
+msgid "Enter radius text"
+msgstr "إدخال نص نصف القطر"
+
+#: inc/options-init.php:786
+msgid "Number of miles"
+msgstr "عدد الأميال"
+
+#: inc/options-init.php:787
+msgid "Set maximum number of km"
+msgstr "تعيين الحد الأقصى لعدد الكيلومترات"
+
+#: inc/options-init.php:797
+msgid "Button text"
+msgstr "نص الزر"
+
+#: inc/options-init.php:805
+msgid "Users"
+msgstr "المستخدمين"
+
+#: inc/options-init.php:813
+msgid "Delete account button"
+msgstr "حذف زر الحساب"
+
+#: inc/options-init.php:819
+msgid "Public/Private option"
+msgstr "الخيار العام/الخاص"
+
+#: inc/options-init.php:820
+msgid "Allow users to set profile public/private"
+msgstr "السماح للمستخدمين بتعيين ملف تعريف عام/خاص"
+
+#: inc/options-init.php:826
+msgid "Hide/Show phone and email"
+msgstr "إظهار أو إخفاء زر google."
+
+#: inc/options-init.php:832
+msgid "Hide/Show social links"
+msgstr "الروابط الاجتماعية القطعة للمعلومات الاجتماعية."
+
+#: inc/options-init.php:838
+msgid "Portfolio upload limit"
+msgstr "حد تحميل المحفظة"
+
+#: inc/options-init.php:845
+msgid "Portfolio max size"
+msgstr "حجم المحفظة القصوى"
+
+#: inc/options-init.php:852
+msgid "Resumes upload limit"
+msgstr "استئناف تحميل الحد"
+
+#: inc/options-init.php:859
+msgid "Resume max size"
+msgstr "استئناف الحجم الأقصى"
+
+#: inc/options-init.php:866
+msgid "Show Users Per Page"
+msgstr "إظهار المستخدمين لكل صفحه"
+
+#: inc/options-init.php:873
+msgid "Profile Status Message"
+msgstr "رسالة الحالة للملف الشخصي"
+
+#: inc/options-init.php:874
+msgid "Enter message private profile"
+msgstr "إدخال ملف تعريف خاص بالرسالة"
+
+#: inc/options-init.php:882
+msgid "Jobs General Settings"
+msgstr "الاعدادات العامة"
+
+#: inc/options-init.php:890
+msgid "Send email on Ad Post"
+msgstr "إرسال بريد الإلكتروني عند اضافه الاعلان "
+
+#: inc/options-init.php:896
+msgid "Email for notification."
+msgstr "اشعارات البريد الالكتروني‬"
+
+#: inc/options-init.php:904
+msgid "Ad Approval"
+msgstr "الموافقة علي الإعلان"
+
+#: inc/options-init.php:911
+msgid "Ad Update Approval"
+msgstr "الموافقة على تحديث الإعلان"
+
+#: inc/options-init.php:917
+msgid "Email to Ad owner on approval"
+msgstr "البريد الكتروني إلى مالك الإعلان عند الموافقة"
+
+#: inc/options-init.php:924
+msgid "Jobs Post Settings"
+msgstr "إعدادات الوظائف"
+
+#: inc/options-init.php:933
+msgid "Latitude & Longitude"
+msgstr "خط الطول/العرض"
+
+#: inc/options-init.php:934
+msgid "This will be display on job post page for pin point map"
+msgstr "سيكون هذا العرض علي صفحه وظيفة لخريطة نقطه دبوس"
+
+#: inc/options-init.php:941 inc/options-init.php:949
+msgid "for default map."
+msgstr "للخريطة الافتراضية."
+
+#: inc/options-init.php:956
+msgid "Bad Words Filter"
+msgstr "تصفيه الكلمات السيئة"
+
+#: inc/options-init.php:957
+msgid "comma separated"
+msgstr "مفصوله بفاصله"
+
+#: inc/options-init.php:958
+msgid "word1,word2"
+msgstr "word1, word2"
+
+#: inc/options-init.php:959
+msgid "This words will be removed from AD Title and Description"
+msgstr "سيتم إزالة هذه الكلمات من عنوان الإعلان، والوصف"
+
+#: inc/options-init.php:965
+msgid "Bad Words Replace Word"
+msgstr "كلمات سيئة تستبدل الكلمة"
+
+#: inc/options-init.php:966
+msgid ""
+"This words will be replace with above bad words list from AD Title and "
+"Description"
+msgstr ""
+"سيتم استبدال هذه الكلمات مع قائمه الكلمات السيئة أعلاه من عنوان الإعلان "
+"والوصف"
+
+#: inc/options-init.php:972
+msgid "Category Heading Level 1"
+msgstr "عنوان الفئة المستوي 1"
+
+#: inc/options-init.php:978
+msgid "Category Heading Level 2"
+msgstr "عنوان الفئة المستوي 2"
+
+#: inc/options-init.php:984
+msgid "Category Heading Level 3"
+msgstr "عنوان الفئة المستوي 3"
+
+#: inc/options-init.php:990
+msgid "Category Heading Level 4"
+msgstr "عنوان الفئة المستوي 4"
+
+#: inc/options-init.php:996
+msgid "Location section heading"
+msgstr "عنوان قسم الموقع"
+
+#: inc/options-init.php:1002
+msgid "Location Heading Level 1"
+msgstr "عنوان الموقع المستوي 1"
+
+#: inc/options-init.php:1008
+msgid "Location Heading Level 2"
+msgstr "عنوان الموقع المستوي 2"
+
+#: inc/options-init.php:1014
+msgid "Location Heading Level 3"
+msgstr "عنوان الموقع المستوي 3"
+
+#: inc/options-init.php:1020
+msgid "Location Heading Level 4"
+msgstr "عنوان الموقع المستوي 4"
+
+#: inc/options-init.php:1026
+msgid "Map heading text"
+msgstr "نص عنوان الخريطة"
+
+#: inc/options-init.php:1034
+msgid "Jobs Search Settings"
+msgstr "إعدادات البحث عن الإعلانات"
+
+#: inc/options-init.php:1043
+msgid "Featured Ads"
+msgstr "إعلانات مميزة"
+
+#: inc/options-init.php:1050
+msgid "Featured Ads Section Title"
+msgstr "عنوان قسم الإعلانات المميزة"
+
+#: inc/options-init.php:1057
+msgid "Featured Posts"
+msgstr "المشاركات المميزة"
+
+#: inc/options-init.php:1058
+msgid "On ad details page"
+msgstr "في صفحه تفاصيل الإعلان"
+
+#: inc/options-init.php:1059
+msgid "Select Number of featured posts"
+msgstr "المشاركات المميزة"
+
+#: inc/options-init.php:1073
+msgid "Woo Products"
+msgstr "وو المنتجات"
+
+#: inc/options-init.php:1088
+msgid "Select Products"
+msgstr "اختر منتجات"
+
+#: inc/options-init.php:1100
+msgid "Select Products for candidate"
+msgstr "حدد المنتجات للمرشح"
+
+#: inc/options-init.php:1107
+msgid "Payment Methods"
+msgstr "تطبيق طرق الدفع IOS"
+
+#: inc/options-init.php:1108 inc/options-init.php:1118
+msgid "Select the payment methods you want to add."
+msgstr "حدد طرق الدفع التي تريد اضافتها."
+
+#: inc/options-init.php:1117
+msgid "Payment Methods IOS"
+msgstr "طرق الدفع IOS"
+
+#: inc/options-init.php:1127
+msgid "App Extra Settings"
+msgstr "إعدادات التطبيق الاضافيه"
+
+#: inc/options-init.php:1136
+msgid "Faqs Settings"
+msgstr "أسئلة متكررة"
+
+#: inc/options-init.php:1145
+msgid "Add faqs"
+msgstr "أسئلة متكررة"
+
+#: inc/options-init.php:1146
+msgid "Unlimited faqs with drag and drop sortings."
+msgstr "اسئله وأجوبه غير محدوده مع السحب والإسقاط الحمولات."
+
+#: inc/options-init.php:1153
+msgid "This is a title"
+msgstr "هذا هو عنوان."
+
+#: inc/options-init.php:1154
+msgid "Description Here"
+msgstr "الوصف هنا"
+
+#: inc/options-init.php:1160 inc/options-init.php:1178
+msgid "App about"
+msgstr "التطبيق حول"
+
+#: inc/options-init.php:1168
+msgid "Show About Section"
+msgstr "إظهار حول القسم"
+
+#: inc/options-init.php:1169
+msgid "\tShow app about section in setting page"
+msgstr "إظهار التطبيق حول المقطع في صفحه الاعداد"
+
+#: inc/options-init.php:1176
+msgid "App About Title"
+msgstr "التطبيق حول العنوان"
+
+#: inc/options-init.php:1177
+msgid "\tEnter app about title."
+msgstr "ادخل التطبيق حول العنوان."
+
+#: inc/options-init.php:1184 inc/options-init.php:1207
+msgid "App About Description"
+msgstr "التطبيق حول الوصف"
+
+#: inc/options-init.php:1185
+msgid "\tEnter app about description."
+msgstr "ادخل التطبيق حول الوصف."
+
+#: inc/options-init.php:1186
+msgid ""
+"Nokri is one of the leading and the best Premium Jobboard WordPress theme "
+"with outstanding front-end UI"
+msgstr ""
+"[نوكري] واحده من الرائدة والجيدة [جوبوارد] ممتازة [ووردبرس] موضوع مع بارزه "
+"[فرونت-ند] واجهه"
+
+#: inc/options-init.php:1191 inc/options-init.php:1209
+msgid "App Version"
+msgstr "إصدار التطبيق"
+
+#: inc/options-init.php:1199
+msgid "Show App Version"
+msgstr "إظهار إصدار التطبيق"
+
+#: inc/options-init.php:1200
+msgid "Show app version in setting page"
+msgstr "إظهار إصدار التطبيق في صفحه الاعداد"
+
+#: inc/options-init.php:1208
+msgid "\tEnter app version title."
+msgstr "ادخل عنوان إصدار التطبيق."
+
+#: inc/options-init.php:1214
+msgid "App Rating "
+msgstr "تقييم التطبيق"
+
+#: inc/options-init.php:1222
+msgid "App Rating"
+msgstr "تقييم التطبيق"
+
+#: inc/options-init.php:1223
+msgid "Show app rating icon on the top."
+msgstr "إظهار رمز تصنيف التطبيق في الأعلى."
+
+#: inc/options-init.php:1230
+msgid "Rating Title"
+msgstr "عنوان التصنيف"
+
+#: inc/options-init.php:1231
+msgid "\tRating title in the popup."
+msgstr "عنوان التصنيف في المنبثقة."
+
+#: inc/options-init.php:1232
+msgid "App Store Rating"
+msgstr "تقييم تطبيق ستور"
+
+#: inc/options-init.php:1238
+msgid "App URL (For Android)"
+msgstr "عنوان التطبيق (لالروبوت)"
+
+#: inc/options-init.php:1239
+msgid "Enter app URL for app rating. URL is required"
+msgstr "ادخل عنوان URL للتطبيق لتصنيف التطبيق. مطلوب URL"
+
+#: inc/options-init.php:1246
+msgid "App ID For Ios App"
+msgstr "معرف التطبيق لتطبيق Ios"
+
+#: inc/options-init.php:1247
+msgid "Enter app ID for app rating"
+msgstr "ادخل معرف التطبيق لتصنيف التطبيق"
+
+#: inc/options-init.php:1253
+msgid "App Share Settings "
+msgstr "إعدادات مشاركه التطبيق"
+
+#: inc/options-init.php:1261
+msgid "App Share"
+msgstr "مشاركه التطبيق"
+
+#: inc/options-init.php:1262
+msgid "Show app share icon on the top."
+msgstr "إظهار أيقونه مشاركه التطبيق في الجزء العلوي."
+
+#: inc/options-init.php:1269
+msgid "Share Popup Title"
+msgstr "مشاركه العنوان المنبثق"
+
+#: inc/options-init.php:1270
+msgid "Title in the popup."
+msgstr "العنوان في المنبثقة."
+
+#: inc/options-init.php:1277
+msgid "Subject"
+msgstr "الموضوع"
+
+#: inc/options-init.php:1278
+msgid "App share subject. Not required."
+msgstr "موضوع مشاركه التطبيق. غير مطلوب."
+
+#: inc/options-init.php:1285
+msgid "App Share URL"
+msgstr "عنوان URL لمشاركه التطبيقات"
+
+#: inc/options-init.php:1286
+msgid "\tEnter app share URL for app sharing. URL is required."
+msgstr "ادخل عنوان URL لمشاركه التطبيق لمشاركه التطبيق. مطلوب URL."
+
+#: inc/options-init.php:1292
+msgid "Privacy Policy Settings "
+msgstr "إعدادات سياسة الخصوصية"
+
+#: inc/options-init.php:1300
+msgid "Show Privacy Policy Section"
+msgstr "إظهار قسم سياسة الخصوصية"
+
+#: inc/options-init.php:1301
+msgid "Show app Privacy Policy section in setting page"
+msgstr "إظهار قسم نهج خصوصية التطبيق في صفحه الاعداد"
+
+#: inc/options-init.php:1309
+msgid "Enter App Privacy Policy Title"
+msgstr "ادخل عنوان سياسة خصوصية التطبيق."
+
+#: inc/options-init.php:1310
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: inc/options-init.php:1316
+msgid "App Privacy Policy URL"
+msgstr "عنوان URL لسياسة خصوصية التطبيق"
+
+#: inc/options-init.php:1317
+msgid "Enter app Privacy Policy URL."
+msgstr "ادخل عنوان URL لسياسة خصوصية التطبيق."
+
+#: inc/options-init.php:1323
+msgid "Terms & Contdition Settings "
+msgstr "إعدادات الشروط والاحكام"
+
+#: inc/options-init.php:1331
+msgid "Show term and condition Section"
+msgstr "نص المصطلح والشرط"
+
+#: inc/options-init.php:1332
+msgid "Show app Terms and Condition section in setting page"
+msgstr "إظهار قسم شروط واحكام التطبيق في صفحه الاعداد"
+
+#: inc/options-init.php:1340
+msgid "Enter App Terms and Contdition Title."
+msgstr "ادخل شروط التطبيق وعنوان النفاذ."
+
+#: inc/options-init.php:1341
+msgid "Terms and Condition"
+msgstr "الشروط والاحكام"
+
+#: inc/options-init.php:1347
+msgid "Terms and Condition URL"
+msgstr "عنوان الشروط والاحكام"
+
+#: inc/options-init.php:1348
+msgid "Enter app Terms and Condition URL."
+msgstr "ادخل شروط التطبيق وعنوان URL للشرط."
+
+#: inc/options-init.php:1354
+msgid "Feedback Settings"
+msgstr "إعدادات الملاحظات"
+
+#: inc/options-init.php:1362
+msgid "Feedback Section"
+msgstr "قسم الملاحظات"
+
+#: inc/options-init.php:1363
+msgid "Show app feedback section in setting page"
+msgstr "إظهار مقطع ملاحظات التطبيق في صفحه الاعداد"
+
+#: inc/options-init.php:1371
+msgid "Enter App Feedback  Title."
+msgstr "ادخل عنوان ملاحظات التطبيق."
+
+#: inc/options-init.php:1377
+msgid "Subline"
+msgstr "يجوز"
+
+#: inc/options-init.php:1379
+msgid "Enter App Feedback  subline."
+msgstr "ادخل ملاحظات التطبيق من الباطن."
+
+#: inc/options-init.php:1385
+msgid "Feedback Admin email"
+msgstr "ملاحظات البريد الكتروني المسؤول"
+
+#: inc/options-init.php:1387
+msgid "Enter app feedback email for admin where he received emails."
+msgstr ""
+"ادخل البريد الكتروني ملاحظات التطبيق لمشرف حيث تلقي رسائل البريد الكتروني."
+
+#: inc/options-init.php:1396
+msgid "Email tempate settings."
+msgstr "البريد الكتروني tempate الإعدادات."
+
+#: inc/options-init.php:1402
+msgid "Feedback email subject"
+msgstr "تغذيه مرتده موضوع البريد الكتروني"
+
+#: inc/options-init.php:1403
+msgid "%feedback_from% , %site_name% will be translated accordingly."
+msgstr "% feedback_from% ، ستتم ترجمه %site_name% وفقا لذلك."
+
+#: inc/options-init.php:1409
+msgid "Ad Feedback email FROM"
+msgstr "البريد الكتروني ملاحظات الإعلان من"
+
+#: inc/options-init.php:1410
+msgid "NAME valid@email.com is compulsory as we gave in default."
+msgstr "اسم valid@email.com إلزامي كما أعطينا في التقصير."
+
+#: inc/options-init.php:1416
+msgid "Feedback Email template"
+msgstr "قالب البريد الكتروني للتعليقات"
+
+#: inc/options-init.php:1417
+msgid ""
+"%feedback_subject% , %feedback_email% , %feedback_message% , %feedback_from% "
+"will be translated accordingly."
+msgstr ""
+"% feedback_subject% ،% feedback_email% ،% feedback_message% ،% feedback_from"
+"% سيتم ترجمتها وفقا لذلك."
+
+#: inc/options-init.php:1424
+msgid "Please select your desire languages used in app"
+msgstr "الرجاء اختيار اللغات المرغوبة المستخدمة في التطبيق"
+
+#: inc/options-init.php:1426
+msgid "Please configure wpml and translate language to use this functionality"
+msgstr "يرجى تكوين wpml وترجمة اللغة لاستخدام هذه الوظيفة"
+
+#: inc/options-init.php:1429
+msgid "WPML Settings"
+msgstr "إعدادات الرابطة"
+
+#: inc/options-init.php:1437
+msgid "Enable WPML"
+msgstr "تمكين WPML"
+
+#: inc/options-init.php:1452
+msgid "Duplicate Posts ( While Ad Posting )"
+msgstr "المشاركات المكررة ( أثناء نشر الإعلان )"
+
+#: inc/options-init.php:1454
+msgid ""
+"Enable this option to duplicate posts in all others languages after "
+"successfully publish."
+msgstr ""
+"تمكين هذا الخيار لتكرار المشاركات في كافة اللغات الأخرى بعد النشر بنجاح."
+
+#: inc/options-init.php:1455
+msgid ""
+"<b>Note : </b> Disable means the posts publish only in the current language."
+msgstr "<b> ملاحظه: </b> تعطيل يعني نشر المشاركات فقط في اللغة الحالية."
+
+#: inc/options-init.php:1460
+msgid "Display Posts"
+msgstr "عرض المشاركات"
+
+#: inc/options-init.php:1462
+msgid ""
+"Enable this option to display all others languages posts in current language."
+msgstr "تمكين هذا الخيار لعرض كافة المشاركات اللغات الأخرى باللغة الحالية."
+
+#: inc/options-init.php:1463
+msgid "<b>Note : </b> Disable means to display only current language posts."
+msgstr "<b> ملاحظه: </b> تعطيل الوسائل لعرض مشاركات اللغة الحالية فقط."
+
+#: inc/options-init.php:1469
+msgid "WPML Logo"
+msgstr "شعار WPML"
+
+#: inc/options-init.php:1480
+msgid "Wpml header Title 1"
+msgstr "عنوان Wpml العنوان 1"
+
+#: inc/options-init.php:1486
+msgid "Wpml header Title 2"
+msgstr "عنوان Wpml العنوان 2"
+
+#: inc/options-init.php:1492
+msgid "Wpml Menu Text"
+msgstr "Wpml نص القائمة"
+
+#: inc/options-init.php:1500
+msgid "Language Description text"
+msgstr "نص وصف اللغة"
+
+#: tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "تثبيت الإضافات المطلوبة"
+
+#: tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "تثبيت الإضافات"
+
+#. translators: %s: plugin name.
+#: tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "تثبيت الإضافة : %s"
+
+#. translators: %s: plugin name.
+#: tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "تحديث الاضافة  %s"
+
+#: tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "حدث خطأ مع API المساعد."
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "هذا القالب يوصى بتركيب الإضافة التالية: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "هذا القالب يوصي بتركيب الإضافة التالية: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"يحتاج البرنامج المساعد التالي إلى تحديث إلى أحدث إصدار لضمان أقصى قدر من "
+"التوافق مع هذا الموضوع: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "هناك تحديث متوفر لل: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "الإضافة المطلوبة التالية غير نشطة حاليا:%1$s."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "البرنامج المساعد الموصى بها التالية غير نشط حاليا:%1$s."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "بدأ تنصيب الاضافة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "البدء بتحديث الإضافة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "البدء بتفعيل الإضافة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "البدء بتفعيل الإضافة"
+
+#: tgm/class-tgm-plugin-activation.php:393
+#: tgm/class-tgm-plugin-activation.php:912
+#: tgm/class-tgm-plugin-activation.php:2618
+#: tgm/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "العودة إلى لوحة التحكم الرئيسية"
+
+#: tgm/class-tgm-plugin-activation.php:394
+#: tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr "تم تفعيل الإضافة بنجاح."
+
+#: tgm/class-tgm-plugin-activation.php:395
+#: tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "الإضافة التالية تم تنشيطها بنجاح:"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "لم يتم اتخاذ أي إجراء. الاضافات نشطه %1$s بالفعل نشط."
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"لم يتم تفعيل الإضافة. إصدار أعلى من %s مطلوب لهذا القالب. يرجى تحديث الإضافة."
+
+#. translators: 1: dashboard link.
+#: tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "جميع الاضافات تم تفعيلها بنجاح . %1$s"
+
+#: tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "تجاهل هذا الاشعار"
+
+#: tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"هناك واحدة او اكثر من الاضافات المطلوبة او الموصى بها لتثبيتها, تحديثها او "
+"تفعيلها."
+
+#: tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "الرجاء الاتصال بمسؤول هذا الموقع للحصول على المساعدة."
+
+#: tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "يحتاج هذا البرنامج المساعد لتحديث لتكون متوافقة مع الموضوع الخاص بك."
+
+#: tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "التحديث مطلوب"
+
+#: tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"تتكون مجموعة الاضافات النائية في أكثر من ملف و احد، ولكن لم يتم تعبئتها في "
+"لملفات المجلد ."
+
+#: tgm/class-tgm-plugin-activation.php:1019
+#: tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"يرجى الاتصال بمبرمج السكربت | عبدالله محمد الحميضي | ‪+‬966505514171 |  ونطلب "
+"منهم الحزم المساعدة وفقا للمبادئ التوجيهية للووردبريس ."
+
+#: tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"تتكون حزمة الإضافات على أكثر من ملف, لاكن لم يتم جمع الملفات في مجلد واحد."
+
+#: tgm/class-tgm-plugin-activation.php:1206
+#: tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "و"
+
+#. translators: %s: version number
+#: tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "مطلوب"
+
+#: tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "موصى به"
+
+#: tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "مستودع ووردبريس"
+
+#: tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "مصدر خارجي"
+
+#: tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "المجموعة مجهزة مسبقا"
+
+#: tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "غير مثبت"
+
+#: tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "تم التثبيت ولكن لم يفعل"
+
+#: tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "التحديث المطلوب غير متوفر"
+
+#: tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "يتطلب تحديث"
+
+#: tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "تحديث موصى به"
+
+#. translators: 1: install status, 2: update status
+#: tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "الكل <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "تنزيل حزمة التثبيت من <span class=“count”>(%s)</span>"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "تحديث متوفر <span class=“count”>(%s)</span>"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "تفعيل <span class=“count”>(%s)</span>"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "غير معروف"
+
+#: tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "الإصدار المثبت:"
+
+#: tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "الإصدار المثبت:"
+
+#: tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "الإصدار المتوفر:"
+
+#: tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "لا توجد إضافات للتثبيت أو التحديث أو التفعيل."
+
+#: tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "إضافة"
+
+#: tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "إضافة"
+
+#: tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "الإصدار"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "تثبيت %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "تحديث %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "تحديث %2$s"
+
+#: tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "رسالة تحديث من مبرمج  الإضافة:"
+
+#: tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "تثبيت"
+
+#: tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "تفعيل"
+
+#: tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "لم يتم تحديد أي إضافات للتثبيت. بناءاً على ذلك لم يتم إتخاذ أي إجراء."
+
+#: tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "لم يتم تحديد إضافات للتحديث ، لن يتم اتخاذ أى إجراء."
+
+#: tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "لا يوجد اي اضافات للتثبيت في الوقت الحالي."
+
+#: tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "لا اضافات متاحة ليتم تحديتها في هذاالوقت"
+
+#: tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "لم يتم تحديد أي إضافات للتفعيل. لم يتم إتخاذ أي إجراء."
+
+#: tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "لا يوجد اي اضافات للتفعيل في الوقت الحالي"
+
+#: tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "فشل تفعيل الاضافة"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "تحديث الإضافة %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "حدث خطأ أثناء عملية التثبيت %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "فشل تثبيت %1$s."
+
+#: tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"عملية التثبيت والتفعيل بدأت. قد تستغرق هذه العملية بعض الوقت، لذا يرجى "
+"التحلي بالصبر."
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s تم التثبيت و التفعيل بنجاح ."
+
+#: tgm/class-tgm-plugin-activation.php:3594
+#: tgm/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "إظهار التفاصيل"
+
+#: tgm/class-tgm-plugin-activation.php:3594
+#: tgm/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "إخفاء التفاصيل"
+
+#: tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "جميع التنزيلات والتفعيل اكتملت"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت وتفعيل الإضافة %1$s (%2$d/%3$d)"
+
+#: tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"عملية التثبيت بدأت. قد تستغرق هذه العملية بعض الوقت، لذا يرجى الانتظار ."
+
+#. translators: 1: plugin name.
+#: tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s تم التثبيت بنجاح."
+
+#: tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "تم اكتمال جميع عمليات تثبيت سكربت الرمز العبقري | Genius Icon ."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت الإضافة %1$s (%2$d/%3$d)"
+
+#: tgm/tgm-init.php:63
+msgid "SB Framework"
+msgstr "SB الإطار"
+
+#: tgm/tgm-init.php:75
+msgid "Woocommerce"
+msgstr "Woocommerce"
+
+#. Plugin Name of the plugin/theme
+msgid "Nokri Apps API"
+msgstr "نوكري تطبيقات API"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://codecanyon.net/user/scriptsbundle"
+msgstr "https://codecanyon.net/user/scriptsbundle"
+
+#. Description of the plugin/theme
+msgid "This plugin is essential for the Nokri android and ios apps."
+msgstr "هذا البرنامج المساعد ضروري لتطبيقات Nokri Android و ios."
+
+#. Author of the plugin/theme
+msgid "Scripts Bundle"
+msgstr "حزمه مخطوطات"

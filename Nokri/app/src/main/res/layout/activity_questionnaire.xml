@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/main_questionnaire_layout"
+    tools:context="com.scriptsbundle.nokri.employeer.jobs.fragments.Questionnaire.QuestionnaireActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/app_topbar_color"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        app:theme="@style/ToolbarColorChange"
+        android:theme="?attr/actionBarTheme" />
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="10dp"
+       android:orientation="vertical">
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recyclerview"
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="10dp"
+           android:layout_height="wrap_content"/>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical">
+
+           <TextView
+               android:id="@+id/done"
+               android:layout_width="80dp"
+               android:layout_height="30dp"
+               android:background="@color/quantum_pink"
+               android:gravity="center"
+               android:textSize="11sp"
+               android:textColor="@color/white"
+               android:text="Done"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="end">
+
+               <TextView
+                   android:id="@+id/add"
+                   android:layout_width="40dp"
+                   android:layout_height="30dp"
+                   android:background="@color/quantum_pink"
+                   android:gravity="center"
+                   android:textSize="22sp"
+                   android:textColor="@color/white"
+                   android:text="+"/>
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+   </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,206 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/app_blue</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="ThemeSpinnerBlue">
+        <!-- Color when pressed -->
+        <item name="colorAccent">@color/black</item>
+        <!-- Default color for the dropdown arrow and line -->
+
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+    <style name="ThemeEditprofile">
+        <!-- Color when pressed -->
+        <item name="colorAccent">@color/grey_500</item>
+        <!-- Default color for the dropdown arrow and line -->
+
+        <item name="colorControlNormal">@color/light_grey_result</item>
+    </style>
+
+    <style name="editText">
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="ThemeSpinnerGrey">
+        <!-- Color when pressed -->
+        <item name="colorAccent">@color/light_grey_result</item>
+        <!-- Default color for the dropdown arrow and line -->
+        <item name="android:textColor">@color/black</item>
+
+        <item name="colorControlNormal">@color/grey</item>
+    </style>
+
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:selectableItemBackground">@color/app_blue</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="customDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/customDialogAnimation</item>
+    </style>
+
+    <style name="customDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/right_enter</item>
+        <item name="android:windowExitAnimation">@anim/left_out</item>
+    </style>
+
+    <style name="AppTabLayouProfile" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/background_color</item>
+        <item name="tabIndicatorHeight">1dp</item>
+        <item name="android:textSize">200sp</item>
+        <item name="tabPaddingStart">1dp</item>
+        <item name="tabPaddingEnd">1dp</item>
+
+        <item name="tabSelectedTextColor">@color/background_color</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">@color/edit_profile_grey
+        </item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">@color/app_blue
+        </item> <!-- activated color change as you wish -->
+
+    </style>
+
+    <style name="PopupTheme" parent="@style/AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorControlActivated">@color/blue</item>
+    </style>
+
+    <style name="BackGroundImageView">
+        <item name="android:alpha">2.0</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/bg_opacity</item>
+    </style>
+
+    <style name="ToolbarColorChange" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+
+    <style name="Theme.app.Translucent" parent="ToolbarColorChange">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="MyTheme" parent="AppBaseTheme">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+    </style>
+
+    <style name="QuestionsTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#81CFEB</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="LFileTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/lfile_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/lfile_colorPrimaryDark</item>
+        <item name="colorAccent">@color/lfile_colorAccent</item>
+        <item name="actionBarSize">36dp</item>
+        <!-- 溢出菜单图标颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <!--toolbar 上title的样式-->
+    <style name="LFileToolbarTextStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/lfile_white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LFileToolbarTheme" parent="LFileTheme">
+
+    </style>
+
+    <style name="LFileCheckBoxTheme" parent="LFileTheme">
+        <!-- 溢出菜单图标颜色-->
+        <item name="colorControlNormal">@color/lfile_gray</item>
+    </style>
+
+    <style name="LFile_item_text_name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">#101010</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LFile_item_text_detail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">#66000000</item>
+    </style>
+
+
+    <style name="CustomRatingBar" parent="@android:style/Widget.RatingBar" >
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">1.0</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">44dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+</resources>

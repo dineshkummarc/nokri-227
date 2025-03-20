@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_resume_received"
+        android:title=""
+        android:icon="@drawable/open_folder"
+        />
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title=""
+        android:icon="@drawable/delete"/>
+
+    <item
+        android:id="@+id/menu_edit"
+        android:title=""
+        android:icon="@drawable/edit"/>
+
+<item
+    android:id="@+id/menu_view_job"
+    android:title=""
+    android:icon="@drawable/view"></item>
+</menu>

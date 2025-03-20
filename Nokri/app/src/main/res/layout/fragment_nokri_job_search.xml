@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.scriptsbundle.nokri.guest.search.fragments.Nokri_JobSearchFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/shimmerMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                shimmer:duration="800">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+                </LinearLayout>
+
+                <!-- Adding 7 rows of placeholders -->
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt_search_by_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/edittxt_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_search_by_title"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toStartOf="@+id/img_btn_search"
+                    android:layout_toLeftOf="@+id/img_btn_search"
+                    android:background="@drawable/rounded_border_edittext"
+                    android:maxLines="1"
+                    android:padding="15dp"
+                    android:textAlignment="viewStart"
+                    android:textColorHint="@color/dark_grey"
+                    android:textSize="12sp"
+                    android:theme="@style/ThemeSpinnerBlue" />
+
+                <ImageButton
+                    android:id="@+id/img_btn_search"
+                    android:layout_width="45dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_search_by_title"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_search_white_medium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_job_caregory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_job_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue">
+
+                </Spinner>
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_job_category"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/sub_category_container1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_sub_category1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/spinner_sub_category1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:theme="@style/ThemeSpinnerBlue"
+                    android:visibility="gone"></Spinner>
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_sub_category1"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sub_category_container2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/txt_sub_category2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/spinner_sub_category2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue"
+
+                    android:visibility="gone">
+
+                </Spinner>
+
+                <View
+                    android:id="@+id/line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_sub_category2"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sub_category_container3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_sub_category3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/spinner_sub_category3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:theme="@style/ThemeSpinnerBlue"
+                    android:visibility="gone"></Spinner>
+
+                <View
+                    android:id="@+id/line3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_sub_category3"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+
+            <!-- Country City State -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/txt_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue" />
+
+                <View
+                    android:id="@+id/line4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_country"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/state_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/spinner_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:theme="@style/ThemeSpinnerBlue"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/line5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_state"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/city_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/spinner_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/line6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_city"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/town_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_town"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/spinner_town"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:theme="@style/ThemeSpinnerBlue"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/line7"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_town"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+            <!-- Country City State end -->
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/txt_job_qualification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_job_qualificaion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue" />
+
+                <View
+                    android:id="@+id/line8"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_job_qualificaion"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relateive_jobtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RelativeLayout
+                    android:id="@+id/rltve_jb_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txt_job_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:visibility="visible" />
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_job_type"
+                        android:scrollbars="none">
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </HorizontalScrollView>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/line9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/rltve_jb_type"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+
+                <Spinner
+                    android:id="@+id/spinner_job_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/txt_salary_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_salary_currency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue" />
+
+                <View
+                    android:id="@+id/line10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_salary_currency"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RelativeLayout
+                    android:id="@+id/rltve_jb_shift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txt_job_shift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_job_shift"
+                        android:scrollbars="none">
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </HorizontalScrollView>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/line11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/rltve_jb_shift"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+
+                <Spinner
+                    android:id="@+id/spinner_job_shift"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/txt_job_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_job_level"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue" />
+
+                <View
+                    android:id="@+id/line12"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_job_level"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/txt_job_skills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_job_skills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/ThemeSpinnerBlue" />
+
+                <View
+                    android:id="@+id/line13"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/spinner_job_skills"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/light_grey_result" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/txt_radius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="1">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="0.9"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border_light_grey"
+                    android:paddingStart="5dp"
+                    android:textAlignment="viewStart"
+                    android:textSize="@dimen/edit_text_size"
+                    android:theme="@style/ThemeEditprofile" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="0.1"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="5dp">
+
+                    <ImageView
+                        android:id="@+id/locationButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:maxWidth="30dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/navigation_icon" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_marginTop="20dp"-->
+        <!--                        android:layout_weight="2"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <TextView-->
+        <!--                            android:id="@+id/txt_latitude"-->
+        <!--                            android:layout_width="0dp"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_marginStart="5dp"-->
+        <!--                            android:layout_weight="1"-->
+        <!--                            android:layout_marginLeft="5dp"-->
+        <!--                            android:layout_marginEnd="5dp"-->
+        <!--                            android:text="lat"-->
+        <!--                            android:layout_marginTop="5dp"-->
+        <!--                            android:textColor="@color/black"-->
+        <!--                            android:textSize="13sp" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:id="@+id/txt_longitude"-->
+        <!--                            android:layout_width="0dp"-->
+        <!--                            android:layout_weight="1"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_marginStart="5dp"-->
+        <!--                            android:layout_marginLeft="5dp"-->
+        <!--                            android:text="lng"-->
+        <!--                            android:layout_marginTop="5dp"-->
+        <!--                            android:textColor="@color/black"-->
+        <!--                            android:textSize="13sp" />-->
+        <!--                    </LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edittxt_latitude"
+                android:layout_width="0dp"
+
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_light_grey"
+                android:editable="false"
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/edit_text_size"
+                android:theme="@style/ThemeEditprofile"
+
+                />
+
+            <EditText
+                android:id="@+id/edittxt_longitude"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_light_grey"
+                android:editable="false"
+                android:paddingStart="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/edit_text_size"
+                android:theme="@style/ThemeEditprofile" />
+
+        </LinearLayout>
+
+
+        <com.zhouyou.view.seekbar.SignSeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_marginBottom="30dp"
+            app:ssb_section_text_position="bottom_sides"
+            app:ssb_show_progress_in_float="false"
+            app:ssb_show_section_mark="false"
+            app:ssb_show_section_text="true"
+            app:ssb_show_sign="true"
+            app:ssb_show_thumb_text="false"
+            app:ssb_sign_arrow_autofloat="true"
+            app:ssb_sign_arrow_height="5dp"
+            app:ssb_sign_arrow_width="10dp"
+            app:ssb_sign_border_size="3dp"
+            app:ssb_sign_show_border="true"
+            app:ssb_touch_to_seek="true" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+<LinearLayout
+android:background="@color/app_blue"
+android:gravity="center"
+android:id="@+id/search_now"
+android:layout_alignParentBottom="true"
+android:layout_height="50dp"
+android:layout_marginTop="5dp"
+android:layout_width="match_parent"
+android:orientation="horizontal"
+
+    >
+
+<TextView
+    android:id="@+id/footer_text"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textColor="@color/white"
+    android:textStyle="bold" />
+</LinearLayout>
+
+
+<com.scriptsbundle.nokri.custom.MaterialProgressBar
+android:id="@+id/progress"
+android:indeterminate="true"
+android:layout_above="@+id/search_now"
+android:layout_height="2dp"
+android:layout_width="match_parent"
+android:visibility="gone"
+app:backgroundColour="@color/white"
+app:duration="2000"
+app:progressColour="@color/app_blue">
+
+</com.scriptsbundle.nokri.custom.MaterialProgressBar>
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="center"
+         android:id="@+id/search_now"
+         android:layout_alignParentBottom="true"
+         android:background="@color/app_blue"
+         android:orientation="horizontal"
+         >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/white"
+             android:id="@+id/footer_text"
+
+             android:textStyle="bold"
+             />
+     </LinearLayout>-->
+    </RelativeLayout>

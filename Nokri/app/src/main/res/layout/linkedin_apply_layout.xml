@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/linekedInLogo"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:src="@drawable/linkedin_logo_full"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/linkedinUrl"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linekedInLogo" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linkedinUrl">
+
+        <TextView
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"
+            android:text="Cancel"/>
+
+        <ImageView
+            android:id="@+id/linkedInApply"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/easyapplyicon" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/buttons"
+        tools:layout_editor_absoluteX="-16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

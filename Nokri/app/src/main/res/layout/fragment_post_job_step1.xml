@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.scriptsbundle.nokri.employeer.jobs.fragments.PostJobStep1">
+
+            <LinearLayout
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="25dp">
+
+                    <TextView
+                        android:id="@+id/txt_basic_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/light_grey"></View>
+
+                    <TextView
+                        android:id="@+id/txt_job_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="30dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size" />
+
+                    <EditText
+                        android:id="@+id/edittxt_job_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:hint="Job Title"
+                        android:textAlignment="viewStart"
+                        android:textSize="@dimen/edit_text_size"
+                        android:theme="@style/ThemeEditprofile" />
+
+                    <TextView
+                        android:id="@+id/txt_category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size" />
+
+                    <Spinner
+                        android:id="@+id/spinner_category"
+                        style="@style/Widget.AppCompat.Spinner.Underlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+
+                        android:textSize="@dimen/edit_text_size"
+                        android:theme="@style/ThemeSpinnerBlue"></Spinner>
+
+                    <TextView
+                        android:id="@+id/txt_sub_category1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size"
+                        android:visibility="gone" />
+
+                    <Spinner
+                        android:id="@+id/spinner_sub_category1"
+                        style="@style/Widget.AppCompat.Spinner.Underlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:textSize="@dimen/edit_text_size"
+                        android:theme="@style/ThemeSpinnerBlue"
+                        android:visibility="gone"></Spinner>
+
+                    <TextView
+                        android:id="@+id/txt_sub_category2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size"
+                        android:visibility="gone" />
+
+                    <Spinner
+                        android:id="@+id/spinner_sub_category2"
+                        style="@style/Widget.AppCompat.Spinner.Underlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:textSize="@dimen/edit_text_size"
+                        android:theme="@style/ThemeSpinnerBlue"
+                        android:visibility="gone"></Spinner>
+
+                    <TextView
+                        android:id="@+id/txt_sub_category3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size"
+                        android:visibility="gone" />
+
+                    <Spinner
+                        android:id="@+id/spinner_sub_category3"
+                        style="@style/Widget.AppCompat.Spinner.Underlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:textSize="@dimen/edit_text_size"
+                        android:theme="@style/ThemeSpinnerBlue"
+                        android:visibility="gone"></Spinner>
+
+                    <TextView
+                        android:id="@+id/txt_sub_category4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size"
+                        android:visibility="gone" />
+
+                    <Spinner
+                        android:id="@+id/spinner_sub_category4"
+                        style="@style/Widget.AppCompat.Spinner.Underlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:textSize="@dimen/edit_text_size"
+                        android:theme="@style/ThemeSpinnerBlue"
+                        android:visibility="gone"></Spinner>
+
+                    <TextView
+                        android:id="@+id/txt_job_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/img_bold"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/bold" />
+
+                        <ImageView
+                            android:id="@+id/img_italic"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/italic" />
+
+                        <ImageView
+                            android:id="@+id/img_underline"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/underline" />
+
+                        <ImageView
+                            android:id="@+id/img_num_bullets"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/bullet_num" />
+
+                        <ImageView
+                            android:id="@+id/img_list_bullets"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/bullet_list" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/textarea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/textarea"
+                        android:paddingStart="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="5dp"
+
+                        android:paddingRight="5dp"
+                        android:paddingBottom="60dp">
+
+                        <jp.wasabeef.richeditor.RichEditor
+                            android:id="@+id/edittxt_descripton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/ThemeSpinnerBlue" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txt_application_deadline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="30dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size" />
+
+                    <EditText
+                        android:id="@+id/editText_application_deadline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="30dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|end">
+
+
+                        <LinearLayout
+                            android:id="@+id/buttonNext"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button_grey"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_arrow_forward_white_24dp"
+                                android:drawablePadding="10dp"
+                                android:text="Next"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24dp" />
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black"></View>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

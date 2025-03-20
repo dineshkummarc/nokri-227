@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/light_grey"
+    android:layout_height="wrap_content">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/companyImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/image_placeholder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Continental/Fast Food Chef (Fill Time)"
+        app:layout_constraintStart_toEndOf="@+id/companyImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Test"
+        android:textColor="@color/grey_500"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toEndOf="@+id/companyImage"
+        app:layout_constraintTop_toBottomOf="@+id/jobName" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/companyImage"
+        app:layout_constraintTop_toBottomOf="@+id/companyName">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="0.5dp"
+            android:src="@drawable/location_icon"
+            app:tint="@color/grey_400" />
+
+        <TextView
+            android:id="@+id/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="2.5 km Away" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

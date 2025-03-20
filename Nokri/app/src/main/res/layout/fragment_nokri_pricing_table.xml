@@ -1,0 +1,121 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context="com.scriptsbundle.nokri.employeer.payment.fragments.Nokri_PricingTableFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/shimmerMain"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                shimmer:duration="800">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+
+                    <include layout="@layout/data_placeholder_list_1" />
+                </LinearLayout>
+
+                <!-- Adding 7 rows of placeholders -->
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                app:tabGravity="center"
+                app:tabIndicatorColor="@color/app_blue"
+                app:tabMode="scrollable" />
+
+            <com.scriptsbundle.nokri.custom.CustomViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tabs"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/msg_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/img_message"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_fffff" />
+
+                <TextView
+                    android:id="@+id/txt_empty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

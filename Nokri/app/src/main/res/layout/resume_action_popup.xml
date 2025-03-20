@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/top">
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/container1"
+        android:layout_height="match_parent"
+
+        android:background="@color/white"
+        android:layout_below="@+id/top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/heading"
+
+            android:background="@color/app_blue">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="John Doe"
+                android:textSize="15sp"
+                android:id="@+id/txt_title"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/com_facebook_close"/>
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:fillViewport="true"
+         android:layout_below="@+id/heading">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:orientation="vertical"
+
+            android:id="@+id/linearLayout">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                     android:text="Do tou want to send email as well?"
+                    android:id="@+id/txt_heading"
+                    android:textStyle="bold"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="9sp"
+                    android:layout_centerInParent="true"/>
+
+                <belka.us.androidtoggleswitch.widgets.ToggleSwitch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="7sp"
+                    android:id="@+id/toogle_switch"
+
+                    android:layout_gravity="right"
+                    custom:activeBgColor="@color/app_blue"
+                    custom:inactiveBgColor="@android:color/white"
+                    custom:textToggleLeft="No"
+                    custom:textToggleRight="Yes"
+                    custom:toggleWidth="44dp"
+
+
+
+                    />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action:"
+                android:textSize="12sp"
+                android:id="@+id/txt_status"
+                android:layout_marginTop="5dp"/>
+            <androidx.appcompat.widget.AppCompatSpinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:spinnerMode="dropdown"
+
+                android:theme="@style/ThemeSpinnerBlue"
+                android:id="@+id/spinner_status"
+                android:src="@color/grey"
+                >
+            </androidx.appcompat.widget.AppCompatSpinner>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action:"
+                android:textSize="12sp"
+                android:id="@+id/txt_action"
+                android:layout_marginTop="5dp"/>
+            <androidx.appcompat.widget.AppCompatSpinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:spinnerMode="dropdown"
+
+                android:theme="@style/ThemeSpinnerBlue"
+                android:id="@+id/spinner_action"
+                android:src="@color/grey"
+                >
+            </androidx.appcompat.widget.AppCompatSpinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textSize="12sp"
+                android:id="@+id/txt_email"
+                android:layout_marginTop="5dp"/>
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:id="@+id/text_field_boxes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:panelBackgroundColor="@color/white"
+
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:layout_width="wrap_content"
+                    android:textSize="12sp"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/edittxt_email"
+                    android:textAlignment="viewStart"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"/>
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:id="@+id/txt_body"
+                android:layout_marginTop="15dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:id="@+id/text_formatting_row"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/bold"
+                    android:id="@+id/img_bold"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/img_italic"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/italic"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/img_underline"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/underline"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:id="@+id/img_num_bullets"
+                    android:background="@drawable/bullet_num"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:id="@+id/img_list_bullets"
+                    android:background="@drawable/bullet_list"/>
+
+
+            </LinearLayout>
+            <jp.wasabeef.richeditor.RichEditor
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/edittxt_about"
+                android:theme="@style/ThemeSpinnerBlue"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/black"
+                android:id="@+id/line"
+                ></View>
+
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:textSize="11sp"
+                android:background="@drawable/rounded_button_with_border"
+                android:backgroundTint="@color/white"
+                android:textAllCaps="false"
+                android:text="Send"
+                android:textColor="@color/app_blue" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:visibility="invisible"></View>
+        </LinearLayout></ScrollView>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_close"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/com_facebook_close"/>
+
+</RelativeLayout>

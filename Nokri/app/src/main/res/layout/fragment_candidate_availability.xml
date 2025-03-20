@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.scriptsbundle.nokri.candidate.edit.fragments.CandidateAvailability">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainLayout">
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/selectedHoursLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="Selected Hours" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioOff"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rbtn_selector"
+                    android:button="@null"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="center"
+                    android:text="N/A"
+                    android:textColor="@drawable/rbtn_textcolor_selector" />
+
+                <RadioButton
+                    android:id="@+id/radioOn"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rbtn_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="8dp"
+                    android:text="Open 24/7"
+                    android:textColor="@drawable/rbtn_textcolor_selector" />
+
+                <RadioButton
+                    android:id="@+id/radioSelective"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rbtn_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="8dp"
+                    android:text="Selective Hours"
+                    android:textColor="@drawable/rbtn_textcolor_selector" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dayAndTimeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:id="@+id/country_spinner_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/spinner_background"
+                android:padding="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/category_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/category_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="5dp"
+                        android:text="Value" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.04"
+                    app:srcCompat="@drawable/next" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp">
+
+                    <ImageView
+                        android:id="@+id/monPointer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/week_selector"
+                        android:button="@null"
+                        android:layout_marginHorizontal="10dp"
+                        android:checked="false"
+                        android:visibility="visible"
+                        android:src="@drawable/down_arrow"
+                        android:textColor="@drawable/week_text_selector" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp">
+
+                    <ImageView
+                        android:id="@+id/tuePointer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/week_selector"
+                        android:button="@null"
+                        android:layout_marginHorizontal="10dp"
+                        android:checked="false"
+                        android:visibility="invisible"
+                        android:src="@drawable/down_arrow"
+                        android:textColor="@drawable/week_text_selector" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp">
+
+
+                    <ImageView
+                        android:id="@+id/wedPointer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/week_selector"
+                        android:button="@null"
+                        android:layout_marginHorizontal="10dp"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:src="@drawable/down_arrow"
+                        android:visibility="invisible"
+                        android:textColor="@drawable/week_text_selector" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp">
+
+
+                    <ImageView
+                        android:id="@+id/thuPointer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/week_selector"
+                        android:button="@null"
+                        android:layout_marginHorizontal="10dp"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:visibility="invisible"
+                        android:src="@drawable/down_arrow"
+                        android:textColor="@drawable/week_text_selector" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp">
+
+
+
+                    <ImageView
+                        android:id="@+id/friPointer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/week_selector"
+                        android:button="@null"
+                        android:layout_marginHorizontal="10dp"
+                        android:visibility="invisible"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:src="@drawable/down_arrow"
+                        android:textColor="@drawable/week_text_selector" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp">
+
+                    <ImageView
+                        android:id="@+id/satPointer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/week_selector"
+                        android:button="@null"
+                        android:layout_marginHorizontal="10dp"
+                        android:visibility="invisible"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:src="@drawable/down_arrow"
+                        android:textColor="@drawable/week_text_selector" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp">
+
+                    <ImageView
+                        android:id="@+id/sunPointer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/week_selector"
+                        android:button="@null"
+                        android:visibility="invisible"
+                        android:layout_marginHorizontal="10dp"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:src="@drawable/down_arrow"
+                        android:textColor="@drawable/week_text_selector" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroupDays"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/m"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/week_selector"
+                    android:button="@null"
+                    android:layout_marginHorizontal="10dp"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="M"
+                    android:textColor="@drawable/week_text_selector" />
+
+                <CheckBox
+                    android:id="@+id/t"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/week_selector"
+                    android:button="@null"
+                    android:layout_marginHorizontal="10dp"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="T"
+                    android:textColor="@drawable/week_text_selector" />
+                <CheckBox
+                    android:id="@+id/w"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/week_selector"
+                    android:button="@null"
+                    android:layout_marginHorizontal="10dp"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="W"
+                    android:textColor="@drawable/week_text_selector" />
+                <CheckBox
+                    android:id="@+id/th"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/week_selector"
+                    android:button="@null"
+                    android:layout_marginHorizontal="10dp"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="T"
+                    android:textColor="@drawable/week_text_selector" />
+                <CheckBox
+                    android:id="@+id/f"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/week_selector"
+                    android:button="@null"
+                    android:layout_marginHorizontal="10dp"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="F"
+                    android:textColor="@drawable/week_text_selector" />
+                <CheckBox
+                    android:id="@+id/s"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/week_selector"
+                    android:button="@null"
+                    android:layout_marginHorizontal="10dp"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="S"
+                    android:textColor="@drawable/week_text_selector" />
+                <CheckBox
+                    android:id="@+id/su"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/week_selector"
+                    android:button="@null"
+                    android:layout_marginHorizontal="10dp"
+                    android:gravity="center"
+                    android:text="S"
+                    android:textColor="@drawable/week_text_selector" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/timeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="9"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:weightSum="4"
+                    android:layout_weight="4"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/border_light_grey"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#eeeeee"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/clock"
+                            android:layout_margin="10dp"/>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/startTime"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:editable="false"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:text="09:00"
+                        android:layout_weight="3"/>
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/toLabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="TO"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:weightSum="4"
+                    android:layout_weight="4"
+                    android:background="@drawable/border_light_grey"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#eeeeee"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/clock"
+                            android:layout_margin="10dp"/>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/endTime"
+                        android:layout_width="0dp"
+                        android:editable="false"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:text="09:00"
+                        android:layout_weight="3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom|end">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:paddingHorizontal="30dp"
+                android:text="Submit  "/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/noData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_data" />
+    </LinearLayout>
+</LinearLayout>

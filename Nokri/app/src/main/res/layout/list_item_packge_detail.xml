@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+         >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/edit_profile_grey"
+            android:layout_weight="0.5"
+            android:id="@+id/txt_sr"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_weight="1.5"
+
+            android:id="@+id/txt_title"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:id="@+id/txt_detail"
+            android:layout_weight="2"
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textColor="@color/edit_profile_grey"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/light_grey"></View>
+</RelativeLayout>

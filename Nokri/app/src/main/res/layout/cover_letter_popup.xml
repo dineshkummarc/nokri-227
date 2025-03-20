@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/top">
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/container1"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/white"
+                    android:layout_below="@+id/top">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:id="@+id/heading"
+
+                        android:background="@color/app_blue">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:text="John Doe"
+                            android:textSize="12sp"
+                            android:id="@+id/txt_title"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_centerVertical="true"/>
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/com_facebook_close"/>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:layout_below="@+id/heading">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/heading"
+                            android:gravity="center"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:orientation="vertical"
+                            android:id="@+id/linearLayout">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:text="Do tou want to send email as well?"
+                                android:id="@+id/txt_cover"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:layout_marginTop="30dp"
+
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
+                                android:textSize="12sp"
+                                android:layout_centerInParent="true"/>
+
+
+
+                            <LinearLayout
+                                android:id="@+id/question_layout"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/txt_cover"
+                                android:orientation="vertical"/>
+
+
+
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:visibility="invisible"></View>
+                        </LinearLayout></ScrollView>
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_close"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/com_facebook_close"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

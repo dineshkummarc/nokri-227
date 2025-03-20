@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/container"
+    >
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/app_blue"
+       android:textColor="@color/white"
+        android:text="Reply"
+        android:visibility="gone"
+        android:id="@+id/btn_reply"
+        android:textAllCaps="false"
+        android:textSize="11sp"/>
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/img_profile"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/edit_profile_grey"
+        app:civ_shadow_radius="8"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/img_profile"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/img_profile"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_name"
+            android:text="Alexandar Mahone"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_date"
+            android:textColor="@color/grey"
+            android:textSize="11sp"
+            android:text="januay 01 2017"/>
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+
+          <com.ms.square.android.expandabletextview.ExpandableTextView
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/expand_text_view"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              expandableTextView:maxCollapsedLines="3"
+              expandableTextView:animDuration="200">
+              <TextView
+                  android:id="@id/expandable_text"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:textSize="12sp"
+
+
+                   />
+              <ImageButton
+                  android:id="@id/expand_collapse"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="16dp"
+                  android:layout_gravity="right|bottom"
+                  android:background="@android:color/transparent"/>
+          </com.ms.square.android.expandabletextview.ExpandableTextView>
+      </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

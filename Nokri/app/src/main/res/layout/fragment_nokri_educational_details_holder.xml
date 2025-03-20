@@ -1,0 +1,314 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.scriptsbundle.nokri.candidate.edit.fragments.Nokri_EducationalDetailsFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:id="@+id/container1">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:visibility="invisible"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_textview_size"
+                        android:id="@+id/txt_educational_detail"
+                       />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_textview_size"
+                        android:layout_marginTop="@dimen/edit_margin_top"
+
+                        android:id="@+id/txt_degree_title"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/edit_text_size"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/ThemeEditprofile"
+                        android:id="@+id/edittxt_degree_title"
+                        android:textColor="@color/edit_profile_grey"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_textview_size"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="@dimen/edit_margin_top"
+                        android:id="@+id/txt_institute_name"
+
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/edit_text_size"
+                        android:id="@+id/edittxt_institute_name"
+                        android:theme="@style/ThemeEditprofile"
+                        android:textColor="@color/edit_profile_grey"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_textview_size"
+                        android:layout_marginTop="@dimen/edit_margin_top"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+
+                        android:id="@+id/txt_degree_start"
+                        />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/edit_text_size"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/ThemeEditprofile"
+                        android:editable="false"
+                        android:id="@+id/edittxt_start_date"
+                        android:drawableRight="@drawable/ic_calendar_small"
+                        android:textColor="@color/edit_profile_grey"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_textview_size"
+                        android:layout_marginTop="@dimen/edit_margin_top"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+
+                        android:id="@+id/txt_degree_end"
+
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/edit_text_size"
+                        android:editable="false"
+                        android:drawableRight="@drawable/ic_calendar_small"
+                        android:id="@+id/edittxt_end_date"
+                        android:theme="@style/ThemeEditprofile"
+                        android:textColor="@color/edit_profile_grey"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_textview_size"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+
+                        android:id="@+id/txt_percentage"
+                        android:layout_marginTop="@dimen/edit_margin_top"
+                        />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/edit_text_size"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edittxt_percentage"
+                        android:theme="@style/ThemeEditprofile"
+                        android:textColor="@color/edit_profile_grey"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/edit_textview_size"
+                        android:id="@+id/txt_grades"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+
+                        android:layout_marginTop="@dimen/edit_margin_top"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:theme="@style/ThemeEditprofile"
+                        android:id="@+id/edittxt_grades"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+
+                        android:textColor="@color/edit_profile_grey"
+                        android:textSize="@dimen/edit_text_size"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/edit_margin_top"
+                        android:orientation="vertical">
+                        />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/edit_textview_size"
+                            android:layout_marginTop="@dimen/edit_margin_top"
+
+                            android:id="@+id/txt_description"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginStart="2dp"
+
+                            android:layout_weight="1"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/rich_editor_icon_size"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="@dimen/rich_editor_icon_size"
+                                android:layout_height="@dimen/rich_editor_icon_size"
+                                android:background="@drawable/bold"
+                                android:id="@+id/img_bold"/>
+                            <ImageView
+                                android:layout_width="@dimen/rich_editor_icon_size"
+                                android:layout_height="@dimen/rich_editor_icon_size"
+                                android:id="@+id/img_italic"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginStart="8dp"
+
+                                android:background="@drawable/italic"/>
+                            <ImageView
+                                android:layout_width="@dimen/rich_editor_icon_size"
+                                android:layout_height="@dimen/rich_editor_icon_size"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginStart="8dp"
+                                android:id="@+id/img_underline"
+
+                                android:background="@drawable/underline"/>
+                            <ImageView
+                                android:layout_width="@dimen/rich_editor_icon_size"
+                                android:layout_height="@dimen/rich_editor_icon_size"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginStart="8dp"
+                                android:id="@+id/img_num_bullets"
+                                android:background="@drawable/bullet_num"/>
+                            <ImageView
+                                android:layout_width="@dimen/rich_editor_icon_size"
+                                android:layout_height="@dimen/rich_editor_icon_size"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginStart="8dp"
+                                android:id="@+id/img_list_bullets"
+                                android:background="@drawable/bullet_list"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="60dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp" android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:background="@drawable/textarea"
+                            android:id="@+id/textarea">
+                            <jp.wasabeef.richeditor.RichEditor
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/edittxt_descripton"
+                                android:layout_marginTop="10dp"
+                                />
+                        </LinearLayout>
+
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/light_grey"
+                            android:id="@+id/line"></View>
+                       <RelativeLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginTop="5dp">
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="5dp">
+                               <ImageButton
+                                   android:layout_width="34dp"
+                                   android:layout_height="34dp"
+                                   android:background="@drawable/minus"
+                                   android:id="@+id/img_btn_minus"
+                                   android:layout_alignParentLeft="true"
+                                   android:layout_alignParentStart="true"
+
+                                   />
+                               <ImageButton
+                                   android:layout_width="34dp"
+                                   android:layout_height="34dp"
+                                   android:background="@drawable/plus"
+                                   android:id="@+id/img_btn_plus"
+
+                                   android:layout_alignParentEnd="true"
+                                   android:layout_alignParentRight="true"
+
+                                   ></ImageButton>
+
+                           </RelativeLayout>
+
+                       </RelativeLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                    <!--end-->
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:background="@drawable/border_gray">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+
+        android:layout_height="match_parent">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            app:civ_border_width="0.1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/img_profile"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:background="@drawable/rounded_button"
+                android:text="Part time"
+                android:textSize="11sp"
+                android:id="@+id/txt_job_type"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Technical Document Specoalist"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_name"
+                android:textSize="13sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/grey"
+                    android:text="this job will expire on"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_date"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey"></View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:id="@+id/img_location"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:textSize="10sp"
+                        android:id="@+id/txt_address"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginStart="3dp"
+                        android:text="conversi PVT limited United Sates"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingStart="@dimen/activity_horizontal_margin"
+                        android:id="@+id/txt_menu"
+                        android:text="&#8942;"
+                        android:textStyle="bold"
+                        />
+                    <Button
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:textAllCaps="false"
+                        android:textSize="10sp"
+                        android:textColor="@color/grey"
+                        android:visibility="gone"
+                        android:id="@+id/btn_download"
+                        android:background="@drawable/download_icon"/>
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="22dp"
+                        android:visibility="gone"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:text="Take Action"
+                        android:textAllCaps="false"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+
+                        android:id="@+id/btn_take_action"
+                        android:background="@color/app_blue"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

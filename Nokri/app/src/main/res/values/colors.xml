@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="colorPrimaryDark">#ffc420</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#fff</color>
+
+    <color name="app_blue">#fb236a</color>
+    <!--<color name="app_blue">#1da3f4</color>-->
+
+    <color name="grey">#acacac</color>
+    <color name="facebook_blue">#3b5998</color>
+
+    <color name="black">#333333</color>
+    <color name="google_red">#db3236</color>
+    <color name="dark_grey">#2f4f4f</color>
+    <color name="light_grey">#f3f3f3</color>
+    <color name="light_grey_result">#efeff4</color>
+
+    <color name="parrot_green">#00c62e</color>
+    <color name="offwhite">#fffff2</color>
+    <color name="grey_light_adsearch_fields">#ccc8c0</color>
+    <color name="linkedin_color">#0073b1</color>
+
+    <color name="background">#dddddd</color>
+
+
+    <color name="background_grey">#eff3f6</color>
+    <color name="edit_profile_grey">#acacac</color>
+    <color name="expandable_grey">#f9f9f9</color>
+    <color name="main_app_color">#e5e</color>
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+        <color name="lfile_colorPrimary">#92B4F4</color>
+        <color name="lfile_colorPrimaryDark">#92B4F4</color>
+        <color name="lfile_colorAccent">#92B4F4</color>
+        <color name="lfile_gray">#cccccc</color>
+        <color name="lfile_lightgray">#dddddd</color>
+        <color name="lfile_white">#fff</color>
+        <color name="lfile_defaultColor">#92B4F4</color>
+        <color name="green">#008000</color>
+</resources>

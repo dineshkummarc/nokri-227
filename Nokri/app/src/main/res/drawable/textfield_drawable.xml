@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/it_shape">
+        <shape android:shape="rectangle" >
+            <corners
+                android:bottomRightRadius=".1dp"
+                android:bottomLeftRadius=".1dp"
+                android:topLeftRadius=".1dp"
+                android:topRightRadius=".1dp"
+                />
+            <solid android:color="@color/app_blue" />
+        </shape>
+    </item>
+    <item
+        android:id="@+id/it_search"
+        android:top=".1dp"
+        android:left=".1dp"
+        android:bottom=".1dp"
+        android:right=".1dp"
+        android:drawable="@drawable/ic_search_white" />
+</layer-list>
+

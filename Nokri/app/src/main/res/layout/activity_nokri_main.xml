@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.scriptsbundle.nokri.activities.Nokri_MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:layout_centerInParent="true"
+        android:gravity="center">
+        <ImageView
+            android:layout_height="250dp"
+            android:layout_width="250dp"
+            android:id="@+id/logo"
+            android:layout_marginTop="-60dp"
+            >
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/logo"
+            android:gravity="center"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/btn_singin"
+                android:backgroundTint="@color/app_blue"
+
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+
+                android:id="@+id/btn_signup"
+                android:textAllCaps="false"
+                android:textColor="@color/app_blue"
+                android:background="@drawable/rounded_button_with_border"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

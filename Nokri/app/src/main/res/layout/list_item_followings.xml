@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="99dp"
+    android:padding="8dp">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/img_company_logo"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+    android:layout_marginStart="5dp"
+        android:layout_toRightOf="@+id/img_company_logo"
+        android:layout_toEndOf="@+id/img_company_logo"
+        android:layout_toStartOf="@+id/btn_unfollow"
+        android:layout_toLeftOf="@+id/btn_unfollow"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/txt_company_name"
+            android:textSize="14sp"
+            android:text="Confidential Agenct Private Ltd"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:id="@+id/txt_address"
+            android:textSize="12sp"
+            android:text="Confidential Agenct Private Ltd"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textSize="10sp"
+            android:id="@+id/txt_open_position"
+            android:layout_centerVertical="true"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="58dp"
+        android:layout_height="34dp"
+        android:id="@+id/btn_unfollow"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:text="Unfollow"
+        android:textSize="10sp"
+        android:padding="7dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+
+        android:background="@color/app_blue"/>
+
+    <View
+        android:id="@+id/featuredView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:background="@drawable/featured_stars_right"/>
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

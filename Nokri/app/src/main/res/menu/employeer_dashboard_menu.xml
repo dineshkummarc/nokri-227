@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_nav_dashboard"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_editprofile"
+            android:icon="@drawable/ic_nav_edit"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/ic_nav_email"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_jobs"
+            android:icon="@drawable/ic_nav_job"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_followers"
+            android:icon="@drawable/ic_nav_follow"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_matched_resumes"
+            android:title=""
+            android:icon="@drawable/matched_resume_icon"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_saved_resumes"
+            android:title=""
+            android:icon="@drawable/uplaod_resume_icon"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_post_job"
+            android:title=""
+            android:icon="@drawable/ic_nav_post"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_package_details"
+            android:title=""
+            android:icon="@drawable/ic_nav_package_details"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_buy_package"
+            android:title=""
+            android:icon="@drawable/ic_nav_package_buy"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_blog"
+            android:title=""
+            android:icon="@drawable/ic_nav_blog"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_candidate_search"
+            android:icon="@drawable/ic_candidate_search"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_employer_search"
+            android:icon="@drawable/employer_search_icon"
+            android:iconTint="#404040"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_nav_register"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/nav_wpml"
+                android:icon="@drawable/ic_nav_logout"
+                android:title=""/>
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_nav_logout"
+            android:title="" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_nav_exit"
+            android:title="Exit" />
+
+
+
+        <!--  <item
+              android:id="@+id/nav_movies"
+              android:icon="@drawable/ic_close_search"
+              android:title="item1" />
+
+          <item
+              android:id="@+id/nav_notifications"
+              android:icon="@drawable/ic_close_search"
+              android:title="item1" />
+
+          <item
+              android:id="@+id/nav_settings"
+              android:icon="@drawable/ic_close_search"
+              android:title="item1" />-->
+    </group>
+
+    <!-- <item android:title="Other">
+         <menu>
+             <item
+                 android:icon="@drawable/ic_close_search"
+                 android:title="item1" />
+             <item
+                 android:icon="@drawable/ic_close_search"
+                 android:title="item1" />
+         </menu>
+     </item>-->
+
+</menu>

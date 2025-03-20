@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.scriptsbundle.nokri.candidate.edit.fragments.Nokri_AddPortfolioFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:id="@+id/container1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:id="@+id/txt_add_portfolio"
+                        android:visibility="invisible"
+                       />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/txt_portfolio_format_allowed"
+                        android:textSize="@dimen/edit_textview_size"
+                        android:layout_marginTop="@dimen/edit_margin_top"
+                        android:layout_gravity="start|left"
+                        android:textColor="@color/black"
+
+                      />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/grey"
+                        android:id="@+id/upload_container">
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/recyclerview"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"></androidx.recyclerview.widget.RecyclerView>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/container2"
+                                android:layout_centerHorizontal="true"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp"
+                                    android:id="@+id/txt_drop_files"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@+id/container2"
+                                android:layout_marginTop="5dp"
+                                android:visibility="gone"
+                                android:orientation="horizontal"
+                                >
+
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_youtube"
+                android:layout_marginTop="@dimen/edit_margin_top"
+                android:textColor="@color/black"
+                android:textSize="@dimen/edit_textview_size"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/edit_margin_top"
+                    android:textSize="@dimen/edit_text_size"
+                    android:textColor="@color/edit_profile_grey"
+                    android:textAlignment="viewStart"
+                    android:layout_gravity="start"
+
+                    android:id="@+id/edittxt_youtube"
+                    android:theme="@style/ThemeSpinnerBlue"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/edit_margin_top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:textSize="@dimen/edit_text_size"
+                        android:id="@+id/btn_saveyoutube"
+                        android:textAllCaps="false"
+                        android:drawableRight="@drawable/forward_arrow"
+                        android:textColor="@color/app_blue"
+                        android:background="@drawable/rounded_button_with_border"
+                        android:layout_height="@dimen/edit_button_height" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>

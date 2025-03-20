@@ -1,0 +1,32 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@color/white"
+    android:fillViewport="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.scriptsbundle.nokri.employeer.jobs.fragments.Nokri_ActiveJobsFragment"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+      <com.google.android.material.tabs.TabLayout
+          android:id="@+id/tabs"
+            android:layout_marginTop="15dp"
+          android:layout_width="match_parent"
+          android:layout_height="35dp"
+            app:tabMode="fixed"
+
+          app:tabIndicatorColor="@color/app_blue"
+          app:tabGravity="center"/>
+      <androidx.viewpager.widget.ViewPager
+          android:id="@+id/viewpager"
+          android:layout_below="@+id/tabs"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          />
+  </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

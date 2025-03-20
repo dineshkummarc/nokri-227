@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/container1"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context="com.scriptsbundle.nokri.activities.Nokri_SignupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/app_blue"
+        android:id="@+id/title_text_container"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_title"
+            android:layout_centerInParent="true"
+
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+            android:gravity="center"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"
+                android:layout_below="@+id/title_text_container"
+                android:id="@+id/fields_container"
+              android:layout_centerHorizontal="true">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/txt_heading"
+                    android:text="Select Account Type"
+
+                    android:gravity="center"/>
+
+
+
+
+                    <belka.us.androidtoggleswitch.widgets.ToggleSwitch
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:layout_gravity="center"
+                         android:layout_marginTop="5dp"
+                        android:id="@+id/toogle_switch"
+
+                        custom:inactiveBgColor="@android:color/white"
+                        custom:toggleWidth="79dp"
+                        custom:textToggleLeft="Candidate"
+                        custom:textToggleRight="Emploteer"
+
+                        /> </LinearLayout>
+
+                <!--        custom:textToggleLeft="Candidate"
+                        custom:textToggleRight="Employeer"-->
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/btn_ok"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/app_blue"
+                    android:layout_below="@+id/fields_container"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:text="Ok"
+                    android:textSize="11sp"
+                    android:background="@drawable/rounded_button"/>
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="5dp"
+    android:background="@color/white"
+    android:layout_below="@+id/btn_ok"></View>
+
+
+</RelativeLayout>

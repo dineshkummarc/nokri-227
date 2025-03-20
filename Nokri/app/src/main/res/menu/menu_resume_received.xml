@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_take_action"
+        android:title=""
+        android:icon="@drawable/action"
+        />
+
+    <item
+        android:id="@+id/menu_download"
+        android:title=""
+        android:icon="@drawable/download_icon"/>
+    <item
+        android:id="@+id/menu_view_cover_letter"
+        android:title=""
+        android:icon="@drawable/ic_cover_letter"
+        />
+
+    <item
+        android:id="@+id/menu_view_profile"
+        android:title=""
+        android:icon="@drawable/view"
+        />
+    <item
+        android:id="@+id/menu_delete_profile"
+        android:title=""
+        android:icon="@drawable/delete"
+        />
+
+
+</menu>

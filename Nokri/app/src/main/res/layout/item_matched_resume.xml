@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/jobStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Inactive"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/jobExpiryLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Job Expiry"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/jobExpiryValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="May 30, 2020"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/jobPostDateLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Job Expiry"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/jobPostDateValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="May 30, 2020"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_vertical|end">
+
+        <TextView
+            android:id="@+id/viewResume"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="Remove"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

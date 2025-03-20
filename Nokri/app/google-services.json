@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "789184658531",
+    "firebase_url": "https://nokri-demo-app.firebaseio.com",
+    "project_id": "nokri-demo-app",
+    "storage_bucket": "nokri-demo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789184658531:android:f5def23e63c7e235884c56",
+        "android_client_info": {
+          "package_name": "com.scriptsbundle.nokri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789184658531-127brse5uivubndbcb2d1ffk7bm08jd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.nokri",
+            "certificate_hash": "d1a453fde18d4d1d077e22cccace33d5c7b949bd"
+          }
+        },
+        {
+          "client_id": "789184658531-20oso5mrm57hhvrehckih34u5db6j0g9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.nokri",
+            "certificate_hash": "8adb9c587444cf8b510287c835d52a0af78af564"
+          }
+        },
+        {
+          "client_id": "789184658531-42i0h1b83t6kp7f2b16fp125vkaeppe1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.nokri",
+            "certificate_hash": "ba536f98d653357936f17026623e07a9760791fe"
+          }
+        },
+        {
+          "client_id": "789184658531-3fla4r3q7uh9o48ovso2u1dpop67o3vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-J2TEiz_qEXz3dFpfkN7UTZ9AjFeRij0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789184658531-3fla4r3q7uh9o48ovso2u1dpop67o3vt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "789184658531-aao7lsda1dbt5nk3tk7jev340j6jhc8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.scriptsbundle.jobZone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

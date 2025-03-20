@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.scriptsbundle.nokri.employeer.edit.fragments.Nokri_CompanyEditProfileFragment">
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:id="@+id/container1">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/edit_textview_size"
+                            android:layout_marginTop="@dimen/edit_margin_top"
+                            android:id="@+id/txt_facebook"
+
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/ThemeEditprofile"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:id="@+id/edittxt_facebook"
+                            android:textColor="@color/edit_profile_grey"
+                            android:textSize="@dimen/edit_text_size"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/edit_textview_size"
+                            android:layout_marginTop="@dimen/edit_margin_top"
+                            android:id="@+id/txt_twitter"
+                            android:textColor="@color/black"
+                            />
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/edit_profile_grey"
+                            android:textSize="@dimen/edit_text_size"
+                            android:id="@+id/edittxt_twitter"
+                            android:theme="@style/ThemeEditprofile"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/edit_textview_size"
+                            android:layout_marginTop="@dimen/edit_margin_top"
+                            android:id="@+id/txt_linkedin"
+                            android:textColor="@color/black"
+
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:textColor="@color/edit_profile_grey"
+                            android:textSize="@dimen/edit_text_size"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/edittxt_linkedin"
+                            android:theme="@style/ThemeEditprofile"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+
+                            android:layout_marginTop="@dimen/edit_margin_top"
+                            android:id="@+id/txt_google_plus"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/edit_textview_size"
+                            />
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/edit_profile_grey"
+                            android:textSize="@dimen/edit_text_size"
+                            android:theme="@style/ThemeEditprofile"
+                            android:id="@+id/edittxt_google_plus"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            />
+
+
+
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="@dimen/edit_button_height"
+                                android:drawableRight="@drawable/forward_arrow"
+                                android:padding="10dp"
+                                android:id="@+id/btn_saveprofile"
+                                android:textAllCaps="false"
+                                android:textColor="@color/app_blue"
+                                android:background="@drawable/rounded_button_with_border"
+                                android:textSize="@dimen/edit_text_size"
+                                />
+
+                        <!--end-->
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+</RelativeLayout>

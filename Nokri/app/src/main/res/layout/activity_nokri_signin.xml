@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsignin"
+    android:focusableInTouchMode="true"
+    android:focusedByDefault="true"
+
+    tools:context="com.scriptsbundle.nokri.activities.Nokri_SigninActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_opacity">
+
+            <LinearLayout
+                android:id="@+id/fields_container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+
+                    />
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="50dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+
+                        <TextView
+                            android:id="@+id/txt_signin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="15dp"
+                            android:paddingStart="20dp"
+                            android:text="@string/signin"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:id="@+id/viw1"
+                            android:layout_width="50dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/txt_signin"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/headinunderline"
+                            android:paddingStart="20dp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fields_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/container"
+                        android:layout_marginTop="25dp"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingStart="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingEnd="20dp"
+                            android:paddingRight="20dp">
+
+                            <EditText
+                                android:id="@+id/edittxt_email"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/emailaddress"
+                                android:drawableEnd="@drawable/ic_mail"
+                                android:drawablePadding="20dp"
+                                android:padding="10dp"
+                                android:paddingTop="10dp"
+                                android:singleLine="true"
+                                android:textCursorDrawable="@null"
+                                android:textSize="12sp" />
+
+
+                            <LinearLayout
+                                android:id="@+id/passwordLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/emailaddress"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.9"
+                                    android:orientation="vertical">
+
+                                    <com.scriptsbundle.nokri.utils.CustomEditText
+                                        android:id="@+id/edittxt_password"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="start"
+                                        android:background="@android:color/transparent"
+                                        android:drawablePadding="20dp"
+                                        android:inputType="textPassword"
+                                        android:padding="10dp"
+                                        android:paddingTop="10dp"
+                                        android:paddingEnd="25dp"
+                                        android:singleLine="true"
+                                        android:textAlignment="viewStart"
+                                        android:textCursorDrawable="@null"
+                                        android:textSize="13sp"
+                                        android:theme="@style/ThemeSpinnerBlue" />
+<!--                                    <LinearLayout-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:orientation="horizontal">-->
+<!--                                        <ProgressBar-->
+<!--                                            android:id="@+id/progressBar"-->
+<!--                                            style="?android:attr/progressBarStyleHorizontal"-->
+<!--                                            android:layout_width="match_parent"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:indeterminate="false"-->
+<!--                                            android:layout_marginHorizontal="10dp"-->
+<!--                                            android:maxHeight="1dip"-->
+<!--                                            android:minHeight="1dip"-->
+<!--                                            android:layout_weight="1"-->
+<!--                                            android:progress="0"/>-->
+<!--                                        <TextView-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:gravity="center_horizontal"-->
+<!--                                            android:text="Weak"-->
+<!--                                            android:id="@+id/password_strength" />-->
+<!--                                    </LinearLayout>-->
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/showPassword"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:src="@drawable/show_password_v" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/txt_forgotpassword"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:onClick="nokri_onClickForgotPassword"
+                                android:paddingTop="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="13sp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/btn_singin"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="30dp"
+
+                                android:background="@drawable/rounded_button"
+                                android:backgroundTint="@color/app_blue"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp"></View>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/social_media_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/fields_container"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="45dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_facebook"
+                            android:layout_width="35dp"
+
+                            android:layout_height="35dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/ic_facebook"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:visibility="gone">
+
+                        </Button>
+
+
+                        <Button
+                            android:id="@+id/btn_google"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/ic_google"
+                            android:textSize="10sp"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/btn_linkedin"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_below="@+id/social_media_container"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/ic_linkedin"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/social_media_container"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/txt_singup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:onClick="nokri_onClickSignUp"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_newhere"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:textColor="@color/grey"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

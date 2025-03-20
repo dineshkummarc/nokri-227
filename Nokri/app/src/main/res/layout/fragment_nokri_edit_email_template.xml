@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context="com.scriptsbundle.nokri.employeer.email.fragments.Nokri_EditEmailTemplate">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/shimmerMain"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                shimmer:duration="800">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                    <include layout="@layout/data_placeholder_list_1" />
+                </LinearLayout>
+
+                <!-- Adding 7 rows of placeholders -->
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:id="@+id/msg_container"
+                android:layout_centerInParent="true"
+                android:visibility="visible"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_notfound"
+                    android:id="@+id/img_message"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_empty"
+                    android:textSize="15sp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/light_grey"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:textColor="@color/black"
+                        android:id="@+id/txt_title"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/btn_add_new"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:background="@drawable/square_button_with_back_border"
+                        />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4"
+                    android:padding="5dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+
+                        android:textStyle="bold"
+                        android:textSize="11sp"
+                        android:textColor="@color/black"
+                        android:layout_weight="0.5"
+                        android:id="@+id/txt_sr"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_weight="1.5"
+                        android:id="@+id/txt_name"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="11sp"
+                        android:id="@+id/txt_update"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="11sp"
+                        android:id="@+id/txt_delete"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:id="@+id/recyclerview"></androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

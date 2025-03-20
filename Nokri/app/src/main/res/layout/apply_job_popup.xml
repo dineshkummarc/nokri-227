@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:orientation="horizontal"
+    android:id="@+id/top">
+
+</LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:id="@+id/container1"
+    android:layout_height="match_parent"
+
+    android:background="@color/white"
+    android:layout_below="@+id/top">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/heading"
+
+        android:background="@color/app_blue">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+
+            android:textSize="14sp"
+            android:id="@+id/txt_header"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-5dp"
+
+
+        android:background="@drawable/com_facebook_close"
+        android:contentDescription="TODO" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_select_resume"
+
+            android:textColor="@color/black"
+            android:layout_gravity="left"
+            android:layout_marginTop="13dp"
+            android:textSize="16sp"/>
+        <androidx.appcompat.widget.AppCompatSpinner
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:spinnerMode="dropdown"
+
+            android:theme="@style/ThemeSpinnerBlue"
+            android:id="@+id/spinner_resume"
+            android:src="@color/grey"
+            >
+        </androidx.appcompat.widget.AppCompatSpinner>
+
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:id="@+id/text_field_boxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:labelText="Cover Letter"
+            android:layout_marginTop="5dp"
+            app:panelBackgroundColor="@color/white"
+            >
+
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:inputType="textMultiLine"
+                android:id="@+id/edittxt_cover"
+                android:hint="Enter cover letter text here "
+                android:layout_height="wrap_content"/>
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+        <Button
+            android:id="@+id/btn_ápplynow"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button"
+
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_close"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-4dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginTop="5dp"
+          android:background="@drawable/com_facebook_close"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="95dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:paddingBottom="5dp"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:paddingTop="2.5dp"
+    android:paddingBottom="2.5dp"
+
+android:background="@drawable/fieldradius"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_job_logo"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"/>
+    <com.victorminerva.widget.edittext.AutofitEdittext
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:editable="false"
+        android:layout_below="@+id/img_job_logo"
+        android:textColor="@color/black"
+        android:text="Developer"
+        android:id="@+id/txt_job_title"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_job_title"
+        android:textColor="@color/grey"
+        android:text="100 jobs include"
+        android:id="@+id/txt_jobs_include"
+       android:textSize="11sp"
+
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+
+</RelativeLayout>

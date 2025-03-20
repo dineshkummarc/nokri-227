@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.scriptsbundle.nokri.employeer.jobs.fragments.PostJobStep2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/app_topbar_color"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextColor="@color/white"
+            app:theme="@style/ToolbarColorChange"
+            android:theme="?attr/actionBarTheme" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutCustom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:gravity="bottom">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="start">
+
+
+                        <LinearLayout
+                            android:id="@+id/buttonBack"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/rounded_button"
+                            android:gravity="center">
+
+
+                            <ImageView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:tint="@color/white"
+                                android:layout_marginRight="4dp"
+                                android:src="@drawable/back_arrow"
+                                />
+                            <TextView
+                                android:id="@+id/backText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Back"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="end">
+
+                        <LinearLayout
+                            android:id="@+id/buttonNext"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/rounded_button"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/nextText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Next"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/ic_forward_arrow_white"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

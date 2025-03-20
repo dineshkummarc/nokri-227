@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="@color/white">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_skill"
+    android:layout_alignParentStart="true"
+    android:textSize="11sp"
+    android:layout_marginTop="5dp"
+    android:textColor="@color/black"
+    />
+    <com.zhouyou.view.seekbar.SignSeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        app:ssb_show_progress_in_float="false"
+        app:ssb_show_section_mark="true"
+        app:ssb_show_section_text="true"
+        app:ssb_show_sign="true"
+        app:ssb_show_thumb_text="false"
+        app:ssb_sign_arrow_height="5dp"
+        app:ssb_sign_color="@color/white"
+        app:ssb_sign_border_size="1dp"
+        app:ssb_sign_text_color="@color/black"
+        app:ssb_sign_arrow_width="10dp"
+        app:ssb_progress="50"
+        app:ssb_min="0"
+        app:ssb_max="100"
+        app:ssb_thumb_text_size="11sp"
+        app:ssb_section_text_size="11sp"
+        app:ssb_sign_text_size="11sp"
+        app:ssb_sign_show_border="true"
+        android:layout_below="@+id/txt_skill"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>
